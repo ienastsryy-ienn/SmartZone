@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartZone - Belajar Lebih Mudah dan Menyenangkan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-graduation-cap"></i> SmartZone</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#materi">Materi</a></li>
+                    <li><a href="#video">Video</a></li>
+                    <li><a href="#latihan">Latihan</a></li>
+                    <li><a href="#ai-tutor">AI Tutor</a></li>
+                    <li><a href="#fitur">Fitur</a></li>
+                </ul>
+            </nav>
+            <div class="user-progress">
+                <div class="progress-info">
+                    <span class="points">Poin: <span id="total-points">0</span></span>
+                    <span class="level">Level: <span id="current-level">1</span></span>
+                </div>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn-login">Masuk</button>
+                <button class="btn-register">Daftar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Belajar Lebih Mudah, Cepat, dan Menyenangkan</h1>
+                <p>Platform belajar terlengkap untuk siswa SMP dengan materi pelajaran, video edukatif, latihan soal, AI Tutor, dan gamifikasi.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Mulai Belajar</button>
+                    <button class="btn-secondary">Mode Offline <i class="fas fa-download"></i></button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Belajar Online">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="fitur" class="features">
+        <div class="container">
+            <h2 class="section-title">Kenapa Memilih SmartZone?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-book-open feature-icon"></i>
+                    <h3>Materi Lengkap</h3>
+                    <p>Materi pelajaran yang disusun sesuai kurikulum terbaru dengan bahasa yang mudah dipahami.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-video feature-icon"></i>
+                    <h3>Video Edukatif</h3>
+                    <p>Video pembelajaran singkat dan menarik yang membantu pemahaman konsep pelajaran.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tasks feature-icon"></i>
+                    <h3>Latihan Soal</h3>
+                    <p>Ragam soal latihan dengan pembahasan lengkap untuk menguji pemahaman.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-robot feature-icon"></i>
+                    <h3>AI Tutor</h3>
+                    <p>Bantuan belajar cerdas 24/7 yang dapat menjawab pertanyaan dan memberikan penjelasan.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-gamepad feature-icon"></i>
+                    <h3>Gamifikasi</h3>
+                    <p>Sistem poin dan level yang membuat proses belajar menjadi lebih menyenangkan.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-wifi-slash feature-icon"></i>
+                    <h3>Mode Offline</h3>
+                    <p>Akses materi kapan saja tanpa koneksi internet setelah diunduh.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grade Level Navigation -->
+    <section class="grade-navigation">
+        <div class="container">
+            <h2 class="section-title">Pilih Kelas</h2>
+            <div class="grade-buttons">
+                <button class="grade-btn active" data-grade="7">Kelas 7</button>
+                <button class="grade-btn" data-grade="8">Kelas 8</button>
+                <button class="grade-btn" data-grade="9">Kelas 9</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="materi" class="subjects">
+        <div class="container">
+            <h2 class="section-title">Mata Pelajaran Kelas <span id="current-grade">7</span></h2>
+            <div class="subjects-grid" id="subjects-container">
+                <!-- Subject cards will be loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="videos">
+        <div class="container">
+            <h2 class="section-title">Video Pembelajaran Populer</h2>
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Video Matematika">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Aljabar Dasar - Persamaan Linear</h3>
+                    <p>15 menit • 1.2k views</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Video IPA">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Sistem Pernapasan Manusia</h3>
+                    <p>12 menit • 980 views</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Video Bahasa Inggris">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <h3>Simple Present Tense</h3>
+                    <p>10 menit • 1.5k views</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tutor Section -->
+    <section id="ai-tutor" class="ai-tutor">
+        <div class="container">
+            <div class="ai-tutor-content">
+                <div class="ai-tutor-text">
+                    <h2>AI Tutor Personal Anda</h2>
+                    <p>Dapatkan bantuan belajar cerdas 24/7 yang dapat menjawab pertanyaan Anda, memberikan penjelasan detail, dan membantu memahami konsep sulit dengan cara yang menyenangkan.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Jawaban instan untuk semua mata pelajaran</li>
+                        <li><i class="fas fa-check-circle"></i> Penjelasan langkah demi langkah</li>
+                        <li><i class="fas fa-check-circle"></i> Contoh soal dan pembahasan tambahan</li>
+                        <li><i class="fas fa-check-circle"></i> Rekomendasi materi sesuai kemampuan</li>
+                    </ul>
+                    <button class="btn-primary">Coba AI Tutor Sekarang</button>
+                </div>
+                <div class="ai-tutor-image">
+                    <img src="https://images.unsplash.com/photo-1677442135722-5f11e06a4e6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="AI Tutor">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gamification Section -->
+    <section class="gamification">
+        <div class="container">
+            <h2 class="section-title">Gamifikasi untuk Motivasi Belajar</h2>
+            <div class="gamification-content">
+                <div class="gamification-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-medal stat-icon"></i>
+                        <h3>Level & Badge</h3>
+                        <p>Dapatkan level dan lencana saat menyelesaikan materi dan latihan</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-trophy stat-icon"></i>
+                        <h3>Leaderboard</h3>
+                        <p>Lihat peringkat Anda dibandingkan teman sekelas</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-coins stat-icon"></i>
+                        <h3>Point System</h3>
+                        <p>Kumpulkan poin untuk setiap aktivitas belajar</p>
+                    </div>
+                </div>
+                <div class="progress-container">
+                    <h3>Contoh Progres Belajar</h3>
+                    <div class="progress-item">
+                        <span>Matematika</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%;"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>IPA</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%;"></div>
+                        </div>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-item">
+                        <span>Bahasa Inggris</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%;"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offline Mode Section -->
+    <section class="offline-mode">
+        <div class="container">
+            <div class="offline-content">
+                <div class="offline-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" alt="Offline Mode">
+                </div>
+                <div class="offline-text">
+                    <h2>Mode Offline - Belajar Tanpa Batas</h2>
+                    <p>Unduh materi pelajaran dan akses kapan saja tanpa koneksi internet. Sangat berguna saat bepergian atau di daerah dengan koneksi terbatas.</p>
+                    <ul>
+                        <li><i class="fas fa-cloud-download-alt"></i> Unduh materi dan video sekali, akses selamanya</li>
+                        <li><i class="fas fa-sync-alt"></i> Sinkronisasi otomatis saat online kembali</li>
+                        <li><i class="fas fa-mobile-alt"></i> Kompatibel dengan semua perangkat mobile</li>
+                        <li><i class="fas fa-lock"></i> Keamanan data terjamin</li>
+                    </ul>
+                    <button class="btn-secondary"><i class="fas fa-download"></i> Unduh Aplikasi Offline</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Apa Kata Siswa Kami</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"SmartZone benar-benar membantu saya memahami konsep matematika yang sulit. Videonya singkat tapi informatif!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Siswa">
+                        <div>
+                            <h4>Anisa Putri</h4>
+                            <p>Kelas 8 SMP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Dengan AI Tutor, saya bisa bertanya kapan saja dan langsung dapat penjelasan yang mudah dimengerti."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Siswa">
+                        <div>
+                            <h4>Budi Santoso</h4>
+                            <p>Kelas 9 SMP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Sistem gamifikasi membuat belajar jadi menyenangkan. Saya senang bisa naik level dan dapat badge!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Siswa">
+                        <div>
+                            <h4>Citra Dewi</h4>
+                            <p>Kelas 7 SMP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Mulai Perjalanan Belajarmu Sekarang!</h2>
+            <p>Bergabunglah dengan ribuan siswa SMP yang sudah menggunakan SmartZone untuk meningkatkan prestasi akademik mereka.</p>
+            <div class="cta-buttons">
+                <button class="btn-primary">Daftar Sekarang - Gratis!</button>
+                <button class="btn-secondary-outline">Pelajari Fitur</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> SmartZone</h3>
+                    <p>Platform belajar terbaik untuk siswa SMP dengan materi lengkap, video edukatif, dan AI Tutor cerdas.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Materi</h4>
+                    <ul>
+                        <li><a href="#">Matematika</a></li>
+                        <li><a href="#">IPA</a></li>
+                        <li><a href="#">Bahasa Indonesia</a></li>
+                        <li><a href="#">IPS</a></li>
+                        <li><a href="#">Bahasa Inggris</a></li>
+                        <li><a href="#">PPKn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Fitur</h4>
+                    <ul>
+                        <li><a href="#">AI Tutor</a></li>
+                        <li><a href="#">Gamifikasi</a></li>
+                        <li><a href="#">Mode Offline</a></li>
+                        <li><a href="#">Latihan Soal</a></li>
+                        <li><a href="#">Rangkuman</a></li>
+                        <li><a href="#">Video Pembelajaran</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Bantuan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SmartZone. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="progress.js"></script>
+</body>
+</html>

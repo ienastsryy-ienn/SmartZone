@@ -1,0 +1,1584 @@
+{
+  "grades": {
+    "7": {
+      "title": "Kelas 7",
+      "subjects": [
+        {
+          "id": "math-7",
+          "icon": "fas fa-calculator",
+          "name": "Matematika Kelas 7",
+          "description": "Bilangan bulat, pecahan, aljabar sederhana, geometri dasar, dan statistika.",
+          "detail": {
+            "title": "Matematika Kelas 7",
+            "overview": "Mata pelajaran matematika kelas 7 mencakup konsep dasar bilangan, operasi hitung, aljabar sederhana, dan pengenalan geometri. Materi ini menjadi fondasi penting untuk memahami matematika tingkat lanjut.",
+            "chapters": [
+              {
+                "title": "Bilangan Bulat",
+                "topics": [
+                  {
+                    "name": "Operasi hitung bilangan bulat",
+                    "explanation": "Operasi hitung bilangan bulat meliputi penjumlahan, pengurangan, perkalian, dan pembagian bilangan positif dan negatif. Bilangan bulat terdiri dari bilangan cacah (0, 1, 2, 3, ...) dan bilangan negatif (-1, -2, -3, ...). Dalam operasi penjumlahan, jika tanda kedua bilangan sama, maka kita jumlahkan nilai mutlaknya dan tetapkan tanda tersebut. Jika tanda berbeda, kita kurangkan nilai mutlak yang lebih besar dengan yang lebih kecil dan ambil tanda dari bilangan dengan nilai mutlak lebih besar."
+                  },
+                  {
+                    "name": "Sifat-sifat operasi hitung",
+                    "explanation": "Bilangan bulat memiliki beberapa sifat penting dalam operasi hitung, yaitu sifat komutatif (a + b = b + a dan a × b = b × a), sifat asosiatif ((a + b) + c = a + (b + c) dan (a × b) × c = a × (b × c)), sifat distributif (a × (b + c) = (a × b) + (a × c)), elemen identitas (a + 0 = a dan a × 1 = a), serta invers penjumlahan (a + (-a) = 0)."
+                  },
+                  {
+                    "name": "Pemecahan masalah",
+                    "explanation": "Pemecahan masalah dengan bilangan bulat melibatkan penerapan konsep bilangan bulat dalam situasi nyata seperti suhu, ketinggian, hutang, dan keuntungan. Langkah-langkah pemecahan masalah meliputi: memahami masalah, merencanakan strategi, melaksanakan rencana, dan memeriksa kembali hasil. Penting untuk mengidentifikasi konteks masalah dan menentukan operasi yang tepat untuk digunakan."
+                  }
+                ]
+              },
+              {
+                "title": "Bilangan Pecahan",
+                "topics": [
+                  {
+                    "name": "Jenis-jenis pecahan",
+                    "explanation": "Pecahan terdiri dari berbagai jenis, yaitu pecahan biasa (pembilang lebih kecil dari penyebut), pecahan campuran (bilangan bulat dicampur dengan pecahan biasa), pecahan desimal (penyebutnya merupakan pangkat dari 10), dan persen (pecahan dengan penyebut 100). Pecahan senilai adalah pecahan yang memiliki nilai sama meskipun bentuknya berbeda, diperoleh dengan mengalikan atau membagi pembilang dan penyebut dengan bilangan yang sama."
+                  },
+                  {
+                    "name": "Operasi hitung pecahan",
+                    "explanation": "Operasi hitung pada pecahan meliputi penjumlahan, pengurangan, perkalian, dan pembagian. Untuk penjumlahan dan pengurangan pecahan dengan penyebut sama, cukup operasikan pembilangnya. Jika penyebut berbeda, samakan dulu penyebutnya dengan mencari KPK. Perkalian pecahan dilakukan dengan mengalikan pembilang dengan pembilang dan penyebut dengan penyebut. Pembagian pecahan dilakukan dengan mengalikan dengan kebalikan (invers) dari pembagi."
+                  },
+                  {
+                    "name": "Penerapan dalam kehidupan sehari-hari",
+                    "explanation": "Pecahan banyak digunakan dalam kehidupan sehari-hari seperti dalam memasak (menyesuaikan takaran resep), berbelanja (menghitung diskon), membagi barang (membagi kue untuk beberapa orang), dan mengukur (membaca skala pada alat ukur). Memahami pecahan membantu kita dalam membuat keputusan yang tepat dalam situasi yang melibatkan proporsi dan perbandingan."
+                  }
+                ]
+              },
+              {
+                "title": "Aljabar Sederhana",
+                "topics": [
+                  {
+                    "name": "Pengenalan variabel",
+                    "explanation": "Variabel dalam aljabar adalah simbol (biasanya huruf) yang digunakan untuk mewakili nilai yang belum diketahui. Variabel memungkinkan kita untuk mengekspresikan hubungan matematika secara umum. Konstanta adalah nilai tetap yang tidak berubah, sedangkan koefisien adalah faktor numerik dari suatu variabel. Misalnya, dalam bentuk 3x + 5, x adalah variabel, 3 adalah koefisien, dan 5 adalah konstanta. Variabel sangat penting karena memungkinkan generalisasi pola dan solusi masalah."
+                  },
+                  {
+                    "name": "Bentuk aljabar",
+                    "explanation": "Bentuk aljabar adalah kombinasi dari variabel, konstanta, dan operasi matematika. Bentuk aljabar dapat berupa suku tunggal (monomial) seperti 4x, dua suku (binomial) seperti 3x + 2, atau lebih dari dua suku (polinomial). Suku sejenis adalah suku yang memiliki variabel dan pangkat yang sama, sehingga dapat dioperasikan. Derajat suatu bentuk aljabar adalah pangkat tertinggi dari variabelnya. Bentuk aljabar digunakan untuk merepresentasikan situasi nyata secara matematis."
+                  },
+                  {
+                    "name": "Operasi bentuk aljabar",
+                    "explanation": "Operasi pada bentuk aljabar meliputi penjumlahan, pengurangan, perkalian, dan pembagian. Penjumlahan dan pengurangan hanya dapat dilakukan pada suku sejenis dengan menjumlahkan atau mengurangkan koefisiennya. Perkalian bentuk aljabar menggunakan sifat distributif dan aturan eksponen. Pembagian bentuk aljabar melibatkan penyederhanaan pecahan aljabar dengan faktorisasi. Substitusi nilai ke variabel memungkinkan kita menghitung nilai numerik dari bentuk aljabar."
+                  }
+                ]
+              },
+              {
+                "title": "Geometri Dasar",
+                "topics": [
+                  {
+                    "name": "Garis dan sudut",
+                    "explanation": "Garis adalah himpunan titik-titik yang berjejer lurus tanpa batas. Jenis-jenis garis meliputi garis lurus, garis lengkung, garis horizontal, vertikal, dan miring. Hubungan antar garis terdiri dari garis sejajar (tidak pernah berpotongan), berpotongan (bertemu di satu titik), dan tegak lurus (berpotongan membentuk sudut 90°). Sudut adalah ukuran rotasi antara dua sinar yang berpotongan. Jenis sudut meliputi lancip (< 90°), siku-siku (= 90°), tumpul (> 90° tapi < 180°), lurus (= 180°), dan refleks (> 180°)."
+                  },
+                  {
+                    "name": "Bangun datar",
+                    "explanation": "Bangun datar adalah bidang datar yang dibatasi oleh garis lurus atau lengkung. Jenis-jenis bangun datar meliputi persegi (empat sisi sama panjang, empat sudut siku-siku), persegi panjang (dua pasang sisi sama panjang, empat sudut siku-siku), segitiga (tiga sisi, tiga sudut), lingkaran (himpunan titik yang berjarak sama dari pusat), trapesium (sepasang sisi sejajar), jajar genjang (dua pasang sisi sejajar), belah ketupat (empat sisi sama panjang), dan layang-layang (dua pasang sisi sama panjang). Setiap bangun memiliki sifat khusus yang membedakannya."
+                  },
+                  {
+                    "name": "Keliling dan luas",
+                    "explanation": "Keliling adalah panjang lintasan mengelilingi suatu bangun datar, sedangkan luas adalah ukuran daerah yang dilingkupi oleh bangun tersebut. Rumus keliling persegi: 4s, persegi panjang: 2(p+l), segitiga: jumlah semua sisi, lingkaran: 2πr. Rumus luas persegi: s², persegi panjang: p×l, segitiga: ½×a×t, lingkaran: πr². Memahami konsep keliling dan luas penting untuk menyelesaikan masalah geometri dan aplikasi dalam kehidupan sehari-hari seperti menghitung luas tanah atau panjang pagar."
+                  }
+                ]
+              },
+              {
+                "title": "Statistika",
+                "topics": [
+                  {
+                    "name": "Pengumpulan data",
+                    "explanation": "Pengumpulan data adalah tahap awal dalam statistika untuk memperoleh informasi yang akurat dan relevan. Metode pengumpulan data meliputi observasi langsung, wawancara, kuesioner/angket, dokumentasi, dan studi pustaka. Data dapat dibedakan menjadi data kuantitatif (berupa angka) dan data kualitatif (berupa kata/deskripsi). Populasi adalah seluruh objek yang akan diteliti, sedangkan sampel adalah sebagian dari populasi yang dipilih untuk diteliti. Teknik sampling yang baik memastikan data representatif dan mengurangi bias dalam penelitian."
+                  },
+                  {
+                    "name": "Penyajian data",
+                    "explanation": "Penyajian data bertujuan untuk mempermudah pemahaman informasi melalui tabel dan diagram. Tabel frekuensi menunjukkan berapa kali suatu nilai muncul. Diagram batang digunakan untuk data kategorikal dengan batang vertikal/horizontal. Diagram lingkaran menunjukkan proporsi dalam bentuk persentase. Diagram garis cocok untuk data yang berubah seiring waktu. Histogram digunakan untuk data kontinu dengan interval kelas. Diagram lambang (piktogram) menggunakan gambar untuk mewakili data. Pemilihan jenis penyajian yang tepat mempengaruhi interpretasi data."
+                  },
+                  {
+                    "name": "Mean, median, modus",
+                    "explanation": "Mean (rata-rata) adalah jumlah semua nilai dibagi banyak data, digunakan untuk data kuantitatif. Median adalah nilai tengah setelah data diurutkan, cocok untuk data dengan pencilan. Modus adalah nilai yang paling sering muncul, dapat digunakan untuk data kuantitatif maupun kualitatif. Ukuran pemusatan ini membantu meringkas data dan memberikan gambaran nilai 'pusat' dari distribusi data. Pemilihan ukuran yang tepat tergantung pada jenis data dan tujuan analisis."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Operasi Hitung Bilangan Bulat",
+                "type": "video",
+                "duration": "12 menit"
+              },
+              {
+                "title": "Latihan Soal: Bilangan Pecahan",
+                "type": "exercise",
+                "questions": 20
+              },
+              {
+                "title": "Rangkuman: Aljabar Sederhana",
+                "type": "summary",
+                "pages": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "science-7",
+          "icon": "fas fa-atom",
+          "name": "IPA Kelas 7",
+          "description": "Pengukuran, zat dan karakteristiknya, makhluk hidup, ekosistem, dan gaya.",
+          "detail": {
+            "title": "Ilmu Pengetahuan Alam Kelas 7",
+            "overview": "Mata pelajaran IPA kelas 7 membahas konsep dasar sains meliputi fisika, kimia, dan biologi. Siswa akan mempelajari metode ilmiah, pengukuran, struktur dan fungsi makhluk hidup, serta interaksi dalam ekosistem.",
+            "chapters": [
+              {
+                "title": "Pengukuran",
+                "topics": [
+                  {
+                    "name": "Besaran dan satuan",
+                    "explanation": "Besaran adalah segala sesuatu yang dapat diukur dan dinyatakan dengan angka. Besaran terdiri dari besaran pokok dan besaran turunan. Besaran pokok adalah besaran yang satuannya telah ditetapkan terlebih dahulu dan tidak diturunkan dari besaran lain, seperti panjang (meter), massa (kilogram), waktu (sekon), suhu (kelvin), kuat arus listrik (ampere), intensitas cahaya (candela), dan jumlah zat (mole). Besaran turunan adalah besaran yang diturunkan dari besaran pokok, seperti luas, volume, kecepatan, dan percepatan. Satuan adalah pembanding dalam suatu pengukuran, ada satuan baku (standar internasional) dan satuan tidak baku."
+                  },
+                  {
+                    "name": "Alat ukur",
+                    "explanation": "Alat ukur adalah instrumen yang digunakan untuk mengukur besaran fisika. Jenis-jenis alat ukur meliputi mistar atau penggaris untuk mengukur panjang dengan ketelitian hingga milimeter, jangka sorong untuk mengukur diameter dalam, luar, dan kedalaman dengan ketelitian 0,1 mm, mikrometer sekrup untuk mengukur ketebalan benda tipis dengan ketelitian 0,01 mm, neraca untuk mengukur massa, termometer untuk mengukur suhu, stopwatch untuk mengukur waktu, dan amperemeter/voltmeter untuk mengukur listrik. Pemilihan alat ukur yang tepat sangat penting untuk mendapatkan hasil yang akurat."
+                  },
+                  {
+                    "name": "Ketelitian pengukuran",
+                    "explanation": "Ketelitian pengukuran berkaitan dengan seberapa dekat hasil pengukuran dengan nilai sebenarnya. Faktor-faktor yang mempengaruhi ketelitian antara lain kalibrasi alat ukur, kemampuan pengguna, kondisi lingkungan, dan ketelitian alat itu sendiri. Ketidakpastian pengukuran adalah keraguan dalam hasil pengukuran yang dinyatakan sebagai ± nilai tertentu. Angka penting adalah angka-angka hasil pengukuran yang terdiri dari semua angka pasti dan satu angka taksiran. Aturan angka penting meliputi: semua angka bukan nol adalah angka penting, nol di antara angka bukan nol adalah angka penting, nol di depan angka bukan nol bukan angka penting, dan nol di belakang angka desimal adalah angka penting."
+                  }
+                ]
+              },
+              {
+                "title": "Zat dan Karakteristiknya",
+                "topics": [
+                  {
+                    "name": "Wujud zat",
+                    "explanation": "Zat terdapat dalam tiga wujud utama: padat, cair, dan gas. Zat padat memiliki bentuk dan volume tetap karena partikelnya rapat dan tersusun teratur. Zat cair memiliki volume tetap tetapi bentuk berubah sesuai wadah karena partikelnya agak renggang dan dapat bergerak. Zat gas tidak memiliki bentuk dan volume tetap karena partikelnya sangat renggang dan bergerak bebas. Perubahan wujud meliputi mencair (padat ke cair), membeku (cair ke padat), menguap (cair ke gas), mengembun (gas ke cair), menyublim (padat ke gas), dan deposisi (gas ke padat). Setiap perubahan wujud melibatkan penyerapan atau pelepasan kalor."
+                  },
+                  {
+                    "name": "Perubahan fisika dan kimia",
+                    "explanation": "Perubahan fisika adalah perubahan yang tidak menghasilkan zat baru, hanya mengubah bentuk atau wujud zat, seperti mencair, menguap, atau melarut. Sifat fisika meliputi warna, bau, rasa, titik lebur, titik didih, kelarutan, dan daya hantar listrik. Perubahan kimia adalah perubahan yang menghasilkan zat baru dengan sifat berbeda, ditandai dengan perubahan warna, pembentukan endapan, timbulnya gas, perubahan suhu, atau perubahan bau. Sifat kimia meliputi mudah terbakar, korosif, reaktif, dan toksik. Memahami perbedaan ini penting untuk memprediksi hasil reaksi kimia."
+                  },
+                  {
+                    "name": "Pemisahan campuran",
+                    "explanation": "Campuran adalah gabungan dua zat atau lebih yang tidak saling bereaksi secara kimia. Metode pemisahan campuran meliputi penyaringan (filtrasi) untuk memisahkan padat-cair berdasarkan ukuran partikel, penyulingan (distilasi) untuk memisahkan cairan berdasarkan perbedaan titik didih, sublimasi untuk memisahkan zat yang menyublim, kromatografi untuk memisahkan zat berdasarkan kecepatan merambat, dan evaporasi untuk memisahkan zat cair yang mudah menguap. Pemilihan metode tergantung pada sifat fisika komponen campuran."
+                  }
+                ]
+              },
+              {
+                "title": "Makhluk Hidup",
+                "topics": [
+                  {
+                    "name": "Ciri-ciri makhluk hidup",
+                    "explanation": "Makhluk hidup memiliki ciri-ciri khas yang membedakannya dari benda mati. Ciri-ciri tersebut meliputi bernapas (respirasi) untuk mendapatkan energi, memerlukan makanan (nutrisi) untuk pertumbuhan dan perkembangan, tumbuh dan berkembang biak untuk melestarikan keturunan, bereaksi terhadap rangsang (iritabilitas) untuk beradaptasi, bergerak untuk mencari makanan atau menghindari bahaya, mengeluarkan zat sisa (ekskresi) untuk menjaga keseimbangan dalam tubuh, dan memiliki struktur tubuh yang tersusun dari sel. Semua ciri ini saling terkait dan menunjukkan bahwa suatu benda adalah makhluk hidup."
+                  },
+                  {
+                    "name": "Klasifikasi makhluk hidup",
+                    "explanation": "Klasifikasi makhluk hidup adalah pengelompokan makhluk hidup berdasarkan persamaan dan perbedaan ciri. Sistem klasifikasi modern menggunakan sistem lima kingdom: Monera (bakteri), Protista (protozoa dan alga), Fungi (jamur), Plantae (tumbuhan), dan Animalia (hewan). Tingkat klasifikasi dari tinggi ke rendah adalah kingdom, filum/divisi, kelas, ordo, famili, genus, dan spesies. Penamaan ilmiah menggunakan sistem binomial nomenclature dengan nama genus dan spesies dalam bahasa Latin. Klasifikasi membantu memahami hubungan kekerabatan antar makhluk hidup."
+                  },
+                  {
+                    "name": "Sel sebagai unit kehidupan",
+                    "explanation": "Sel adalah unit terkecil kehidupan yang memiliki semua ciri makhluk hidup. Sel terdiri dari membran sel (pembatas antara sel dan lingkungan), sitoplasma (cairan di dalam sel tempat organel berada), dan inti sel (mengatur semua aktivitas sel). Sel dibagi menjadi sel prokariotik (tidak memiliki membran inti, seperti bakteri) dan sel eukariotik (memiliki membran inti, seperti tumbuhan dan hewan). Organel sel meliputi mitokondria (pembangkit energi), ribosom (sintesis protein), retikulum endoplasma (transportasi zat), badan golgi (modifikasi protein), lisosom (pencernaan intraseluler), dan kloroplas (fotosintesis pada tumbuhan)."
+                  }
+                ]
+              },
+              {
+                "title": "Ekosistem",
+                "topics": [
+                  {
+                    "name": "Komponen ekosistem",
+                    "explanation": "Ekosistem adalah hubungan timbal balik antara makhluk hidup dengan lingkungannya. Komponen biotik meliputi produsen (tumbuhan hijau yang membuat makanan sendiri melalui fotosintesis), konsumen (makhluk hidup yang memakan produsen atau konsumen lain), dan dekomposer (bakteri dan jamur yang menguraikan sisa makhluk hidup). Komponen abiotik meliputi air, udara, cahaya matahari, suhu, tanah, dan mineral. Interaksi antar komponen meliputi predasi (pemangsa dan mangsa), kompetisi (persaingan sumber daya), simbiosis (hubungan erat antar spesies), dan parasitisme (satu pihak diuntungkan, satu dirugikan). Keseimbangan antar komponen penting untuk keberlanjutan ekosistem."
+                  },
+                  {
+                    "name": "Rantai makanan",
+                    "explanation": "Rantai makanan menunjukkan aliran energi dari satu organisme ke organisme lain. Produsen (tumbuhan) mengubah energi matahari menjadi energi kimia melalui fotosintesis. Konsumen primer (herbivora) memakan produsen, konsumen sekunder (karnivora kecil) memakan herbivora, dan konsumen tersier (karnivora besar) memakan karnivora kecil. Piramida makanan menunjukkan jumlah energi, biomassa, atau jumlah individu pada setiap tingkat trofik. Efisiensi transfer energi antar tingkat trofik sekitar 10%, artinya hanya 10% energi yang berpindah ke tingkat berikutnya. Hal ini menjelaskan mengapa predator besar jumlahnya lebih sedikit."
+                  },
+                  {
+                    "name": "Keseimbangan ekosistem",
+                    "explanation": "Keseimbangan ekosistem terjadi ketika populasi semua komponen stabil dan saling mendukung. Faktor alami seperti banjir, kebakaran hutan, dan erupsi gunung berapi dapat mengganggu keseimbangan sementara, tetapi ekosistem biasanya dapat pulih melalui suksesi ekologis. Aktivitas manusia seperti penebangan hutan, polusi, dan perburuan liar dapat menyebabkan gangguan permanen. Upaya konservasi seperti taman nasional, penangkaran, dan rehabilitasi habitat penting untuk menjaga keseimbangan. Bioindikator (organisme sensitif terhadap perubahan lingkungan) digunakan untuk memantau kesehatan ekosistem."
+                  }
+                ]
+              },
+              {
+                "title": "Gaya",
+                "topics": [
+                  {
+                    "name": "Konsep gaya",
+                    "explanation": "Gaya adalah dorongan atau tarikan yang dapat mengubah keadaan benda dari diam menjadi bergerak, dari bergerak menjadi diam, atau mengubah bentuk benda. Gaya memiliki besar dan arah, sehingga termasuk besaran vektor. Satuan gaya dalam SI adalah Newton (N). Jenis-jenis gaya meliputi gaya kontak (gaya gesek, gaya normal, gaya tegang tali) dan gaya non-kontak (gaya gravitasi, gaya magnet, gaya listrik). Efek gaya tergantung pada besar, arah, dan titik aplikasi gaya. Hukum I Newton menyatakan bahwa benda akan tetap diam atau bergerak lurus beraturan jika resultan gaya nol."
+                  },
+                  {
+                    "name": "Gaya gravitasi",
+                    "explanation": "Gaya gravitasi adalah gaya tarik-menarik antara dua benda bermassa. Hukum gravitasi universal Newton menyatakan bahwa besar gaya gravitasi berbanding lurus dengan hasil kali massa kedua benda dan berbanding terbalik dengan kuadrat jarak antara pusat massa kedua benda. Percepatan gravitasi di permukaan bumi sekitar 9,8 m/s². Berat benda adalah gaya gravitasi yang dialami benda, berbeda dengan massa yang tetap. Gaya gravitasi mempengaruhi gerak planet, satelit, dan benda jatuh bebas. Konsep ini penting dalam teknologi satelit, penerbangan luar angkasa, dan pemahaman fenomena alam."
+                  },
+                  {
+                    "name": "Resultan gaya",
+                    "explanation": "Resultan gaya adalah gaya tunggal yang menggantikan beberapa gaya sekaligus dengan efek yang sama. Penjumlahan vektor gaya menggunakan metode grafis (jajar genjang atau poligon) atau metode analitis (komponen vektor). Gaya-gaya segaris dijumlahkan secara aljabar, sedangkan gaya-gaya tidak segaris menggunakan rumus vektor. Hukum II Newton menyatakan bahwa percepatan benda berbanding lurus dengan resultan gaya dan berbanding terbalik dengan massa benda (ΣF = m.a). Kesetimbangan terjadi jika resultan gaya nol dan resultan torsi nol."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Pengenalan Mikroskop",
+                "type": "video",
+                "duration": "15 menit"
+              },
+              {
+                "title": "Latihan Soal: Ekosistem",
+                "type": "exercise",
+                "questions": 25
+              },
+              {
+                "title": "Rangkuman: Gaya dan Gerak",
+                "type": "summary",
+                "pages": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "indonesian-7",
+          "icon": "fas fa-book",
+          "name": "Bahasa Indonesia Kelas 7",
+          "description": "Membaca teks, menulis puisi, mendeskripsikan objek, dan berpidato.",
+          "detail": {
+            "title": "Bahasa Indonesia Kelas 7",
+            "overview": "Mata pelajaran Bahasa Indonesia kelas 7 fokus pada pengembangan kemampuan membaca, menulis, berbicara, dan menyimak. Siswa akan belajar berbagai jenis teks dan teknik penyampaian pesan yang efektif.",
+            "chapters": [
+              {
+                "title": "Membaca Teks",
+                "topics": [
+                  {
+                    "name": "Teks naratif",
+                    "explanation": "Teks naratif adalah jenis teks yang menceritakan peristiwa atau pengalaman nyata maupun khayalan secara berurutan. Struktur teks naratif terdiri dari abstraksi (pengenalan tokoh, latar, dan suasana), orientasi (pemaparan awal peristiwa), komplikasi (masalah yang terjadi), krisis (titik balik cerita), resolusi (penyelesaian masalah), dan koda (pesan moral). Ciri-ciri teks naratif meliputi penggunaan kata kerja material, kata hubung waktu, dan sudut pandang pencerita. Teks naratif dapat berupa cerita pendek, novel, biografi, autobiografi, atau legenda."
+                  },
+                  {
+                    "name": "Teks deskriptif",
+                    "explanation": "Teks deskriptif adalah jenis teks yang menggambarkan atau melukiskan suatu objek secara detail dan spesifik. Tujuan teks deskriptif adalah memberikan kesan nyata kepada pembaca tentang objek yang digambarkan. Struktur teks deskriptif terdiri dari identifikasi (pengenalan objek) dan deskripsi bagian (penjelasan detail bagian-bagian objek). Ciri-ciri teks deskriptif meliputi penggunaan kata sifat, kata benda, dan frasa/frasa keterangan. Objek deskripsi dapat berupa orang, benda, tempat, atau suasana."
+                  },
+                  {
+                    "name": "Strategi membaca",
+                    "explanation": "Strategi membaca efektif meliputi beberapa tahapan penting. Pertama, survai (preview) yaitu membaca sekilas untuk memahami struktur dan ide pokok teks. Kedua, tanya (question) yaitu membuat pertanyaan berdasarkan judul dan subjudul untuk mengarahkan fokus membaca. Ketiga, baca (read) yaitu membaca teks secara aktif dengan mencatat informasi penting. Keempat, ringkas (summarize) yaitu membuat rangkuman isi teks dengan bahasa sendiri. Kelima, evaluasi yaitu memeriksa kembali pemahaman dengan menjawab pertanyaan yang dibuat sebelumnya. Strategi ini meningkatkan daya serap dan pemahaman terhadap teks."
+                  }
+                ]
+              },
+              {
+                "title": "Menulis Puisi",
+                "topics": [
+                  {
+                    "name": "Unsur puisi",
+                    "explanation": "Unsur puisi meliputi unsur fisik dan unsur batin. Unsur fisik terdiri dari rima (persamaan bunyi), ritme (pola bunyi yang berulang), diksi (pilihan kata), imaji (gambaran sensorik), dan diksi (gaya bahasa). Unsur batin meliputi tema (gagasan pokok), nada (suasana hati penyair), perasaan (emosi yang disampaikan), dan amanat (pesan moral). Struktur puisi terdiri dari bait (kelompok larik) dan larik (baris dalam bait). Jenis puisi meliputi lirik (ungkapan perasaan), naratif (menceritakan peristiwa), dan deskriptif (melukiskan objek). Memahami unsur-unsur ini penting untuk menulis dan mengapresiasi puisi."
+                  },
+                  {
+                    "name": "Rima dan irama",
+                    "explanation": "Rima adalah persamaan atau kesamaan bunyi pada kata-kata dalam sebuah puisi, biasanya terdapat pada akhir larik. Jenis rima meliputi rima sempurna (sama bunyi persis), rima tidak sempurna (hamzah), dan rima silang (berselang-seling). Irama adalah pola bunyi yang berulang dalam puisi yang menciptakan kesan musikal. Irama terbentuk dari pengaturan suku kata, tekanan, dan jeda. Fungsi rima dan irama adalah menciptakan keindahan bunyi, memudahkan mengingat, dan memperkuat ekspresi perasaan. Tanpa rima dan irama, puisi kehilangan daya magisnya sebagai karya sastra."
+                  },
+                  {
+                    "name": "Gaya bahasa",
+                    "explanation": "Gaya bahasa dalam puisi adalah cara penyair menggunakan kata untuk menciptakan efek estetika dan makna yang dalam. Jenis gaya bahasa meliputi majas perbandingan (simile), majas kiasan (metafora), personifikasi (memberi sifat manusia pada benda), hiperbola (berlebihan), ironi (pertentangan maksud dan ucapan), dan sinestesia (penggabungan indra). Gaya bahasa juga mencakup diksi (pilihan kata) seperti diction tinggi, sedang, dan rendah. Penggunaan gaya bahasa yang tepat memperkaya makna puisi, menciptakan imaji yang kuat, dan membangkitkan emosi pembaca."
+                  }
+                ]
+              },
+              {
+                "title": "Mendeskripsikan Objek",
+                "topics": [
+                  {
+                    "name": "Struktur teks deskripsi",
+                    "explanation": "Struktur teks deskripsi terdiri dari dua bagian utama: identifikasi dan deskripsi bagian. Identifikasi berisi pengenalan objek yang akan dideskripsikan, menjawab pertanyaan siapa, apa, kapan, dan di mana. Deskripsi bagian berisi uraian detail tentang objek berdasarkan pengamatan melalui indra. Pengaturan deskripsi dapat berdasarkan ruang (dari atas ke bawah, dari luar ke dalam), waktu (urutan kronologis), atau bagian tubuh (dari kepala ke kaki). Tujuan teks deskripsi adalah memberikan gambaran yang jelas dan nyata tentang objek kepada pembaca."
+                  },
+                  {
+                    "name": "Kata sifat",
+                    "explanation": "Kata sifat adalah kata yang menjelaskan atau menerangkan sifat, keadaan, atau kondisi benda. Jenis kata sifat meliputi kata sifat kualitas (baik, buruk, cantik, jelek), kata sifat kuantitas (banyak, sedikit, beberapa), kata sifat warna (merah, biru, hijau), kata sifat ukuran (besar, kecil, tinggi, pendek), dan kata sifat bentuk (bulat, persegi, panjang). Dalam teks deskripsi, kata sifat digunakan untuk memberikan detail visual dan sensorik yang membuat deskripsi lebih hidup dan menarik bagi pembaca. Pemilihan kata sifat yang tepat sangat penting untuk menciptakan imaji yang kuat."
+                  },
+                  {
+                    "name": "Bahasa figuratif",
+                    "explanation": "Bahasa figuratif adalah penggunaan kata atau frasa dengan makna kiasan yang berbeda dari makna harfiahnya. Jenis bahasa figuratif meliputi metafora (perbandingan langsung tanpa kata pembanding), simile (perbandingan dengan kata pembanding seperti 'seperti', 'bagai'), personifikasi (memberi sifat manusia pada benda mati), hiperbola (berlebihan untuk efek dramatis), ironi (pertentangan antara harapan dan kenyataan), dan sinestesia (penggabungan indra). Bahasa figuratif menciptakan imaji yang kuat, memperkaya makna teks, dan menumbuhkan minat estetika pembaca. Dalam teks deskripsi, bahasa figuratif membuat objek lebih hidup dan menarik."
+                  }
+                ]
+              },
+              {
+                "title": "Berpidato",
+                "topics": [
+                  {
+                    "name": "Struktur pidato",
+                    "explanation": "Struktur pidato terdiri dari tiga bagian utama: pembuka, isi, dan penutup. Pembuka mencakup salam pembuka, ucapan terima kasih, dan pendahuluan yang menarik perhatian pendengar. Isi pidato berisi gagasan pokok dan argumen yang disampaikan secara sistematis dengan contoh-contoh yang relevan. Penutup berisi simpulan dari isi pidato dan harapan atau ajakan kepada pendengar. Bahasa pidato harus jelas, lugas, dan sesuai dengan latar belakang pendengar. Penggunaan variasi intonasi, jeda, dan penekanan kata penting untuk memperjelas penyampaian pesan."
+                  },
+                  {
+                    "name": "Teknik berbicara",
+                    "explanation": "Teknik berbicara yang efektif meliputi kontrol suara, artikulasi yang jelas, tempo bicara yang tepat, dan penggunaan jeda yang strategis. Kontrol suara mencakup volume, nada, dan intonasi yang sesuai dengan isi pidato. Artikulasi yang jelas memastikan setiap kata terdengar dengan baik oleh pendengar. Tempo bicara yang tepat tidak terlalu cepat atau lambat agar pendengar dapat mencerna informasi dengan baik. Penggunaan jeda memberikan waktu pemrosesan bagi pendengar dan menekankan poin-poin penting dalam pidato."
+                  },
+                  {
+                    "name": "Bahasa tubuh",
+                    "explanation": "Bahasa tubuh yang efektif dalam pidato mencakup kontak mata, ekspresi wajah, gerak tubuh, dan penggunaan tangan. Kontak mata menciptakan hubungan personal dengan pendengar dan menunjukkan kepercayaan diri. Ekspresi wajah yang sesuai dengan isi pidato memperkuat pesan yang disampaikan. Gerak tubuh yang alami dan tidak kaku membuat pidato lebih dinamis. Penggunaan tangan untuk gestur dan menunjuk dapat memperjelas poin-poin penting. Bahasa tubuh yang positif meningkatkan kredibilitas penyaji dan efektivitas penyampaian pesan."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Teknik Membaca Cepat",
+                "type": "video",
+                "duration": "10 menit"
+              },
+              {
+                "title": "Latihan Soal: Struktur Teks Naratif",
+                "type": "exercise",
+                "questions": 15
+              },
+              {
+                "title": "Rangkuman: Unsur Puisi",
+                "type": "summary",
+                "pages": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "social-7",
+          "icon": "fas fa-globe-asia",
+          "name": "IPS Kelas 7",
+          "description": "Pengantar geografi, sejarah kerajaan Hindu-Buddha, dan kondisi sosial masyarakat.",
+          "detail": {
+            "title": "Ilmu Pengetahuan Sosial Kelas 7",
+            "overview": "Mata pelajaran IPS kelas 7 memberikan pengantar tentang geografi, sejarah, dan sosiologi. Siswa akan mempelajari konsep ruang, peradaban kuno, dan dinamika sosial dalam masyarakat.",
+            "chapters": [
+              {
+                "title": "Pengantar Geografi",
+                "topics": [
+                  {
+                    "name": "Konsep ruang",
+                    "explanation": "Konsep ruang dalam geografi merujuk pada area permukaan bumi yang memiliki karakteristik tertentu. Ruang dapat berupa ruang fisik (bentang alam, iklim, flora/fauna) atau ruang sosial (aktivitas manusia, budaya, ekonomi). Konsep ruang mencakup lokasi (posisi suatu tempat), jarak (ukuran pemisah antar tempat), pola (susunan spasial fenomena), morfologi (bentuk permukaan), dan aglomerasi (pengelompokan aktivitas). Pemahaman konsep ruang penting untuk menganalisis interaksi antara manusia dan lingkungan, serta perencanaan tata ruang yang berkelanjutan."
+                  },
+                  {
+                    "name": "Peta dan globe",
+                    "explanation": "Peta adalah representasi berskala dari permukaan bumi pada bidang datar, menggunakan simbol dan proyeksi tertentu. Komponen peta meliputi judul, skala, arah, legenda, dan inset. Globe adalah model bola bumi yang menunjukkan bentuk sebenarnya dari planet. Proyeksi peta diperlukan karena sulit merepresentasikan bola ke bidang datar, seperti proyeksi Mercator, sinusoidal, dan azimuthal. Keterampilan membaca peta meliputi orientasi arah, menghitung jarak dengan skala, dan memahami simbologi. Peta dan globe penting untuk navigasi, perencanaan, dan pemahaman spasial."
+                  },
+                  {
+                    "name": "Litosfer",
+                    "explanation": "Litosfer adalah lapisan keras bumi yang terdiri dari kerak bumi dan mantel atas. Litosfer terbagi dalam lempeng tektonik yang bergerak perlahan, menyebabkan gempa bumi, vulkanisme, dan pembentukan pegunungan. Jenis batuan meliputi batuan beku (dari magma), batuan sedimen (dari endapan), dan batuan metamorf (dari perubahan batuan lain). Proses geomorfologi seperti pelapukan, erosi, dan sedimentasi membentuk permukaan bumi. Struktur litosfer mempengaruhi distribusi sumber daya alam seperti minyak bumi, gas alam, dan mineral."
+                  }
+                ]
+              },
+              {
+                "title": "Sejarah Kerajaan Hindu-Buddha",
+                "topics": [
+                  {
+                    "name": "Kerajaan Kutai",
+                    "explanation": "Kerajaan Kutai adalah kerajaan Hindu tertua di Indonesia yang berdiri sekitar abad ke-4 Masehi di wilayah Kalimantan Timur. Bukti keberadaan Kutai ditemukan melalui prasasti Yupa (batu pipih) yang berangka tahun Saka 325 (404 M). Raja-raja Kutai dikenal dengan gelar Dewa Mulaka, yang menunjukkan pengaruh agama Hindu. Kehidupan masyarakat Kutai berkembang di sekitar sungai Mahakam dengan mata pencaharian pertanian dan perdagangan. Warisan budaya Kutai terlihat dalam seni tari dan arsitektur yang masih mempertahankan nilai-nilai Hindu-Buddha hingga kini."
+                  },
+                  {
+                    "name": "Kerajaan Tarumanegara",
+                    "explanation": "Kerajaan Tarumanegara berdiri pada abad ke-5 M di wilayah Jawa Barat dengan ibu kota di Bogor. Kerajaan ini dikenal melalui prasasti-prasasti yang ditemukan, seperti Prasasti Kebon Kopi dan Prasasti Tugu yang berbahasa Sanskerta. Raja terbesar Tarumanegara adalah Purnawarman yang berhasil membangun kanal untuk mengairi sawah. Pengaruh Hindu-Buddha terlihat dalam sistem pemerintahan, seni, dan kepercayaan masyarakat. Tarumanegara merupakan penghubung antara perdagangan maritim dan perdagangan darat menuju Asia Tengah."
+                  },
+                  {
+                    "name": "Kerajaan Majapahit",
+                    "explanation": "Kerajaan Majapahit berdiri pada tahun 1293 M di Jawa Timur dan mencapai puncak kejayaan di bawah pimpinan Hayam Wuruk (1350-1389 M) dengan Mahapatih Gajah Mada. Wilayah kekuasaan Majapahit meliputi hampir seluruh Nusantara dengan konsep Dwipayangkara (Negara Jawa dan Negara Bali). Sistem pemerintahan terpusat dengan raja sebagai puncak hierarki. Majapahit dikenal dengan sastra seperti Kakawin Bharatayuddha dan Nagarakertagama. Kejatuhan Majapahit dipicu oleh perang Paregreg (1404-1406 M) dan perpindahan pusat kekuasaan ke Bali setelah 1478 M."
+                  }
+                ]
+              },
+              {
+                "title": "Kondisi Sosial Masyarakat",
+                "topics": [
+                  {
+                    "name": "Struktur sosial",
+                    "explanation": "Struktur sosial adalah pola hubungan dan interaksi yang terjadi dalam masyarakat berdasarkan peran, status, dan kedudukan individu. Dalam masyarakat tradisional Indonesia, struktur sosial terdiri dari lapisan hierarkis seperti raja/noble, bangsawan, pedagang, petani, dan budak. Setiap lapisan memiliki peran dan tanggung jawab yang berbeda dalam kehidupan bermasyarakat. Mobilitas sosial terbatas karena sistem kasta dan adat. Namun, dalam masyarakat modern, struktur sosial lebih dinamis dengan adanya kelas sosial berdasarkan ekonomi, pendidikan, dan prestise. Perubahan struktur sosial dipengaruhi oleh urbanisasi, globalisasi, dan perkembangan teknologi."
+                  },
+                  {
+                    "name": "Norma dan nilai",
+                    "explanation": "Norma adalah aturan yang mengatur tingkah laku anggota masyarakat, terdiri dari norma hukum (sanksi formal), norma kesopanan (sanksi informal), norma agama (larangan Tuhan), dan norma kesusilaan (aturan moral). Nilai adalah standar yang digunakan masyarakat untuk menentukan apa yang baik/buruk, benar/salah. Nilai material (kekayaan, properti) dan nilai spiritual (kejujuran, gotong royong) sama-sama penting dalam kehidupan bermasyarakat. Fungsi norma dan nilai adalah sebagai pengatur perilaku, pemersatu masyarakat, dan penentu identitas sosial. Tanpa norma dan nilai, masyarakat akan mengalami anomie (kehilangan arah)."
+                  },
+                  {
+                    "name": "Perubahan sosial",
+                    "explanation": "Perubahan sosial adalah perubahan dalam pola kehidupan masyarakat yang mempengaruhi struktur dan fungsi masyarakat. Faktor pendorong perubahan sosial meliputi kontak dengan kebudayaan lain, perkembangan teknologi, pertumbuhan penduduk, dan revolusi. Faktor penghambat perubahan sosial meliputi sikap tertutup terhadap hal baru, kepentingan kelompok tertentu, dan fanatisme terhadap kebudayaan sendiri. Bentuk perubahan sosial meliputi perubahan dalam sistem pemerintahan, pola pikir masyarakat, dan sistem ekonomi. Dampak perubahan sosial bisa positif (kemajuan) atau negatif (hilangnya nilai luhur)."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Mengenal Peta Tematik",
+                "type": "video",
+                "duration": "14 menit"
+              },
+              {
+                "title": "Latihan Soal: Kerajaan Hindu-Buddha",
+                "type": "exercise",
+                "questions": 18
+              },
+              {
+                "title": "Rangkuman: Dinamika Sosial",
+                "type": "summary",
+                "pages": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "english-7",
+          "icon": "fas fa-language",
+          "name": "Bahasa Inggris Kelas 7",
+          "description": "Perkenalan diri, tata bahasa dasar, kosakata sehari-hari, dan simple present tense.",
+          "detail": {
+            "title": "Bahasa Inggris Kelas 7",
+            "overview": "Mata pelajaran Bahasa Inggris kelas 7 memperkenalkan dasar-dasar bahasa Inggris. Siswa akan belajar struktur kalimat, tenses dasar, dan kosakata untuk komunikasi sehari-hari.",
+            "chapters": [
+              {
+                "title": "Perkenalan Diri",
+                "topics": [
+                  {
+                    "name": "Greetings",
+                    "explanation": "Greetings atau salam dalam bahasa Inggris digunakan untuk menyapa orang dalam berbagai situasi. Greetings informal meliputi 'Hi', 'Hello', 'Hey' untuk teman sebaya atau situasi santai. Greetings formal meliputi 'Good morning', 'Good afternoon', 'Good evening' sesuai waktu dan 'How do you do?' untuk pertemuan pertama kali dengan orang penting. Respons terhadap greetings meliputi 'Fine, thank you', 'Not bad', 'Pretty good'. Pemilihan greetings yang tepat mencerminkan sopan santun dan membangun hubungan interpersonal yang baik dalam konteks budaya Inggris."
+                  },
+                  {
+                    "name": "Personal information",
+                    "explanation": "Personal information mencakup data diri yang digunakan untuk memperkenalkan diri, seperti name (nama lengkap, nama panggilan), age (usia), nationality (kewarganegaraan), occupation (pekerjaan), address (alamat), phone number (nomor telepon), dan email. Dalam percakapan, personal information disampaikan secara bertahap sesuai kebutuhan dan tingkat kedekatan. Pertanyaan umum meliputi 'What's your name?', 'How old are you?', 'Where are you from?', 'What do you do?', 'Where do you live?'. Memberikan personal information dengan jelas dan akurat penting untuk komunikasi efektif dalam bahasa Inggris."
+                  },
+                  {
+                    "name": "Introductions",
+                    "explanation": "Introductions atau perkenalan diri merupakan bagian penting dalam komunikasi sosial. Pola introductions meliputi self-introduction ('Let me introduce myself', 'My name is...'), introducing others ('I'd like you to meet...', 'This is...'), dan responding to introductions ('Nice to meet you', 'Pleased to meet you'). Dalam konteks formal, introductions mencakup gelar (Mr., Mrs., Ms., Dr.) dan jabatan. Etiket dalam introductions meliputi eye contact, handshake, dan smile. Kemampuan melakukan introductions dengan baik menciptakan kesan positif dan membuka peluang networking dalam konteks internasional."
+                  }
+                ]
+              },
+              {
+                "title": "Tata Bahasa Dasar",
+                "topics": [
+                  {
+                    "name": "Sentence structure",
+                    "explanation": "Sentence structure atau struktur kalimat dalam bahasa Inggris terdiri dari subject (subjek), verb (kata kerja), dan object (objek). Kalimat sederhana (simple sentence) memiliki satu subject dan satu predicate. Kalimat majemuk (compound sentence) menggabungkan dua klausa independen dengan conjunction seperti 'and', 'but', 'or'. Kalimat kompleks (complex sentence) memiliki satu klausa independen dan satu atau lebih klausa dependen. Kalimat majemuk kompleks (compound-complex sentence) menggabungkan elemen compound dan complex. Pemahaman sentence structure penting untuk menyusun kalimat yang gramatikal dan menyampaikan pesan dengan jelas."
+                  },
+                  {
+                    "name": "Nouns and pronouns",
+                    "explanation": "Nouns (kata benda) adalah kata yang menyebut orang, tempat, benda, atau ide. Jenis nouns meliputi proper nouns (nama khusus seperti Jakarta, Andi), common nouns (nama umum seperti city, person), countable nouns (dapat dihitung seperti books, cars), dan uncountable nouns (tidak dapat dihitung seperti water, information). Pronouns (kata ganti) menggantikan nouns untuk menghindari repetisi, meliputi personal pronouns (I, you, he, she), possessive pronouns (mine, yours, his, hers), demonstrative pronouns (this, that, these, those), dan relative pronouns (who, which, that). Penggunaan nouns dan pronouns yang tepat membuat teks lebih padat dan mudah dibaca."
+                  },
+                  {
+                    "name": "Verbs",
+                    "explanation": "Verbs (kata kerja) adalah kata yang menunjukkan tindakan, keadaan, atau kejadian. Jenis verbs meliputi action verbs (run, eat, write), linking verbs (be, seem, become), helping verbs (auxiliary verbs seperti is, are, have, will). Verb forms mencakup base form (go), past form (went), past participle (gone), present participle (going), dan third person singular (goes). Verb tenses meliputi present (saat ini), past (masa lalu), future (masa depan), dan perfect tenses. Subject-verb agreement memastikan kesesuaian antara subjek dan kata kerja dalam jumlah (singular/plural)."
+                  }
+                ]
+              },
+              {
+                "title": "Kosakata Sehari-hari",
+                "topics": [
+                  {
+                    "name": "Family members",
+                    "explanation": "Family members vocabulary mencakup istilah untuk anggota keluarga dalam bahasa Inggris. Immediate family meliputi father/dad, mother/mom, brother, sister, son, daughter. Extended family meliputi grandfather/grandpa, grandmother/grandma, uncle, aunt, cousin, nephew, niece. Family relationship terms penting untuk memperkenalkan diri dan menjalin hubungan sosial. Deskripsi fisik dan karakteristik family members menggunakan adjectives seperti tall, short, kind, strict. Expressing family feelings meliputi love, care, support, respect. Pemahaman family vocabulary memperkaya komunikasi pribadi dan membangun hubungan interpersonal dalam konteks budaya Inggris."
+                  },
+                  {
+                    "name": "Daily activities",
+                    "explanation": "Daily activities vocabulary mencakup tindakan rutin yang dilakukan sepanjang hari. Morning routine meliputi wake up, brush teeth, take a shower, have breakfast. Work/school activities meliputi study, attend class, do homework, have a meeting. Evening activities meliputi have dinner, watch TV, read a book, go to bed. Weekend activities meliputi shopping, cleaning, visiting friends, hobbies. Time expressions penting dalam mendeskripsikan daily activities seperti in the morning, at noon, in the evening, at night. Frequency adverbs seperti always, usually, often, sometimes, rarely, never menjelaskan seberapa sering activities dilakukan."
+                  },
+                  {
+                    "name": "School items",
+                    "explanation": "School items vocabulary mencakup perlengkapan dan fasilitas di lingkungan sekolah. Classroom objects meliputi desk, chair, whiteboard, marker, eraser, textbook, notebook, pencil, pen. School facilities meliputi library, laboratory, cafeteria, gymnasium, playground, auditorium. School subjects meliputi mathematics, science, English, history, geography, arts, music, physical education. School personnel meliputi teacher, principal, librarian, janitor, counselor. Action verbs terkait school meliputi study, learn, teach, write, read, listen, discuss, present. Penguasaan school items vocabulary penting untuk komunikasi efektif dalam lingkungan pendidikan internasional."
+                  }
+                ]
+              },
+              {
+                "title": "Simple Present Tense",
+                "topics": [
+                  {
+                    "name": "Form and usage",
+                    "explanation": "Simple present tense digunakan untuk menyatakan kebiasaan, fakta umum, dan keadaan permanen. Bentuk positif: Subject + Verb (s/es untuk third person singular). Contoh: I play football, She plays football. Bentuk negatif: Subject + do/does + not + Verb (infinitive). Contoh: I do not play football, She does not play football. Bentuk interrogatif: Do/Does + Subject + Verb (infinitive)? Contoh: Do you play football? Does she play football? Kata keterangan waktu seperti always, usually, often, sometimes, rarely, never sering digunakan dengan simple present tense untuk menyatakan kebiasaan."
+                  },
+                  {
+                    "name": "Adverbs of frequency",
+                    "explanation": "Adverbs of frequency adalah kata keterangan yang menunjukkan seberapa sering suatu tindakan dilakukan. Urutan adverbs of frequency dari sering ke jarang: always (100%), usually (80%), often (60%), sometimes (50%), rarely (20%), never (0%). Posisi adverbs of frequency dalam kalimat: di antara subject dan main verb, atau setelah auxiliary verb (do/does) dalam bentuk negatif dan interrogatif. Contoh: I always brush my teeth, She doesn't usually wake up early. Untuk 'be' verbs, adverbs of frequency ditempatkan setelah 'be'. Contoh: He is always late. Pemahaman adverbs of frequency penting untuk menyatakan kebiasaan dengan akurat."
+                  },
+                  {
+                    "name": "Wh-questions",
+                    "explanation": "Wh-questions dalam simple present tense digunakan untuk menanyakan informasi spesifik. Pola: Wh-word + do/does + subject + verb (infinitive)? Wh-words meliputi what (apa), where (di mana), when (kapan), why (mengapa), who (siapa), whom (siapa-object), whose (milik siapa), how (bagaimana). Contoh: What do you do? Where does she live? When do they arrive? Why do you study English? Who teaches mathematics? How does he go to school? Jawaban untuk wh-questions harus memberikan informasi yang spesifik sesuai dengan wh-word yang digunakan. Penguasaan wh-questions penting untuk komunikasi interaktif yang efektif."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Pronunciation Guide",
+                "type": "video",
+                "duration": "16 menit"
+              },
+              {
+                "title": "Latihan Soal: Simple Present Tense",
+                "type": "exercise",
+                "questions": 22
+              },
+              {
+                "title": "Rangkuman: Daily Vocabulary",
+                "type": "summary",
+                "pages": 3
+              }
+            ]
+          }
+        },
+        {
+          "id": "civics-7",
+          "icon": "fas fa-landmark",
+          "name": "PPKn Kelas 7",
+          "description": "Pengantar PPKn, norma dan nilai sosial, pancasila, dan Bhinneka Tunggal Ika.",
+          "detail": {
+            "title": "Pendidikan Pancasila dan Kewarganegaraan Kelas 7",
+            "overview": "Mata pelajaran PPKn kelas 7 memberikan dasar pemahaman tentang nilai-nilai Pancasila, norma sosial, dan identitas bangsa Indonesia. Siswa akan memahami peran warga negara dalam masyarakat.",
+            "chapters": [
+              {
+                "title": "Pengantar PPKn",
+                "topics": [
+                  {
+                    "name": "Tujuan PPKn",
+                    "explanation": "Tujuan PPKn adalah membentuk warga negara Indonesia yang memiliki pengetahuan, sikap, dan keterampilan dalam kehidupan bermasyarakat, berbangsa, dan bernegara. Secara kognitif, siswa memahami konsep dasar kenegaraan, demokrasi, dan hak asasi manusia. Secara afektif, siswa mengembangkan rasa nasionalisme, cinta tanah air, dan tanggung jawab sosial. Secara psikomotor, siswa mampu berpartisipasi aktif dalam kehidupan bermasyarakat dan bernegara. PPKn juga bertujuan menumbuhkan pemahaman tentang sistem hukum, etika politik, dan nilai-nilai luhur bangsa Indonesia sesuai dengan Pancasila dan UUD 1945."
+                  },
+                  {
+                    "name": "Metode pembelajaran",
+                    "explanation": "Metode pembelajaran PPKn menggunakan pendekatan tematik integratif yang mengaitkan berbagai aspek kehidupan bermasyarakat, berbangsa, dan bernegara. Metode diskusi kelompok mengembangkan kemampuan berargumentasi dan menghargai pendapat orang lain. Metode studi kasus menganalisis permasalahan aktual dalam konteks kenegaraan. Metode simulasi seperti pemilihan umum atau sidang parlemen memberikan pengalaman langsung tentang demokrasi. Pendekatan kontekstual mengaitkan materi dengan kehidupan sehari-hari siswa. Media pembelajaran digital dan audiovisual memperkaya sumber belajar dan meningkatkan minat siswa."
+                  },
+                  {
+                    "name": "Relevansi dalam kehidupan",
+                    "explanation": "Relevansi PPKn dalam kehidupan sehari-hari terlihat dalam penerapan nilai-nilai luhur dalam interaksi sosial, pemahaman hak dan kewajiban sebagai warga negara, serta partisipasi dalam pembangunan masyarakat. PPKn membekali siswa dengan kemampuan berpikir kritis terhadap isu-isu sosial-politik, memahami sistem hukum dan demokrasi, serta menghargai keberagaman budaya dan agama. Dalam konteks global, PPKn menyiapkan generasi yang mampu berkompetisi dengan menjunjung tinggi integritas, etika, dan jati diri bangsa Indonesia. PPKn juga menjadi landasan moral dan etika dalam menghadapi tantangan era digital dan globalisasi."
+                  }
+                ]
+              },
+              {
+                "title": "Norma dan Nilai Sosial",
+                "topics": [
+                  {
+                    "name": "Jenis-jenis norma",
+                    "explanation": "Jenis-jenis norma dalam masyarakat meliputi norma hukum, norma kesopanan, norma agama, dan norma kesusilaan. Norma hukum adalah aturan tingkah laku yang bersifat memaksa dengan sanksi tegas dari negara, seperti Undang-Undang dan peraturan daerah. Norma kesopanan adalah aturan tingkah laku yang bersifat tidak memaksa dengan sanksi tidak formal seperti celaan atau ejekan sosial. Norma agama adalah aturan tingkah laku yang bersumber dari ajaran agama dengan sanksi spiritual. Norma kesusilaan adalah aturan tingkah laku yang bersumber dari nilai kemanusiaan dengan sanksi berupa penilaian moral dari masyarakat. Keempat norma saling berkaitan dan berfungsi mengatur kehidupan bermasyarakat."
+                  },
+                  {
+                    "name": "Fungsi norma",
+                    "explanation": "Fungsi norma dalam masyarakat meliputi fungsi regulatif, fungsi integratif, fungsi edukatif, dan fungsi kontrol sosial. Fungsi regulatif mengatur tingkah laku anggota masyarakat agar sesuai dengan nilai-nilai yang berlaku. Fungsi integratif mempersatukan anggota masyarakat dalam satu kesatuan yang harmonis. Fungsi edukatif mendidik anggota masyarakat tentang nilai-nilai luhur dan etika sosial. Fungsi kontrol sosial mengawasi dan menilai tingkah laku anggota masyarakat. Tanpa norma, masyarakat akan mengalami anomie (kehilangan arah) dan konflik sosial yang merugikan semua pihak."
+                  },
+                  {
+                    "name": "Pelanggaran norma",
+                    "explanation": "Pelanggaran norma terjadi ketika seseorang tidak mematuhi aturan yang berlaku dalam masyarakat. Jenis pelanggaran norma meliputi pelanggaran norma hukum (tindak pidana), pelanggaran norma kesopanan (kesopanan sosial), pelanggaran norma agama (dos), dan pelanggaran norma kesusilaan (immoral acts). Tingkat pelanggaran norma ditentukan oleh tingkat keparahan dampaknya terhadap masyarakat. Konsekuensi pelanggaran norma bervariasi dari sanksi ringan seperti peringatan hingga sanksi berat seperti hukuman mati. Pencegahan pelanggaran norma melalui pendidikan, sosialisasi, dan penegakan hukum yang adil."
+                  }
+                ]
+              },
+              {
+                "title": "Pancasila",
+                "topics": [
+                  {
+                    "name": "Sejarah Pancasila",
+                    "explanation": "Sejarah Pancasila dimulai dengan lahirnya BPUPKI (Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia) pada 29 April 1945. Pada tanggal 1 Juni 1945, Ir. Soekarno menyampaikan pidato 'Lahirnya Pancasila' yang menjadi dasar falsafah negara. Tokoh-tokoh seperti Mohammad Yamin dan Supomo juga memberikan kontribusi dalam merumuskan dasar negara. Awalnya terdapat tiga rumusan dasar negara: Ketuhanan, Kemanusiaan yang Adil dan Beradab, Persatuan Indonesia, Kerakyatan, dan Keadilan Sosial. Pada 18 Agustus 1945, Panitia Persiapan Kemerdekaan Indonesia (PPKI) menetapkan Pancasila sebagai dasar negara dalam UUD 1945. Perjalanan sejarah Pancasila mencerminkan perjuangan para pendiri bangsa dalam merumuskan ideologi yang sesuai dengan karakter bangsa Indonesia."
+                  },
+                  {
+                    "name": "Nilai-nilai Pancasila",
+                    "explanation": "Nilai-nilai Pancasila terbagi dalam tiga tingkatan: nilai dasar, nilai instrumental, dan nilai praktis. Nilai dasar Pancasila meliputi Ketuhanan Yang Maha Esa (nilai religius), Kemanusiaan yang Adil dan Beradab (nilai humanis), Persatuan Indonesia (nilai kebangsaan), Kerakyatan (nilai demokratis), dan Keadilan Sosial (nilai sosial). Nilai instrumental adalah penerapan nilai dasar dalam kehidupan bermasyarakat, berbangsa, dan bernegara. Nilai praktis adalah manifestasi nilai-nilai Pancasila dalam kebijakan dan program pemerintah. Penerapan nilai-nilai Pancasila dalam kehidupan sehari-hari menciptakan masyarakat yang adil, makmur, dan berkeadaban."
+                  },
+                  {
+                    "name": "Implementasi dalam kehidupan",
+                    "explanation": "Implementasi Pancasila dalam kehidupan sehari-hari terlihat dalam sikap dan perilaku warga negara. Dalam kehidupan bermasyarakat, Pancasila tercermin dalam toleransi antarumat beragama, gotong royong, dan kegotongroyongan. Dalam kehidupan berbangsa, Pancasila menjadi semangat persatuan dan kesatuan dalam keberagaman. Dalam kehidupan bernegara, Pancasila menjadi pedoman dalam penyelenggaraan pemerintahan yang demokratis dan berkeadilan. Implementasi Pancasila juga terlihat dalam sistem hukum, politik, ekonomi, sosial, dan budaya bangsa Indonesia. Pemahaman dan pengamalan Pancasila oleh setiap warga negara penting untuk menjaga keutuhan NKRI."
+                  }
+                ]
+              },
+              {
+                "title": "Bhinneka Tunggal Ika",
+                "topics": [
+                  {
+                    "name": "Makna semboyan",
+                    "explanation": "Makna semboyan Bhinneka Tunggal Ika yang berarti 'Berbeda-beda tetapi satu jua' mencerminkan karakter bangsa Indonesia yang heterogen namun tetap bersatu. Frasa 'Bhinneka' berasal dari kata Sansekerta yang berarti beragam atau berbeda-beda, sedangkan 'Tunggal Ika' berarti satu dan tidak terpisahkan. Semboyan ini menjadi filosofi dasar dalam menjaga persatuan dan kesatuan bangsa Indonesia yang terdiri dari berbagai suku, ras, agama, dan budaya. Bhinneka Tunggal Ika menekankan bahwa perbedaan bukan sebagai sumber konflik, tetapi sebagai kekayaan yang memperkuat persatuan nasional. Semboyan ini terpahat di Garuda Pancasila sebagai simbol negara."
+                  },
+                  {
+                    "name": "Keberagaman budaya",
+                    "explanation": "Keberagaman budaya Indonesia tercermin dalam berbagai aspek kehidupan, seperti bahasa daerah (lebih dari 700 bahasa), suku bangsa (lebih dari 300 suku), agama dan kepercayaan (Islam, Kristen Protestan, Katolik, Hindu, Buddha, Konghucu), adat istiadat, kesenian daerah, dan kuliner tradisional. Setiap daerah memiliki keunikan budaya yang khas, seperti tari tradisional, musik khas, rumah adat, dan pakaian adat. Keberagaman budaya menjadi modal sosial dalam memperkaya kehidupan bangsa dan memperkuat jati diri nasional. Pelestarian dan pengembangan keberagaman budaya penting untuk menjaga warisan leluhur dan memperkaya khazanah kebudayaan nasional."
+                  },
+                  {
+                    "name": "Persatuan dalam perbedaan",
+                    "explanation": "Persatuan dalam perbedaan merupakan prinsip fundamental dalam kehidupan bermasyarakat, berbangsa, dan bernegara Indonesia. Persatuan tidak berarti meniadakan perbedaan, tetapi menghargai dan menghormati perbedaan sebagai kekayaan bangsa. Upaya menjaga persatuan dalam perbedaan meliputi penerapan nilai-nilai Pancasila, dialog antarbudaya, toleransi antarumat beragama, dan kebijakan pemerintah yang inklusif. Pendidikan karakter dan kewarganegaraan penting untuk menumbuhkan semangat persatuan sejak dini. Ancaman terhadap persatuan seperti SARA (Suku, Agama, Ras, Antar-golongan) harus dicegah melalui pendidikan, hukum, dan kesadaran kolektif seluruh warga negara."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Sejarah Pancasila",
+                "type": "video",
+                "duration": "18 menit"
+              },
+              {
+                "title": "Latihan Soal: Norma Sosial",
+                "type": "exercise",
+                "questions": 20
+              },
+              {
+                "title": "Rangkuman: Bhinneka Tunggal Ika",
+                "type": "summary",
+                "pages": 4
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "8": {
+      "title": "Kelas 8",
+      "subjects": [
+        {
+          "id": "math-8",
+          "icon": "fas fa-calculator",
+          "name": "Matematika Kelas 8",
+          "description": "Pola bilangan, koordinat kartesius, relasi dan fungsi, persamaan linear dua variabel.",
+          "detail": {
+            "title": "Matematika Kelas 8",
+            "overview": "Mata pelajaran matematika kelas 8 memperdalam konsep aljabar dan geometri. Siswa akan mempelajari pola bilangan, sistem koordinat, fungsi, dan persamaan linear yang merupakan dasar untuk matematika SMA.",
+            "chapters": [
+              {
+                "title": "Pola Bilangan",
+                "topics": [
+                  {
+                    "name": "Barisan aritmetika",
+                    "explanation": "Barisan aritmetika adalah barisan bilangan di mana selisih dua suku yang berurutan selalu tetap. Selisih tetap ini disebut beda (b). Bentuk umum barisan aritmetika: a, a+b, a+2b, a+3b, ..., a+(n-1)b, di mana 'a' adalah suku pertama dan 'b' adalah beda. Rumus suku ke-n: Un = a + (n-1)b. Rumus jumlah n suku pertama: Sn = n/2 (2a + (n-1)b) atau Sn = n/2 (a + Un). Contoh penerapan dalam kehidupan sehari-hari seperti menghitung tabungan dengan bunga tetap, pertumbuhan penduduk linier, atau penurunan nilai barang secara konstan."
+                  },
+                  {
+                    "name": "Barisan geometri",
+                    "explanation": "Barisan geometri adalah barisan bilangan di mana perbandingan dua suku yang berurutan selalu tetap. Perbandingan tetap ini disebut rasio (r). Bentuk umum barisan geometri: a, ar, ar², ar³, ..., ar^(n-1), di mana 'a' adalah suku pertama dan 'r' adalah rasio. Rumus suku ke-n: Un = a × r^(n-1). Rumus jumlah n suku pertama: Sn = a(r^n - 1)/(r - 1) untuk r > 1 atau Sn = a(1 - r^n)/(1 - r) untuk r < 1. Contoh penerapan seperti pertumbuhan bakteri, bunga majemuk, atau peluruhan radioaktif."
+                  },
+                  {
+                    "name": "Deret bilangan",
+                    "explanation": "Deret bilangan adalah penjumlahan suku-suku dari suatu barisan bilangan. Deret aritmetika adalah penjumlahan suku-suku barisan aritmetika, sedangkan deret geometri adalah penjumlahan suku-suku barisan geometri. Konvergensi deret geometri tak hingga terjadi jika |r| < 1 dengan rumus S∞ = a/(1-r). Divergensi terjadi jika |r| ≥ 1. Penerapan deret dalam matematika lanjut seperti deret Taylor, deret Fourier, dan dalam ilmu ekonomi untuk menghitung nilai sekarang dari anuitas. Konsep deret penting dalam kalkulus dan analisis matematika."
+                  }
+                ]
+              },
+              {
+                "title": "Koordinat Kartesius",
+                "topics": [
+                  {
+                    "name": "Sumbu koordinat",
+                    "explanation": "Sumbu koordinat Kartesius terdiri dari dua garis lurus yang saling tegak lurus: sumbu-x (horizontal) dan sumbu-y (vertikal) yang berpotongan di titik asal (0,0). Bidang dibagi menjadi empat kuadran: Kuadran I (x+, y+), Kuadran II (x-, y+), Kuadran III (x-, y-), dan Kuadran IV (x+, y-). Setiap titik pada bidang dinyatakan dengan pasangan berurutan (x, y) di mana x adalah absis (jarak horizontal dari titik asal) dan y adalah ordinat (jarak vertikal dari titik asal). Sistem koordinat ini dikembangkan oleh Rene Descartes dan menjadi dasar geometri analitik yang menghubungkan aljabra dan geometri."
+                  },
+                  {
+                    "name": "Titik dan garis",
+                    "explanation": "Titik pada bidang Kartesius dinyatakan dengan koordinat (x, y). Jarak antara dua titik (x₁, y₁) dan (x₂, y₂) dihitung dengan rumus √[(x₂-x₁)² + (y₂-y₁)²]. Titik tengah antara dua titik adalah ((x₁+x₂)/2, (y₁+y₂)/2). Garis lurus dapat dinyatakan dalam berbagai bentuk: bentuk kemiringan-titik [y - y₁ = m(x - x₁)], bentuk kemiringan-perpotongan [y = mx + c], dan bentuk umum [ax + by + c = 0]. Kemiringan (gradien) garis menunjukkan arah dan kecuraman garis, dihitung dengan m = (y₂-y₁)/(x₂-x₁) atau m = -a/b pada bentuk umum."
+                  },
+                  {
+                    "name": "Hubungan antar garis",
+                    "explanation": "Hubungan antar garis meliputi garis sejajar, berpotongan tegak lurus, dan berimpit. Dua garis sejajar memiliki gradien yang sama (m₁ = m₂) tetapi titik potong berbeda. Dua garis berpotongan tegak lurus jika hasil kali gradiennya sama dengan -1 (m₁ × m₂ = -1). Dua garis berimpit jika memiliki gradien dan titik potong yang sama. Garis-garis istimewa meliputi garis horizontal (y = c, m = 0), garis vertikal (x = c, m = ∞), dan garis identitas (y = x, m = 1). Penerapan hubungan garis dalam arsitektur, teknik sipil, dan grafik fungsi matematika."
+                  }
+                ]
+              },
+              {
+                "title": "Relasi dan Fungsi",
+                "topics": [
+                  {
+                    "name": "Konsep relasi",
+                    "explanation": "Relasi adalah hubungan antara dua himpunan yang memasangkan anggota himpunan pertama dengan anggota himpunan kedua. Relasi dapat dinyatakan dengan diagram panah, himpunan pasangan berurutan, atau diagram Cartesius. Domain adalah daerah asal (himpunan pertama), kodomain adalah daerah kawan (himpunan kedua), dan range adalah daerah hasil (himpunan anggota kodomain yang memiliki pasangan). Jenis-jenis relasi meliputi satu-satu, banyak-satu, satu-banyak, dan banyak-banyak. Relasi digunakan untuk menggambarkan hubungan antar variabel dalam berbagai bidang seperti ekonomi, fisika, dan ilmu komputer."
+                  },
+                  {
+                    "name": "Jenis-jenis fungsi",
+                    "explanation": "Fungsi adalah relasi khusus di mana setiap anggota domain dipasangkan dengan tepat satu anggota kodomain. Jenis-jenis fungsi meliputi fungsi konstan (f(x) = c), fungsi identitas (f(x) = x), fungsi linear (f(x) = ax + b), fungsi kuadrat (f(x) = ax² + bx + c), fungsi modulus (f(x) = |x|), dan fungsi rasional. Fungsi injektif (satu-satu) jika setiap anggota kodomain memiliki paling banyak satu prapeta. Fungsi surjektif (pada) jika setiap anggota kodomain memiliki paling sedikit satu prapeta. Fungsi bijektif jika sekaligus injektif dan surjektif. Fungsi komposisi menggabungkan dua atau lebih fungsi."
+                  },
+                  {
+                    "name": "Grafik fungsi",
+                    "explanation": "Grafik fungsi adalah representasi visual fungsi pada bidang koordinat yang menunjukkan hubungan antara variabel bebas (x) dan variabel terikat (y). Untuk menggambar grafik fungsi, tentukan titik-titik koordinat dengan mensubstitusi nilai x ke fungsi untuk mendapatkan y, lalu plot titik-titik tersebut dan hubungkan dengan kurva mulus. Grafik fungsi linear berbentuk garis lurus, fungsi kuadrat berbentuk parabola, fungsi modulus berbentuk V, dan fungsi rasional memiliki asimtot. Analisis grafik meliputi menentukan domain, range, titik potong sumbu, nilai maksimum/minimum, dan sifat kemonotonan (naik/turun)."
+                  }
+                ]
+              },
+              {
+                "title": "Persamaan Linear Dua Variabel",
+                "topics": [
+                  {
+                    "name": "Bentuk umum",
+                    "explanation": "Bentuk umum persamaan linear dua variabel adalah ax + by = c, di mana a, b, dan c adalah konstanta real dengan a ≠ 0 dan b ≠ 0, sedangkan x dan y adalah variabel. Solusi persamaan linear dua variabel berupa pasangan berurutan (x, y) yang memenuhi persamaan. Grafik persamaan linear dua variabel berbentuk garis lurus pada bidang koordinat. Dalam konteks nyata, PLDV digunakan untuk memodelkan masalah seperti perbandingan harga, jarak dan kecepatan, atau campuran zat kimia. Himpunan penyelesaian PLDV tak hingga karena ada tak hingga pasangan (x, y) yang memenuhi persamaan."
+                  },
+                  {
+                    "name": "Metode eliminasi dan substitusi",
+                    "explanation": "Metode eliminasi menyelesaikan sistem persamaan linear dengan menghilangkan salah satu variabel melalui penjumlahan atau pengurangan persamaan setelah menyamakan koefisien. Langkah: 1) Samakan koefisien salah satu variabel, 2) Eliminasi variabel tersebut, 3) Substitusi nilai yang diperoleh ke salah satu persamaan. Metode substitusi menyelesaikan sistem dengan mengganti salah satu variabel dengan ekspresi dari persamaan lain. Langkah: 1) Nyatakan salah satu variabel dalam variabel lain, 2) Substitusi ke persamaan kedua, 3) Selesaikan untuk mendapatkan nilai variabel, 4) Substitusi kembali untuk mendapatkan nilai variabel lain. Kedua metode menghasilkan solusi yang sama."
+                  },
+                  {
+                    "name": "Penerapan dalam masalah nyata",
+                    "explanation": "Penerapan SPLDV dalam masalah nyata meliputi: 1) Masalah ekonomi seperti menentukan harga satuan barang, laba/rugi, atau investasi optimal, 2) Masalah fisika seperti menentukan kecepatan dua kendaraan yang bergerak berlawanan arah, 3) Masalah kimia seperti menentukan komposisi campuran larutan, 4) Masalah geometri seperti menentukan ukuran persegi panjang dengan keliling dan luas tertentu. Langkah penyelesaian: 1) Identifikasi variabel dan buat model matematika, 2) Bentuk sistem persamaan linear, 3) Selesaikan dengan metode eliminasi/substitusi, 4) Interpretasikan hasil dalam konteks masalah. Validasi solusi penting untuk memastikan masuk akal dalam situasi nyata."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Grafik Fungsi Linear",
+                "type": "video",
+                "duration": "15 menit"
+              },
+              {
+                "title": "Latihan Soal: Sistem Persamaan Linear",
+                "type": "exercise",
+                "questions": 25
+              },
+              {
+                "title": "Rangkuman: Koordinat Kartesius",
+                "type": "summary",
+                "pages": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "science-8",
+          "icon": "fas fa-atom",
+          "name": "IPA Kelas 8",
+          "description": "Sistem gerak manusia, sistem pencernaan, sistem pernapasan, dan sistem reproduksi.",
+          "detail": {
+            "title": "Ilmu Pengetahuan Alam Kelas 8",
+            "overview": "Mata pelajaran IPA kelas 8 fokus pada sistem organ manusia dan mekanisme kerjanya. Siswa akan mempelajari bagaimana tubuh manusia berfungsi secara terkoordinasi untuk menjaga homeostasis.",
+            "chapters": [
+              {
+                "title": "Sistem Gerak Manusia",
+                "topics": [
+                  {
+                    "name": "Tulang dan sendi",
+                    "explanation": "Tulang adalah jaringan keras yang membentuk rangka tubuh manusia, terdiri dari 206 tulang pada orang dewasa. Fungsi tulang meliputi penopang tubuh, pelindung organ vital, tempat melekat otot, produksi sel darah (sumsum tulang), dan penyimpanan mineral (kalsium dan fosfor). Jenis tulang meliputi tulang panjang (femur, humerus), tulang pendek (pergelangan tangan/kaki), tulang pipih (tulang rusuk, tulang tengkorak), dan tulang tidak beraturan (ruas tulang belakang). Sendi adalah hubungan antara dua atau lebih tulang yang memungkinkan gerakan. Jenis sendi meliputi sendi mati (sinartrosis), sendi kaku (amfiartrosis), dan sendi gerak (diartrosis) seperti engsel, peluru, pelana, dan putar. Gangguan pada tulang dan sendi seperti osteoporosis, arthritis, dan fraktura mempengaruhi mobilitas."
+                  },
+                  {
+                    "name": "Otot dan fungsinya",
+                    "explanation": "Otot adalah jaringan yang dapat berkontraksi untuk menghasilkan gerakan. Terdapat tiga jenis otot: otot rangka (striated voluntary), otot jantung (striated involuntary), dan otot polos (smooth involuntary). Otot rangka melekat pada tulang dan dikendalikan secara sadar, bertanggung jawab atas gerakan tubuh. Otot jantung hanya ditemukan di jantung, berkontraksi ritmik untuk memompa darah. Otot polos terdapat di organ dalam seperti usus, lambung, dan pembuluh darah, berfungsi menggerakkan zat melalui organ tersebut. Struktur otot terdiri dari fibril, miofibril, dan filamen aktin/miosin yang berinteraksi untuk menghasilkan kontraksi melalui mekanisme sliding filament."
+                  },
+                  {
+                    "name": "Kelainan pada sistem gerak",
+                    "explanation": "Kelainan pada sistem gerak meliputi gangguan pada tulang, sendi, dan otot. Gangguan tulang seperti osteoporosis (penurunan kepadatan tulang), osteoartritis (penyusutan tulang rawan sendi), skoliosis (kelainan kelengkungan tulang belakang), dan fraktura (patah tulang). Gangguan sendi seperti rheumatoid arthritis (radang sendi autoimun), dislokasi (pergeseran tulang dari sendi), dan ankilosis (kekakuan sendi). Gangguan otot seperti distrofi otot (kerusakan otot), miastenia gravis (gangguan transmisi neuromuskular), dan kram otot (kontraksi involunter menyakitkan). Pencegahan melalui nutrisi adekuat (kalsium, vitamin D), olahraga teratur, postur benar, dan menghindari cedera."
+                  }
+                ]
+              },
+              {
+                "title": "Sistem Pencernaan",
+                "topics": [
+                  {
+                    "name": "Organ pencernaan",
+                    "explanation": "Sistem pencernaan manusia terdiri dari saluran pencernaan dan kelenjar pencernaan. Saluran pencernaan meliputi mulut, faring, esofagus, lambung, usus halus, usus besar, rektum, dan anus. Kelenjar pencernaan meliputi gigi, lidah, kelenjar ludah, hati, kantong empedu, dan pankreas. Mulut memulai pencernaan mekanik (mengunyah) dan kimiawi (amilase ludah memecah pati). Lambung menghasilkan asam klorida dan pepsin untuk mencerna protein. Usus halus (duodenum, jejenum, ileum) adalah tempat utama pencernaan dan penyerapan nutrien dengan bantuan enzim dari pankreas dan empedu dari hati. Usus besar menyerap air dan membentuk feses."
+                  },
+                  {
+                    "name": "Proses pencernaan",
+                    "explanation": "Proses pencernaan terdiri dari empat tahap: ingestia (memasukkan makanan), digestia (pemecahan makanan), absorpsia (penyerapan nutrien), dan defekasia (pengeluaran sisa). Pencernaan mekanik terjadi melalui pengunyahan, pengadukan lambung, dan gerakan peristaltik usus. Pencernaan kimiawi terjadi melalui enzim-enzim seperti amilase (mencerna karbohidrat), pepsin dan tripsin (mencerna protein), lipase (mencerna lemak). Hormon pencernaan seperti gastrin, sekretin, dan kolesistokinin mengatur sekresi enzim dan gerakan saluran pencernaan. Koordinasi antara sistem saraf dan hormon memastikan proses pencernaan berjalan efisien."
+                  },
+                  {
+                    "name": "Gangguan pencernaan",
+                    "explanation": "Gangguan pencernaan meliputi gastroenteritis (radang lambung dan usus), tukak lambung (luka pada dinding lambung), sembelit (konstipasi), diare (buang air besar encer), hemoroid (pembengkakan pembuluh darah rektum), dan penyakit hati seperti hepatitis dan sirosis. Faktor risiko meliputi pola makan tidak teratur, stres, infeksi bakteri/virus, konsumsi alkohol berlebihan, dan genetik. Pencegahan melalui pola makan seimbang, mengunyah perlahan, minum cukup air, olahraga teratur, menghindari stres, dan menjaga kebersihan makanan. Terapi tergantung jenis gangguan, bisa berupa obat-obatan, perubahan diet, atau intervensi medis."
+                  }
+                ]
+              },
+              {
+                "title": "Sistem Pernapasan",
+                "topics": [
+                  {
+                    "name": "Organ pernapasan",
+                    "explanation": "Sistem pernapasan manusia terdiri dari saluran pernapasan dan paru-paru. Saluran pernapasan meliputi rongga hidung, faring, laring, trakea, bronkus, dan bronkiolus. Rongga hidung berfungsi menyaring, menghangatkan, dan melembapkan udara. Laring mengandung pita suara dan menutup epiglotis saat menelan. Trakea adalah saluran udara berbentuk tabung dengan cincin tulang rawan. Bronkus adalah cabang trakea yang masuk ke paru-paru kanan dan kiri. Bronkiolus adalah cabang kecil bronkus yang berakhir di alveolus. Paru-paru adalah organ utama pernapasan dengan jutaan alveolus sebagai tempat pertukaran gas. Pleura adalah membran tipis yang melindungi paru-paru dan mengurangi gesekan saat bernapas."
+                  },
+                  {
+                    "name": "Mekanisme pernapasan",
+                    "explanation": "Mekanisme pernapasan terdiri dari inspirasi (menarik napas) dan ekspirasi (menghembuskan napas). Inspirasi terjadi ketika diafragma berkontraksi dan turun, tulang rusuk naik, volume rongga dada membesar, tekanan dalam paru-paru menurun, dan udara masuk. Ekspirasi terjadi ketika diafragma relaksasi dan naik, tulang rusuk turun, volume rongga dada mengecil, tekanan dalam paru-paru meningkat, dan udara keluar. Pertukaran gas terjadi di alveolus melalui difusi: oksigen dari udara masuk ke darah, karbon dioksida dari darah keluar ke udara. Kapasitas paru-paru meliputi volume tidal, kapasitas inspirasi, kapasitas vital, dan kapasitas total paru-paru."
+                  },
+                  {
+                    "name": "Gangguan pernapasan",
+                    "explanation": "Gangguan pernapasan meliputi influenza (flu), pneumonia (radang paru-paru), bronkitis (radang bronkus), asma (penyempitan saluran napas), tuberkulosis (TBC), dan kanker paru-paru. Faktor risiko meliputi polusi udara, merokok, infeksi virus/bakteri, alergi, dan genetik. Gejala umum meliputi batuk, sesak napas, nyeri dada, demam, dan produksi lendir berlebih. Pencegahan melalui vaksinasi, menghindari perokok pasif, menjaga kebersihan, olahraga teratur, dan menghindari polusi udara. Terapi tergantung jenis gangguan, bisa berupa antibiotik, inhaler, fisioterapi, atau intervensi medis. Kesadaran akan pentingnya kesehatan pernapasan mendorong gaya hidup sehat dan lingkungan bersih."
+                  }
+                ]
+              },
+              {
+                "title": "Sistem Reproduksi",
+                "topics": [
+                  {
+                    "name": "Reproduksi manusia",
+                    "explanation": "Reproduksi manusia adalah proses biologis untuk menghasilkan keturunan. Sistem reproduksi pria terdiri dari testis (menghasilkan sperma dan testosterone), epididimis (tempat penyimpanan sperma), vas deferens (saluran sperma), kelenjar prostat dan vesikula seminalis (menghasilkan cairan sperma), dan penis. Sistem reproduksi wanita terdiri dari ovarium (menghasilkan ovum dan estrogen/progesteron), tuba falopi (tempat pembuahan), uterus (rahim/tempat perkembangan janin), serviks (leher rahim), dan vagina. Siklus menstruasi terjadi setiap 28 hari pada wanita subur, meliputi fase folikuler, ovulasi, dan fase luteal. Pembuahan terjadi ketika sperma bertemu ovum di tuba falopi, membentuk zigot yang berkembang menjadi embrio dan janin."
+                  },
+                  {
+                    "name": "Perubahan pubertas",
+                    "explanation": "Pubertas adalah periode transisi dari masa kanak-kanak ke dewasa yang ditandai dengan perkembangan seksual sekunder. Pada pria, pubertas ditandai dengan membesarnya testis dan penis, tumbuhnya jakun, suara membesar, tumbuhnya rambut di area pubik, ketiak, wajah, dan dada, serta pertambahan tinggi badan dan massa otot. Pada wanita, pubertas ditandai dengan perkembangan payudara, tumbuhnya rambut di area pubik dan ketiak, menstruasi pertama (menarche), pelebaran pinggul, dan penumpukan lemak di pinggul dan paha. Hormon yang mengatur pubertas adalah GnRH, LH, FSH, testosterone, estrogen, dan progesteron. Pubertas biasanya terjadi antara usia 9-14 tahun pada pria dan 8-13 tahun pada wanita."
+                  },
+                  {
+                    "name": "Kesehatan reproduksi",
+                    "explanation": "Kesehatan reproduksi mencakup kesehatan fisik, mental, dan sosial dalam sistem reproduksi sepanjang hayat. Untuk pria, kesehatan reproduksi meliputi pemeriksaan testis secara mandiri, menjaga kebersihan alat kelamin, menghindari paparan bahan kimia berbahaya, dan menjalani pemeriksaan medis rutin. Untuk wanita, kesehatan reproduksi meliputi menjaga kebersihan alat kelamin, memahami siklus menstruasi, menggunakan alat kontrasepsi yang tepat, menjalani pemeriksaan pap smear, dan menjaga kesehatan reproduksi selama kehamilan. Edukasi reproduksi penting untuk mencegah kehamilan tidak diinginkan, penyakit menular seksual (PMS), dan komplikasi reproduksi. Nilai-nilai moral dan tanggung jawab dalam hubungan intim juga bagian dari kesehatan reproduksi yang holistik."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Mekanisme Pernapasan",
+                "type": "video",
+                "duration": "17 menit"
+              },
+              {
+                "title": "Latihan Soal: Sistem Pencernaan",
+                "type": "exercise",
+                "questions": 22
+              },
+              {
+                "title": "Rangkuman: Sistem Reproduksi",
+                "type": "summary",
+                "pages": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "indonesian-8",
+          "icon": "fas fa-book",
+          "name": "Bahasa Indonesia Kelas 8",
+          "description": "Membaca teks eksposisi, menulis teks berita, puisi, dan drama.",
+          "detail": {
+            "title": "Bahasa Indonesia Kelas 8",
+            "overview": "Mata pelajaran Bahasa Indonesia kelas 8 mengembangkan kemampuan siswa dalam menulis dan menganalisis berbagai jenis teks. Siswa akan belajar menyusun teks yang informatif dan ekspresif.",
+            "chapters": [
+              {
+                "title": "Teks Eksposisi",
+                "topics": [
+                  {
+                    "name": "Struktur teks eksposisi",
+                    "explanation": "Struktur teks eksposisi terdiri dari tiga bagian utama: thesis (pernyataan pendapat/opini), argument (argumen pendukung), dan reiteration (penegasan ulang pendapat). Thesis berisi pendapat penulis tentang topik yang akan dibahas. Argument berisi serangkaian argumen logis yang mendukung thesis, dilengkapi dengan fakta, data, contoh, dan testimonial. Reiteration berisi penegasan kembali thesis dengan bahasa yang berbeda. Ciri-ciri teks eksposisi meliputi penggunaan kata kerja mental (berpendapat, meyakini), kata hubung argumentatif (pertama, selanjutnya, karena itu), dan gaya bahasa persuasif. Tujuan teks eksposisi adalah meyakinkan pembaca agar menerima pendapat penulis."
+                  },
+                  {
+                    "name": "Argumen dan fakta",
+                    "explanation": "Argumen dalam teks eksposisi adalah pernyataan yang digunakan untuk mendukung opini atau pendapat penulis. Argumen yang kuat bersifat logis, relevan, dan dapat dipertanggungjawabkan. Fakta adalah informasi yang dapat diverifikasi kebenarannya melalui pengamatan, pengukuran, atau sumber terpercaya. Jenis argumen meliputi argumen deduktif (dari umum ke khusus), argumen induktif (dari khusus ke umum), dan argumen analogi (berdasarkan kesamaan situasi). Penggunaan fakta dalam argumen meningkatkan kredibilitas dan kekuatan persuasi teks. Teknik mengembangkan argumen meliputi elaborasi (penjelasan detail), ilustrasi (contoh konkret), dan analogi (perbandingan situasi)."
+                  },
+                  {
+                    "name": "Bahasa persuasif",
+                    "explanation": "Bahasa persuasif adalah penggunaan kata-kata dan struktur kalimat yang bertujuan meyakinkan pembaca atau pendengar. Unsur bahasa persuasif meliputi pilihan kata yang tepat (diksi), gaya bahasa seperti retorika dan majas, struktur kalimat yang variatif, dan intonasi yang sesuai. Teknik persuasi meliputi ethos (membangun kredibilitas), pathos (menyentuh emosi), dan logos (menggunakan logika). Penggunaan tipe kalimat seperti retoris, imperatif, dan interogatif dapat memperkuat efek persuasif. Elemen non-verbal seperti ekspresi wajah, gerak tubuh, dan kontak mata juga berkontribusi pada efektivitas persuasi dalam konteks lisan."
+                  }
+                ]
+              },
+              {
+                "title": "Menulis Teks Berita",
+                "topics": [
+                  {
+                    "name": "Unsur berita",
+                    "explanation": "Unsur berita meliputi 5W + 1H: What (apa yang terjadi), Who (siapa yang terlibat), When (kapan terjadi), Where (di mana terjadi), Why (mengapa terjadi), dan How (bagaimana terjadi). Unsur ini membentuk struktur berita yang komprehensif dan informatif. Selain itu, berita memiliki struktur piramida terbalik yang terdiri dari headline (judul), lead (paragraf pembuka yang berisi informasi penting), body (isi berita dengan detail lengkap), dan conclusion (kesimpulan). Kualitas berita ditentukan oleh akurasi fakta, objektivitas penyajian, kejelasan bahasa, dan relevansi dengan pembaca. Etika jurnalistik seperti verifikasi sumber, menghormati privasi, dan menyeimbangkan kepentingan publik harus dijunjung tinggi dalam penulisan berita."
+                  },
+                  {
+                    "name": "Struktur berita",
+                    "explanation": "Struktur berita mengikuti pola piramida terbalik yang menempatkan informasi paling penting di awal. Headline (judul) harus menarik, informatif, dan mencerminkan isi berita secara akurat. Lead (paragraf pembuka) mengandung unsur 5W+1H yang paling penting dalam satu paragraf. Body (badan berita) mengembangkan informasi dengan detail, data, kutipan sumber, dan latar belakang. Conclusion (penutup) merangkum poin-poin utama atau memberikan informasi tambahan yang relevan. Gaya penulisan berita menggunakan bahasa jurnalistik yang jelas, singkat, aktif, dan objektif. Penggunaan voice aktif, kalimat sederhana, dan struktur kronologis membuat berita mudah dipahami pembaca."
+                  },
+                  {
+                    "name": "Bahasa jurnalistik",
+                    "explanation": "Bahasa jurnalistik memiliki ciri khusus yang membedakannya dari bahasa lain. Ciri-ciri bahasa jurnalistik meliputi kejelasan (clear), kesederhanaan (simple), keaktifan (active), keakuratan (accurate), dan objektivitas (objective). Teknik penulisan meliputi penggunaan voice aktif daripada pasif, kalimat deklaratif daripada kalimat tanya atau perintah, dan struktur langsung (S-P-O) daripada struktur tidak langsung. Pemilihan kata (diksi) menggunakan bahasa baku, spesifik, dan mudah dipahami. Penggunaan angka, tanggal, dan data harus akurat dan konsisten. Gaya bahasa jurnalistik menghindari ambigu, bertele-tele, atau menggunakan jargon yang tidak umum. Bahasa jurnalistik juga memperhatikan nilai-nilai etika seperti menghormati privasi dan menghindari hate speech."
+                  }
+                ]
+              },
+              {
+                "title": "Puisi dan Drama",
+                "topics": [
+                  {
+                    "name": "Unsur intrinsik puisi",
+                    "explanation": "Unsur intrinsik puisi adalah elemen-elemen yang membentuk puisi dari dalam, meliputi tema (gagasan pokok), nada (suasana hati penyair), perasaan (emosi yang disampaikan), amanat (pesan moral), diksi (pilihan kata), imaji (gambaran sensorik), rima (persamaan bunyi), ritme (pola bunyi yang berulang), dan struktur puisi (bait dan larik). Tema puisi bisa berupa cinta, alam, sosial, atau filosofis. Nada puisi bisa romantis, melankolis, heroik, atau satire. Diksi puisi meliputi diksi konkret (menggambarkan sesuatu nyata) dan diksi abstrak (menggambarkan konsep). Imaji puisi menggunakan indra penglihatan, pendengaran, perabaan, penciuman, dan pengecapan. Rima puisi meliputi rima sempurna, rima tidak sempurna, dan rima silang. Ritme diciptakan melalui pola suku kata, tekanan, dan jeda."
+                  },
+                  {
+                    "name": "Dialog dalam drama",
+                    "explanation": "Dialog dalam drama adalah percakapan antar tokoh yang menggerakkan alur cerita dan mengungkapkan karakter tokoh. Jenis dialog meliputi dialog langsung (pembicaraan antar tokoh), dialog tidak langsung (narasi tentang pembicaraan), monolog (tokoh berbicara sendiri), dan aside (tokoh berbicara kepada penonton). Fungsi dialog dalam drama meliputi mengembangkan alur cerita, memperkenalkan konflik, mengungkapkan karakter tokoh, memberikan informasi latar, dan menciptakan ketegangan. Kualitas dialog yang baik memiliki ciri-ciri natural (alami), karakteristik (sesuai dengan latar tokoh), informatif (mengandung informasi penting), dan berkontribusi pada perkembangan cerita. Dialog juga mencerminkan latar sosial, budaya, dan zaman tokoh."
+                  },
+                  {
+                    "name": "Pementasan",
+                    "explanation": "Pementasan drama adalah proses menghidupkan naskah menjadi pertunjukan langsung di hadapan penonton. Unsur-unsur pementasan meliputi naskah (blueprint pertunjukan), sutradara (pengarah artistik), aktor (pemeran tokoh), panggung (ruang pertunjukan), kostum (pakaian tokoh), tata rias (make-up tokoh), tata cahaya (pencahayaan), tata suara (audio), dan dekorasi (setting). Tahapan pementasan meliputi audisi aktor, blocking (penempatan gerak), latihan dialog, latihan teknis, dress rehearsal (latihan penuh), dan pertunjukan. Kualitas pementasan ditentukan oleh kemampuan aktor dalam menghayati karakter, koordinasi tim produksi, dan respon penonton. Pementasan drama memiliki nilai estetika, edukatif, dan hiburan bagi masyarakat."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Menulis Teks Eksposisi",
+                "type": "video",
+                "duration": "14 menit"
+              },
+              {
+                "title": "Latihan Soal: Struktur Teks Berita",
+                "type": "exercise",
+                "questions": 18
+              },
+              {
+                "title": "Rangkuman: Unsur Drama",
+                "type": "summary",
+                "pages": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "social-8",
+          "icon": "fas fa-globe-asia",
+          "name": "IPS Kelas 8",
+          "description": "Kerajaan Islam di Indonesia, perdagangan internasional, kolonialisme, dan imperialisme.",
+          "detail": {
+            "title": "Ilmu Pengetahuan Sosial Kelas 8",
+            "overview": "Mata pelajaran IPS kelas 8 mempelajari sejarah Indonesia dari masa kerajaan Islam hingga awal kemerdekaan. Siswa akan memahami dinamika politik, ekonomi, dan sosial dalam konteks sejarah.",
+            "chapters": [
+              {
+                "title": "Kerajaan Islam di Indonesia",
+                "topics": [
+                  {
+                    "name": "Kerajaan Samudra Pasai",
+                    "explanation": "Kerajaan Samudra Pasai adalah kerajaan Islam pertama di Indonesia yang berdiri sekitar abad ke-13 di wilayah Aceh. Kerajaan ini didirikan oleh Sultan Malik al-Saleh sekitar tahun 1267 M. Bukti keberadaan Samudra Pasai ditemukan melalui prasasti Kuburajo yang berangka tahun 696 H (1297 M) dan catatan perjalanan Marco Polo yang menyebut Fanfur (Samudra). Samudra Pasai menjadi pusat penyebaran Islam di Nusantara melalui perdagangan dan dakwah para wali. Kejayaan kerajaan mencapai puncak di bawah pemerintahan Sultan Al-Malik al-Dhahir dan Sultan Al-Malik al-Zahir. Kerajaan ini runtuh sekitar abad ke-16 karena serangan Kerajaan Aceh dan Portugis. Warisan Samudra Pasai terlihat dalam sistem pemerintahan dan seni budaya Aceh modern."
+                  },
+                  {
+                    "name": "Kerajaan Demak",
+                    "explanation": "Kerajaan Demak berdiri sekitar tahun 1475 di pantai utara Jawa, didirikan oleh Raden Patah yang merupakan putra Brawijaya VIII (raja Majapahit) dan Putri Cina. Demak menjadi pusat penyebaran Islam di Jawa melalui Wali Songo yang dipimpin oleh Sunan Gunung Jati. Raja-raja Demak yang terkenal meliputi Raden Patah, Ibrahim Adil Shah I, dan Sultan Trenggana. Kerajaan ini mencapai puncak kejayaan di bawah Sultan Trenggana yang berhasil menaklukkan Majapahit dan memperluas wilayah hingga ke Bali dan Lombok. Faktor kemunduran Demak meliputi perebutan kekuasaan, ekspansi militan yang melelahkan, dan perpindahan pusat perdagangan ke Banten dan Mataram. Demak runtuh sekitar tahun 1568 dan dibagi antara Pajang dan Surabaya."
+                  },
+                  {
+                    "name": "Kerajaan Mataram",
+                    "explanation": "Kerajaan Mataram Islam berdiri sekitar tahun 1587 di wilayah Jawa Tengah, didirikan oleh Sutawijaya (Senapati). Mataram menjadi kerajaan Islam terbesar dan terakhir di Jawa. Raja-raja besar Mataram meliputi Sultan Agung Hanyakrakusuma (1613-1645) yang mencapai puncak kejayaan dengan menguasai hampir seluruh Jawa dan mengepung Batavia dua kali. Sultan Agung juga membangun Istana Kasultanan di Yogyakarta dan Masjid Agung Mataram. Faktor kemunduran Mataram meliputi ekspansi berlebihan, intervensi VOC, dan perpecahan internal yang menghasilkan Perjanjian Giyanti (1755) yang membagi Mataram menjadi Yogyakarta dan Surakarta. Warisan Mataram terlihat dalam budaya Jawa, sistem pemerintahan, dan seni tradisional yang masih lestari hingga kini."
+                  }
+                ]
+              },
+              {
+                "title": "Perdagangan Internasional",
+                "topics": [
+                  {
+                    "name": "Rute perdagangan",
+                    "explanation": "Rute perdagangan internasional Nusantara terbagi menjadi dua jalur utama: Jalur Laut (melalui Selat Malaka, Selat Sunda, dan Laut Cina Selatan) dan Jalur Darat (melalui Semenanjung Malaysia dan Asia Tengah). Jalur Laut menghubungkan perdagangan antara India, Arab, Tiongkok, dan Eropa dengan wilayah Nusantara. Kota-kota penting sebagai pusat perdagangan meliputi Malaka, Banten, Jayakarta/Batavia, Makassar, dan Ambon. Musim angin monsun mempengaruhi pola perdagangan: musim barat laut (November-April) menguntungkan pelayaran ke arah timur, sedangkan musim timur laut (Mei-Oktober) menguntungkan pelayaran ke arah barat. Teknologi pelayaran seperti peta, kompas, dan astrolab memungkinkan pelayaran jarak jauh yang aman dan efisien."
+                  },
+                  {
+                    "name": "Komoditas perdagangan",
+                    "explanation": "Komoditas perdagangan utama Nusantara meliputi rempah-rempah (cengkeh, pala, lada, kayu manis), tekstil (songket, kain sutra), keramik, emas, perak, damar, gading gajah, dan kayu cendana. Rempah-rempah menjadi komoditas paling bernilai karena kelangkaan dan permintaan tinggi di pasar internasional, terutama Eropa. Tekstil Nusantara terkenal karena kualitas tinggi dan motif yang unik seperti batik, songket, dan ikat. Keramik Nusantara seperti celadon Tiongkok dan tembikar lokal diekspor ke berbagai negara. Komoditas impor meliputi sutra, teh, porselen, logam mulia, senjata, dan tekstil halus. Nilai tukar komoditas dipengaruhi oleh penawaran dan permintaan, musim, dan stabilitas politik."
+                  },
+                  {
+                    "name": "Dampak ekonomi",
+                    "explanation": "Dampak ekonomi perdagangan internasional terhadap Nusantara meliputi pertumbuhan ekonomi, urbanisasi ke kota dagang, pengembangan teknologi pelayaran, dan peningkatan taraf hidup. Perdagangan menciptakan kelas pedagang kaya yang memiliki pengaruh politik dan sosial. Munculnya sistem kredit, piutang, dan wesel membuat transaksi jarak jauh lebih mudah. Perdagangan juga memicu persaingan antar kerajaan untuk menguasai rute dan komoditas strategis. Di sisi negatif, ketergantungan pada ekspor komoditas tunggal membuat ekonomi rentan terhadap fluktuasi harga pasar internasional. Intervensi kolonial Eropa mengubah struktur ekonomi tradisional menjadi ekonomi eksploitasi yang merugikan masyarakat lokal."
+                  }
+                ]
+              },
+              {
+                "title": "Kolonialisme dan Imperialisme",
+                "topics": [
+                  {
+                    "name": "Kedatangan VOC",
+                    "explanation": "VOC (Vereenigde Oostindische Compagnie) didirikan pada tahun 1602 di Belanda sebagai konglomerat dagang dengan hak istimewa dari pemerintah Belanda. Tujuan VOC adalah memonopoli perdagangan rempah-rempah Nusantara dan mengalahkan saingan Eropa, terutama Portugis dan Inggris. VOC memperoleh hak octroi yang memberikan monopoli perdagangan, hak membuat perjanjian dengan raja-raja lokal, hak memiliki tentara, dan hak mencetak mata uang. Strategi VOC meliputi pembentukan benteng pertahanan, penggunaan kekuatan militer, sistem paksa, dan aliansi dengan kerajaan lokal. VOC berhasil menguasai Maluku, Banten, Jayakarta (Batavia), dan Makassar. Namun, korupsi internal, beban utang, dan persaingan dengan Inggris membuat VOC bangkrut dan dibubarkan pada tahun 1799."
+                  },
+                  {
+                    "name": "Pemerintahan Hindia Belanda",
+                    "explanation": "Pemerintahan Hindia Belanda dimulai setelah dibubarkan VOC pada tahun 1800. Sistem pemerintahan mengalami evolusi dari Cultuurstelsel (Tanam Paksa) 1830-1870, sistem liberal 1870-1900, hingga Ethical Policy (Kebijakan Balas Budi) 1901-1942. Cultuurstelsel memaksa rakyat menyerahkan sebagian hasil pertanian kepada pemerintah kolonial, memberikan keuntungan besar bagi Belanda tetapi menyengsarakan rakyat. Sistem liberal membuka perdagangan bebas dan investasi swasta. Ethical Policy mengutamakan pemberantasan kemiskinan, pendidikan, dan sanitasi bagi rakyat pribumi. Struktur pemerintahan terpusat di Gubernur Jenderal di Batavia dengan pembagian wilayah menjadi residensi dan afdeling. Pemerintahan kolonial menciptakan struktur sosial hierarkis dengan Eropa di puncak, orang asing menengah, dan pribumi di bawah."
+                  },
+                  {
+                    "name": "Perlawanan rakyat",
+                    "explanation": "Perlawanan rakyat terhadap kolonialisme Belanda terjadi sejak awal kedatangan VOC hingga akhir penjajahan. Bentuk perlawanan meliputi perlawanan bersenjata seperti Perang Padri (1821-1837), Perang Aceh (1873-1904), Perang Puputan Badung dan Klungkung (1906-1908), dan Perang Diponegoro (1825-1830). Perlawanan diplomatik seperti perjanjian Bongaya (1667) dan perjanjian Giyanti (1755). Perlawanan modern melalui organisasi seperti Budi Utomo (1908), Sarekat Islam (1911), dan Partai Nasional Indonesia (1927). Faktor perlawanan meliputi penjajahan yang kejam, eksploitasi ekonomi, hilangnya kedaulatan, dan semangat nasionalisme. Perlawanan rakyat menunjukkan semangat juang dan cinta tanah air yang menjadi dasar perjuangan kemerdekaan Indonesia."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Perdagangan Maritim Nusantara",
+                "type": "video",
+                "duration": "16 menit"
+              },
+              {
+                "title": "Latihan Soal: Kolonialisme Belanda",
+                "type": "exercise",
+                "questions": 20
+              },
+              {
+                "title": "Rangkuman: Kerajaan Islam",
+                "type": "summary",
+                "pages": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "english-8",
+          "icon": "fas fa-language",
+          "name": "Bahasa Inggris Kelas 8",
+          "description": "Simple past tense, future tense, adjective, dan narrative text.",
+          "detail": {
+            "title": "Bahasa Inggris Kelas 8",
+            "overview": "Mata pelajaran Bahasa Inggris kelas 8 memperluas pemahaman tenses dan struktur kalimat. Siswa akan belajar menyusun narasi dan mendeskripsikan kejadian masa lalu serta rencana masa depan.",
+            "chapters": [
+              {
+                "title": "Simple Past Tense",
+                "topics": [
+                  {
+                    "name": "Regular and irregular verbs",
+                    "explanation": "Simple past tense digunakan untuk menyatakan tindakan yang terjadi dan selesai di masa lalu. Regular verbs (kata kerja beraturan) membentuk past tense dengan menambahkan -ed pada bentuk dasar, seperti work - worked, play - played, walk - walked. Irregular verbs (kata kerja tidak beraturan) tidak mengikuti pola umum dan memiliki bentuk past tense yang unik, seperti go - went, eat - ate, see - saw, buy - bought. Beberapa irregular verbs memiliki bentuk past tense yang sama dengan bentuk dasar, seperti put - put, cut - cut, hit - hit. Penting untuk menghafalkan daftar irregular verbs karena tidak ada pola yang konsisten. Pemahaman regular dan irregular verbs penting untuk komunikasi yang akurat tentang peristiwa masa lalu."
+                  },
+                  {
+                    "name": "Time expressions",
+                    "explanation": "Time expressions dalam simple past tense menunjukkan kapan tindakan terjadi di masa lalu. Common time expressions meliputi yesterday (kemarin), last week/month/year (minggu/bulan/tahun lalu), ago (yang lalu), in + year (pada tahun), dan specific dates seperti on Monday, on July 4th. Pola penggunaan: 'I went to school yesterday', 'She visited her grandmother last week', 'They arrived two hours ago'. Time expressions biasanya ditempatkan di akhir kalimat, tetapi bisa juga di awal untuk penekanan. Penggunaan time expressions yang tepat membantu pendengar/pembaca memahami urutan kronologis peristiwa dan konteks temporal dalam narasi."
+                  },
+                  {
+                    "name": "Wh-questions in past",
+                    "explanation": "Wh-questions in past tense digunakan untuk menanyakan informasi spesifik tentang peristiwa di masa lalu. Pola: Wh-word + did + subject + verb (bentuk dasar)? Contoh: What did you do yesterday? Where did she go last weekend? When did they arrive? Why did he cry? Who did you meet? How did you solve the problem? Jawaban untuk wh-questions in past menggunakan bentuk past tense dari kata kerja. Penting untuk menggunakan bentuk dasar kata kerja setelah 'did' meskipun kalimat dalam bentuk past tense. Wh-questions sangat berguna dalam narasi, wawancara, dan percakapan sehari-hari untuk mendapatkan informasi detail tentang pengalaman masa lalu."
+                  }
+                ]
+              },
+              {
+                "title": "Future Tense",
+                "topics": [
+                  {
+                    "name": "Will vs going to",
+                    "explanation": "Future tense dalam bahasa Inggris memiliki dua bentuk utama: 'will' dan 'going to' yang digunakan dalam konteks berbeda. 'Will' digunakan untuk keputusan spontan (I'll help you), prediksi (It will rain tomorrow), janji (I will call you), dan permintaan/respons (Will you marry me? Yes, I will). 'Going to' digunakan untuk rencana yang sudah direncanakan sebelumnya (I'm going to visit my grandparents next week), prediksi berdasarkan bukti (Look at those clouds. It's going to rain), dan niat yang sudah diputuskan (I'm going to study medicine). Pemilihan yang tepat antara 'will' dan 'going to' tergantung pada konteks dan niat penutur dalam menyampaikan informasi masa depan."
+                  },
+                  {
+                    "name": "Future time expressions",
+                    "explanation": "Future time expressions digunakan untuk menunjukkan kapan suatu tindakan akan terjadi di masa depan. Common expressions meliputi tomorrow (besok), next week/month/year (minggu/bulan/tahun depan), in + time period (dalam waktu tertentu), dan specific future dates seperti on Monday, on July 4th. Pola penggunaan: 'I will travel tomorrow', 'She is going to graduate next month', 'They will arrive in two hours'. Time expressions dapat ditempatkan di awal atau akhir kalimat. Future continuous (will be + ing) digunakan untuk tindakan yang sedang berlangsung di waktu tertentu di masa depan: 'This time next week, I will be lying on a beach'. Penggunaan time expressions yang tepat penting untuk kejelasan temporal dalam komunikasi."
+                  },
+                  {
+                    "name": "Predictions",
+                    "explanation": "Predictions dalam bahasa Inggris digunakan untuk menyatakan apa yang mungkin terjadi di masa depan berdasarkan opini, bukti, atau spekulasi. Bentuk predictions meliputi: 1) Will (opini/kepercayaan): 'I think it will snow tomorrow', 2) Going to (rencana/niat): 'He's going to be a doctor', 3) Might/may/could (kemungkinan): 'It might rain later', 4) Be likely to (probabilitas tinggi): 'Prices are likely to increase'. Predictions juga menggunakan future continuous (will be doing) untuk tindakan yang sedang berlangsung di masa depan dan future perfect (will have done) untuk tindakan yang selesai sebelum waktu tertentu di masa depan. Konteks dan tingkat keyakinan menentukan bentuk yang digunakan."
+                  }
+                ]
+              },
+              {
+                "title": "Adjective",
+                "topics": [
+                  {
+                    "name": "Types of adjectives",
+                    "explanation": "Adjectives adalah kata sifat yang digunakan untuk mendeskripsikan atau memodifikasi noun (kata benda). Types of adjectives meliputi: 1) Descriptive adjectives (mendeskripsikan kualitas): beautiful, tall, red, 2) Quantitative adjectives (menunjukkan jumlah): many, few, several, 3) Demonstrative adjectives (menunjuk): this, that, these, those, 4) Possessive adjectives (menunjukkan kepemilikan): my, your, his, her, 5) Interrogative adjectives (digunakan dalam pertanyaan): which, what, whose, 6) Proper adjectives (berasal dari nama tempat/orang): Indonesian, American, Shakespearean. Adjectives memberikan informasi tambahan tentang noun seperti ukuran, bentuk, warna, asal, material, dan fungsi. Penggunaan adjectives yang tepat membuat deskripsi lebih hidup dan jelas bagi pembaca/listener."
+                  },
+                  {
+                    "name": "Comparative and superlative",
+                    "explanation": "Comparative and superlative digunakan untuk membandingkan kualitas antara dua atau lebih benda/orang. Comparative digunakan untuk membandingkan dua hal: 1) Short adjectives (1-2 syllables) menambahkan -er: tall - taller, fast - faster, 2) Long adjectives (3+ syllables) menggunakan more: beautiful - more beautiful, interesting - more interesting, 3) Irregular forms: good - better, bad - worse, far - farther/further. Superlative digunakan untuk menunjukkan yang paling ekstrem di antara tiga atau lebih hal: 1) Short adjectives menambahkan -est: tallest, fastest, 2) Long adjectives menggunakan most: most beautiful, most interesting, 3) Irregular forms: good - best, bad - worst, far - farthest/furthest. Pola: Noun + verb + comparative + than (A is taller than B), Noun + verb + the + superlative (A is the tallest)."
+                  },
+                  {
+                    "name": "Order of adjectives",
+                    "explanation": "Order of adjectives adalah urutan yang benar ketika menggunakan lebih dari satu adjective sebelum noun. Urutan standar dalam bahasa Inggris: 1) Opinion (beautiful, ugly, nice), 2) Size (big, small, tiny), 3) Age (old, young, ancient), 4) Shape (round, square, triangular), 5) Color (red, blue, green), 6) Origin (Indonesian, American, Chinese), 7) Material (wooden, metal, plastic), 8) Purpose/Function (cooking, sleeping, racing). Contoh: 'a beautiful small old round red Indonesian wooden jewelry box'. Ketika urutan salah, kalimat terdengar tidak alami bagi penutur native. Memahami order of adjectives penting untuk produksi bahasa yang akurat dan natural dalam speaking dan writing."
+                  }
+                ]
+              },
+              {
+                "title": "Narrative Text",
+                "topics": [
+                  {
+                    "name": "Structure of narrative",
+                    "explanation": "Structure of narrative text terdiri dari tiga bagian utama: orientation (pengenalan setting, characters, dan situation), complication (permasalahan/conflict yang terjadi), dan resolution (penyelesaian permasalahan). Bagian opsional meliputi reorientation (kesimpulan atau moral lesson). Orientation berisi informasi latar seperti waktu, tempat, dan tokoh yang terlibat. Complication menggambarkan serangkaian peristiwa yang membentuk konflik utama cerita. Resolution menunjukkan bagaimana konflik diselesaikan, bisa dengan ending yang bahagia (happy ending), tragis (tragic ending), atau terbuka (open ending). Bahasa yang digunakan dalam narrative text meliputi action verbs (run, jump, cry), connectives/time connectives (first, then, finally), dan past tense verbs untuk menyampaikan peristiwa yang sudah terjadi."
+                  },
+                  {
+                    "name": "Tense in narrative",
+                    "explanation": "Tense in narrative text umumnya menggunakan simple past tense untuk menceritakan peristiwa yang sudah terjadi. Simple past tense digunakan untuk action verbs seperti walked, talked, saw, dan state verbs seperti was, were, had. Past continuous tense digunakan untuk menggambarkan tindakan yang sedang berlangsung ketika tindakan lain terjadi: 'I was walking home when I saw a ghost'. Past perfect tense digunakan untuk tindakan yang terjadi sebelum tindakan lain di masa lalu: 'I had finished my homework before my friends arrived'. Direct speech menggunakan present tense untuk menyampaikan ucapan langsung: 'John said, \"I am hungry.\"' Memahami penggunaan tense yang tepat penting untuk menjaga konsistensi temporal dalam narasi yang koheren."
+                  },
+                  {
+                    "name": "Vocabulary for storytelling",
+                    "explanation": "Vocabulary for storytelling mencakup berbagai jenis kata yang membuat cerita lebih hidup dan menarik. Action verbs seperti sprinted, tiptoed, shrieked memberikan gambaran yang jelas tentang tindakan. Adjectives seperti eerie, magnificent, furious membantu mendeskripsikan karakter dan setting. Adverbs seperti cautiously, furiously, gently menjelaskan bagaimana tindakan dilakukan. Connectives seperti firstly, meanwhile, eventually membantu menghubungkan peristiwa dalam urutan yang logis. Sensory language seperti smelled delicious, sounded scary, felt rough menciptakan imaji yang kuat. Figurative language seperti similes (as brave as a lion) dan metaphors (time is money) menambahkan kedalaman dan kreativitas dalam storytelling. Vocabulary yang kaya membuat cerita lebih engaging bagi pembaca."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Irregular Verbs Song",
+                "type": "video",
+                "duration": "12 menit"
+              },
+              {
+                "title": "Latihan Soal: Comparative Adjectives",
+                "type": "exercise",
+                "questions": 25
+              },
+              {
+                "title": "Rangkuman: Narrative Structure",
+                "type": "summary",
+                "pages": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "civics-8",
+          "icon": "fas fa-landmark",
+          "name": "PPKn Kelas 8",
+          "description": "UUD 1945, sistem pemerintahan RI, hak dan kewajiban warga negara.",
+          "detail": {
+            "title": "Pendidikan Pancasila dan Kewarganegaraan Kelas 8",
+            "overview": "Mata pelajaran PPKn kelas 8 memperdalam pemahaman tentang konstitusi dan sistem pemerintahan Indonesia. Siswa akan memahami hak dan kewajiban sebagai warga negara serta mekanisme demokrasi.",
+            "chapters": [
+              {
+                "title": "UUD 1945",
+                "topics": [
+                  {
+                    "name": "Sejarah UUD 1945",
+                    "explanation": "Sejarah UUD 1945 dimulai dengan pembentukan BPUPKI (Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia) pada 29 April 1945 yang membentuk Panitia Sembilan untuk merumuskan dasar negara. Pada 1 Juni 1945, Ir. Soekarno menyampaikan pidato 'Lahirnya Pancasila' yang menjadi dasar filsafat negara. UUD 1945 dirancang oleh Panitia Persiapan Kemerdekaan Indonesia (PPKI) yang diketuai oleh Ir. Soekarno. UUD 1945 disahkan dan ditetapkan pada Sidang PPKI tanggal 18 Agustus 1945, bersamaan dengan penetapan Pancasila sebagai dasar negara dan pembentukan Komite Nasional Indonesia Pusat (KNIP). UUD 1945 mulai berlaku pada 17 Agustus 1945 sebagai konstitusi Republik Indonesia Serikat, kemudian menjadi konstitusi RI setelah pengakuan kedaulatan pada 1949."
+                  },
+                  {
+                    "name": "Struktur UUD 1945",
+                    "explanation": "Struktur UUD 1945 terdiri dari Pembukaan (Präambule) dan Batang Tubuh (Body). Pembukaan UUD 1945 terdiri dari 4 alinea yang mengandung piagam Jakarta, dasar falsafah negara (Pancasila), tujuan negara, dan pernyataan kemerdekaan. Batang Tubuh UUD 1945 terdiri dari 16 bab dan 37 pasal yang mencakup pokok-pokok pikiran negara seperti bentuk negara kesatuan, sistem pemerintahan presidensial, kedaulatan rakyat, kekuasaan negara terbagi tiga, dan supremasi hukum. Pasal-pasal penting meliputi Pasal 1 (bentuk negara), Pasal 2-4 (kedudukan MPR/DPR/DPD), Pasal 5-7 (presiden/wakil presiden), Pasal 10-14 (kekuasaan negara), Pasal 26-30 (HAK dan kewajiban warga negara), dan Pasal 31 (pendidikan)."
+                  },
+                  {
+                    "name": "Amandemen UUD 1945",
+                    "explanation": "Amandemen UUD 1945 dilakukan sebanyak empat kali antara tahun 1999-2002 sebagai bagian dari reformasi konstitusional pasca-orde baru. Amandemen pertama (1999) mengatur kembali kedudukan MPR, DPR, dan DPD, serta mekanisme pemilihan presiden secara langsung. Amandemen kedua (2000) mengatur sistem pemerintahan presidensial yang lebih kuat, pembatasan masa jabatan presiden, dan otonomi daerah. Amandemen ketiga (2001) mengatur tentang Mahkamah Konstitusi, Komisi Yudisial, dan Badan Pemeriksa Keuangan. Amandemen keempat (2002) mengatur tentang Dewan Pertimbangan Agung, Bank Sentral, dan perubahan beberapa pasal lainnya. Amandemen UUD 1945 bertujuan memperkuat sistem demokrasi, memperjelas pembagian kekuasaan, dan meningkatkan akuntabilitas pemerintah."
+                  }
+                ]
+              },
+              {
+                "title": "Sistem Pemerintahan RI",
+                "topics": [
+                  {
+                    "name": "Presiden dan wakil presiden",
+                    "explanation": "Presiden dan Wakil Presiden Republik Indonesia adalah kepala negara dan kepala pemerintahan yang dipilih secara langsung oleh rakyat melalui pemilihan umum setiap lima tahun sekali. Syarat menjadi presiden/wakil presiden meliputi warga negara Indonesia sejak lahir, berusia minimal 35 tahun, tidak pernah dihukum karena kejahatan, dan memenuhi syarat lain yang ditetapkan undang-undang. Masa jabatan presiden/wakil presiden adalah lima tahun dan dapat dipilih kembali untuk periode berikutnya. Presiden memiliki kekuasaan eksekutif, menjadi panglima tertinggi TNI/POLRI, dan memiliki hak prerogatif seperti hak veto terhadap RUU. Wakil presiden membantu presiden dan menggantikannya jika berhalangan tetap. Presiden juga memiliki kewajiban seperti menyampaikan pidato kenegaraan, menetapkan peraturan pemerintah, dan melaksanakan kebijakan pemerintah."
+                  },
+                  {
+                    "name": "Lembaga legislatif",
+                    "explanation": "Lembaga legislatif di Indonesia terdiri dari Dewan Perwakilan Rakyat (DPR) dan Dewan Perwakilan Daerah (DPD). DPR memiliki fungsi legislasi (membuat undang-undang), anggaran (membahas APBN), dan pengawasan (mengawasi pelaksanaan undang-undang). Anggota DPR dipilih melalui pemilu setiap lima tahun dengan sistem proporsional terbuka. DPD memiliki fungsi membahas RUU yang berkaitan dengan otonomi daerah, hubungan pusat-daerah, pembentukan dan pemekaran daerah, pengelolaan sumber daya alam dan sumber daya ekonomi lainnya, serta memajukan kepentingan daerah. Anggota DPD dipilih dari setiap provinsi dengan jumlah yang sama. Kedua lembaga ini bekerja sama dalam sistem checks and balances untuk menjaga keseimbangan kekuasaan negara."
+                  },
+                  {
+                    "name": "Lembaga yudikatif",
+                    "explanation": "Lembaga yudikatif atau kekuasaan kehakiman di Indonesia terdiri dari Mahkamah Agung (MA), Mahkamah Konstitusi (MK), Komisi Yudisial (KY), dan Pengadilan Tingkat Pertama. Mahkamah Agung merupakan lembaga peradilan tertinggi yang mengawasi jalannya peradilan di bawahnya. Mahkamah Konstitusi memiliki wewenang menguji undang-undang terhadap UUD 1945, memutus sengketa kewenangan lembaga negara, memutus pembubaran partai politik, dan memutus perselisihan hasil pemilu. Komisi Yudisial bertugas mengawasi perilaku hakim dan merekomendasikan calon hakim MA. Sistem peradilan terdiri dari Pengadilan Negeri (tingkat pertama), Pengadilan Tinggi (banding), dan Mahkamah Agung (kasasi). Prinsip peradilan meliputi independensi hakim, terbuka, dan adil."
+                  }
+                ]
+              },
+              {
+                "title": "Hak dan Kewajiban Warga Negara",
+                "topics": [
+                  {
+                    "name": "Hak asasi manusia",
+                    "explanation": "Hak asasi manusia (HAM) adalah hak dasar yang melekat pada setiap manusia sejak lahir yang tidak dapat dicabut atau ditolak oleh siapa pun. Hak HAM meliputi hak sipil/politik seperti hak hidup, kebebasan berpendapat, kebebasan berkumpul, dan hak untuk mendapat pengadilan yang adil. Hak ekonomi, sosial, dan budaya meliputi hak atas pekerjaan, hak atas pendidikan, hak atas kesehatan, dan hak atas keamanan sosial. Hak HAM dijamin dalam Pasal 28A-28J UUD 1945 dan Undang-Undang Nomor 39 Tahun 1999 tentang HAM. Perlindungan HAM dilaksanakan melalui mekanisme hukum nasional dan internasional. Pelanggaran HAM berat seperti genosida, kejahatan terhadap kemanusiaan, dan kejahatan perang ditindak tegas sesuai hukum. Kesadaran akan HAM penting untuk menciptakan masyarakat yang adil dan berkeadaban."
+                  },
+                  {
+                    "name": "Kewajiban warga negara",
+                    "explanation": "Kewajiban warga negara adalah tanggung jawab yang harus dipenuhi setiap warga negara terhadap negara dan sesama warga negara. Kewajiban utama meliputi mematuhi undang-undang, membayar pajak, menjaga keutuhan NKRI, mempertahankan negara, menghormati hak orang lain, dan menjunjung tinggi nilai-nilai luhur bangsa. Kewajiban sosial meliputi menjaga kebersihan lingkungan, mentaati norma-norma sosial, dan berperan aktif dalam pembangunan masyarakat. Kewajiban terhadap negara meliputi ikut serta dalam pembelaan negara, menjaga kerukunan antarwarga, dan memajukan kesejahteraan umum. Pemenuhan kewajiban warga negara merupakan manifestasi cinta tanah air dan tanggung jawab sosial yang tinggi. Keseimbangan antara hak dan kewajiban menciptakan masyarakat yang harmonis dan berkeadilan."
+                  },
+                  {
+                    "name": "Penegakan hukum",
+                    "explanation": "Penegakan hukum adalah proses penerapan hukum secara konsisten dan adil terhadap setiap pelanggaran yang terjadi dalam masyarakat. Prinsip penegakan hukum meliputi supremasi hukum (hukum tertinggi), equality before law (kesetaraan di hadapan hukum), dan due process of law (proses hukum yang adil). Institusi penegak hukum di Indonesia meliputi polisi (penyelidikan), kejaksaan (penuntutan), pengadilan (pemeriksaan dan putusan), dan lembaga pemasyarakatan (eksekusi hukuman). Mekanisme penegakan hukum melalui tahapan pelaporan, penyelidikan, penuntutan, persidangan, dan eksekusi putusan. Penegakan hukum yang profesional, akuntabel, dan transparan penting untuk menjaga keadilan dan keamanan sosial. Reformasi penegakan hukum terus dilakukan untuk meningkatkan kualitas pelayanan kepada masyarakat."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Struktur Pemerintahan RI",
+                "type": "video",
+                "duration": "19 menit"
+              },
+              {
+                "title": "Latihan Soal: Hak Asasi Manusia",
+                "type": "exercise",
+                "questions": 22
+              },
+              {
+                "title": "Rangkuman: Amandemen UUD 1945",
+                "type": "summary",
+                "pages": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "9": {
+      "title": "Kelas 9",
+      "subjects": [
+        {
+          "id": "math-9",
+          "icon": "fas fa-calculator",
+          "name": "Matematika Kelas 9",
+          "description": "Kesebangunan, trigonometri dasar, statistika lanjutan, dan peluang.",
+          "detail": {
+            "title": "Matematika Kelas 9",
+            "overview": "Mata pelajaran matematika kelas 9 menyiapkan siswa untuk menghadapi ujian nasional dan melanjutkan ke jenjang SMA. Materi mencakup konsep lanjutan geometri, statistika, dan peluang.",
+            "chapters": [
+              {
+                "title": "Kesebangunan",
+                "topics": [
+                  {
+                    "name": "Bangun sebangun",
+                    "explanation": "Dua bangun datar dikatakan sebangun jika memiliki bentuk yang sama tetapi ukuran yang berbeda. Syarat kesebangunan meliputi: 1) Sudut-sudut yang bersesuaian sama besar, 2) Sisi-sisi yang bersesuaian memiliki perbandingan yang sama (senilai). Contoh bangun sebangun seperti dua persegi panjang dengan perbandingan panjang dan lebar yang sama, dua segitiga dengan sudut-sudut yang sama. Perbandingan sisi-sisi sebangun digunakan untuk menentukan panjang sisi yang tidak diketahui. Kesebangunan banyak diterapkan dalam kehidupan sehari-hari seperti membuat peta, foto, dan model bangunan. Skala pada peta adalah contoh perbandingan kesebangunan antara ukuran sebenarnya dan ukuran pada peta."
+                  },
+                  {
+                    "name": "Segitiga sebangun",
+                    "explanation": "Segitiga sebangun memiliki syarat khusus yang lebih mudah dibandingkan bangun datar lainnya. Syarat segitiga sebangun: 1) Ketiga sudut yang bersesuaian sama besar (sd-sd-sd), 2) Perbandingan sisi-sisi yang bersesuaian sama (s-s-s), 3) Dua sisi yang bersesuaian memiliki perbandingan sama dan sudut apitnya sama besar (s-sd-s). Teorema khusus meliputi teorema Thales (jika garis sejajar memotong dua sisi segitiga, maka membentuk segitiga baru yang sebangun dengan segitiga asli) dan teorema garis tengah (garis yang menghubungkan titik tengah dua sisi segitiga sejajar dengan sisi ketiga dan panjangnya setengah dari sisi ketiga). Segitiga sebangun digunakan untuk menghitung tinggi benda tinggi seperti pohon atau gedung."
+                  },
+                  {
+                    "name": "Teorema Pythagoras",
+                    "explanation": "Teorema Pythagoras menyatakan bahwa pada segitiga siku-siku, kuadrat panjang sisi miring (hipotenusa) sama dengan jumlah kuadrat sisi-sisi siku-sikunya: c² = a² + b². Pembuktian teorema Pythagoras dapat dilakukan secara aljabar maupun geometri. Tripel Pythagoras adalah tiga bilangan bulat positif yang memenuhi teorema Pythagoras seperti (3,4,5), (5,12,13), (8,15,17). Teorema Pythagoras dapat diperluas untuk menentukan jenis segitiga: jika c² = a² + b² maka segitiga siku-siku, jika c² < a² + b² maka segitiga lancip, jika c² > a² + b² maka segitiga tumpul. Penerapan teorema Pythagoras meliputi menghitung jarak dua titik, diagonal ruang, dan menyelesaikan masalah geometri kompleks."
+                  }
+                ]
+              },
+              {
+                "title": "Trigonometri Dasar",
+                "topics": [
+                  {
+                    "name": "Perbandingan trigonometri",
+                    "explanation": "Perbandingan trigonometri adalah rasio antara sisi-sisi segitiga siku-siku terhadap sudut tertentu. Tiga perbandingan dasar adalah sinus (sin), cosinus (cos), dan tangen (tan). Sinus sudut adalah perbandingan sisi depan terhadap sisi miring. Cosinus sudut adalah perbandingan sisi samping terhadap sisi miring. Tangen sudut adalah perbandingan sisi depan terhadap sisi samping. Singkatan mudah mengingat: SOH CAH TOA (Sin = Opposite/Hypotenuse, Cos = Adjacent/Hypotenuse, Tan = Opposite/Adjacent). Perbandingan kebalikan meliputi cosecan (csc = 1/sin), secant (sec = 1/cos), dan cotangen (cot = 1/tan). Nilai perbandingan trigonometri untuk sudut istimewa (0°, 30°, 45°, 60°, 90°) perlu dihafalkan karena sering digunakan dalam perhitungan."
+                  },
+                  {
+                    "name": "Sudut istimewa",
+                    "explanation": "Sudut istimewa dalam trigonometri adalah sudut yang nilai perbandingan trigonometrinya dapat ditentukan secara eksak tanpa kalkulator. Sudut istimewa meliputi 0°, 30°, 45°, 60°, dan 90°. Untuk sudut 45°, segitiga siku-siku sama kaki digunakan dengan sisi siku-siku sama panjang. Untuk sudut 30° dan 60°, segitiga sama sisi yang dibagi menjadi dua digunakan. Nilai eksak: sin 0° = 0, cos 0° = 1, tan 0° = 0; sin 30° = 1/2, cos 30° = √3/2, tan 30° = √3/3; sin 45° = √2/2, cos 45° = √2/2, tan 45° = 1; sin 60° = √3/2, cos 60° = 1/2, tan 60° = √3; sin 90° = 1, cos 90° = 0, tan 90° = tidak terdefinisi. Pola nilai ini membantu dalam perhitungan cepat."
+                  },
+                  {
+                    "name": "Penerapan trigonometri",
+                    "explanation": "Penerapan trigonometri meliputi berbagai bidang seperti astronomi, navigasi, teknik sipil, dan fisika. Dalam kehidupan sehari-hari, trigonometri digunakan untuk menghitung tinggi bangunan, jarak sulit dijangkau, kemiringan lereng, dan arah navigasi. Contoh aplikasi: menghitung tinggi pohon dengan mengukur sudut elevasi dan jarak dari pohon, menentukan jarak kapal dari mercusuar, menghitung panjang kabel penyangga menara, dan menentukan sudut atap bangunan. Dalam koordinat polar, trigonometri digunakan untuk mengubah koordinat kartesius ke polar dan sebaliknya. Konsep trigonometri juga menjadi dasar untuk memahami gelombang, getaran, dan fenomena periodik lainnya."
+                  }
+                ]
+              },
+              {
+                "title": "Statistika Lanjutan",
+                "topics": [
+                  {
+                    "name": "Diagram batang dan lingkaran",
+                    "explanation": "Diagram batang dan lingkaran adalah cara visual untuk menyajikan data kategorikal. Diagram batang menggunakan batang vertikal atau horizontal dengan panjang sesuai frekuensi data. Diagram batang cocok untuk membandingkan data antar kategori dan menunjukkan tren. Diagram lingkaran membagi lingkaran menjadi sektor-sektor dengan sudut pusat proporsional terhadap frekuensi data. Diagram lingkaran cocok untuk menunjukkan proporsi atau persentase setiap kategori terhadap keseluruhan data. Pembuatan diagram batang meliputi menentukan skala, menggambar sumbu, dan membuat batang dengan tinggi sesuai frekuensi. Pembuatan diagram lingkaran meliputi menghitung sudut pusat setiap sektor (frekuensi/total × 360°) dan menggambar sektor dengan busur derajat. Keduanya membantu interpretasi data secara cepat dan intuitif."
+                  },
+                  {
+                    "name": "Histogram dan poligon frekuensi",
+                    "explanation": "Histogram dan poligon frekuensi digunakan untuk menyajikan data kontinu yang telah dikelompokkan dalam interval kelas. Histogram menggunakan persegi panjang (batang) yang saling berdempetan tanpa celah, dengan lebar sesuai interval kelas dan tinggi sesuai frekuensi. Poligon frekuensi adalah garis yang menghubungkan titik tengah sisi atas setiap batang histogram. Pembuatan histogram meliputi menentukan interval kelas, batas bawah dan atas kelas, tepi kelas, dan frekuensi setiap kelas. Titik tengah kelas dihitung dengan (batas bawah + batas atas)/2. Histogram dan poligon frekuensi membantu mengidentifikasi pola distribusi data seperti simetris, miring ke kanan, atau miring ke kiri. Keduanya juga menunjukkan nilai pusat dan sebaran data."
+                  },
+                  {
+                    "name": "Ogive",
+                    "explanation": "Ogive adalah grafik yang menunjukkan frekuensi kumulatif data yang telah dikelompokkan. Terdapat dua jenis ogive: ogive positif (frekuensi kumulatif kurang dari) dan ogive negatif (frekuensi kumulatif lebih dari). Ogive positif menghubungkan titik tepi atas kelas dengan frekuensi kumulatif kurang dari, sedangkan ogive negatif menghubungkan titik tepi bawah kelas dengan frekuensi kumulatif lebih dari. Pembuatan ogive meliputi menentukan tepi kelas, menghitung frekuensi kumulatif, dan menggambar kurva mulus yang menghubungkan titik-titik koordinat. Ogive digunakan untuk menentukan kuartil, desil, dan persentil data. Titik potong kedua ogive menunjukkan median data. Ogive sangat berguna dalam analisis statistik untuk memahami distribusi data secara keseluruhan."
+                  }
+                ]
+              },
+              {
+                "title": "Peluang",
+                "topics": [
+                  {
+                    "name": "Ruang sampel",
+                    "explanation": "Ruang sampel adalah himpunan semua hasil yang mungkin terjadi dari suatu percobaan acak. Notasi ruang sampel biasanya menggunakan huruf S. Contoh: pelemparan satu dadu, S = {1, 2, 3, 4, 5, 6}; pelemparan satu koin, S = {Angka, Gambar}; pelemparan dua koin, S = {AA, AG, GA, GG}. Menentukan ruang sampel dapat dilakukan dengan cara mendaftar, tabel, atau diagram pohon. Diagram pohon sangat berguna untuk percobaan majemuk seperti pelemparan beberapa koin atau dadu. Ukuran ruang sampel (n(S)) adalah jumlah anggota dalam ruang sampel. Pemahaman ruang sampel penting sebagai dasar perhitungan peluang karena semua kejadian merupakan subset dari ruang sampel."
+                  },
+                  {
+                    "name": "Titik sampel",
+                    "explanation": "Titik sampel adalah setiap anggota dari ruang sampel atau hasil yang mungkin terjadi dalam suatu percobaan. Titik sampel merupakan elemen terkecil dalam ruang sampel yang tidak dapat dipecah lagi. Contoh: pada pelemparan dadu, titik sampelnya adalah 1, 2, 3, 4, 5, dan 6. Pada pelemparan dua koin, titik sampelnya adalah AA, AG, GA, dan GG. Kejadian (event) adalah himpunan bagian dari ruang sampel yang terdiri dari satu atau lebih titik sampel. Misalnya, kejadian munculnya bilangan genap pada pelemparan dadu adalah {2, 4, 6}. Frekuensi relatif suatu titik sampel menunjukkan seberapa sering titik sampel tersebut muncul dalam serangkaian percobaan."
+                  },
+                  {
+                    "name": "Frekuensi harapan",
+                    "explanation": "Frekuensi harapan adalah banyaknya kali kejadian diperkirakan akan terjadi dalam sejumlah percobaan. Frekuensi harapan dihitung dengan rumus: FH = P(K) × n, di mana P(K) adalah peluang kejadian K dan n adalah banyaknya percobaan. Contoh: jika peluang hujan pada suatu hari adalah 0,4, maka frekuensi harapan hujan dalam 30 hari adalah 0,4 × 30 = 12 hari. Frekuensi harapan digunakan dalam berbagai bidang seperti asuransi, prediksi cuaca, dan riset pasar. Semakin besar jumlah percobaan, frekuensi relatif akan semakin mendekati nilai peluang teoretis (Hukum Bilangan Besar). Konsep ini penting dalam pengambilan keputusan berbasis probabilitas dan analisis risiko."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Teorema Pythagoras dalam Kehidupan",
+                "type": "video",
+                "duration": "15 menit"
+              },
+              {
+                "title": "Latihan Soal: Trigonometri Dasar",
+                "type": "exercise",
+                "questions": 28
+              },
+              {
+                "title": "Rangkuman: Statistika",
+                "type": "summary",
+                "pages": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "science-9",
+          "icon": "fas fa-atom",
+          "name": "IPA Kelas 9",
+          "description": "Listrik, energi, sistem reproduksi manusia, pewarisan sifat, dan evolusi.",
+          "detail": {
+            "title": "Ilmu Pengetahuan Alam Kelas 9",
+            "overview": "Mata pelajaran IPA kelas 9 mencakup konsep dasar fisika, kimia, dan biologi yang kompleks. Siswa akan mempelajari fenomena alam melalui pendekatan saintifik.",
+            "chapters": [
+              {
+                "title": "Listrik",
+                "topics": [
+                  {
+                    "name": "Arus listrik",
+                    "explanation": "Arus listrik adalah aliran muatan listrik (elektron) dalam suatu penghantar. Arus listrik diukur dalam satuan ampere (A) menggunakan amperemeter. Arah arus konvensional adalah dari potensial tinggi ke potensial rendah (berlawanan dengan arah gerak elektron). Faktor yang mempengaruhi arus listrik meliputi beda potensial (tegangan), hambatan penghantar, dan jenis penghantar. Hukum Ohm menyatakan bahwa arus berbanding lurus dengan tegangan dan berbanding terbalik dengan hambatan (I = V/R). Arus listrik dapat berupa arus searah (DC) dari baterai atau arus bolak-balik (AC) dari PLN. Efek arus listrik meliputi efek panas (pemanas listrik), efek cahaya (lampu pijar), efek magnet (elektromagnet), dan efek kimia (pelapisan logam). Pemahaman arus listrik penting untuk keselamatan dan efisiensi penggunaan energi listrik."
+                  },
+                  {
+                    "name": "Hukum Ohm",
+                    "explanation": "Hukum Ohm menyatakan hubungan antara arus listrik (I), tegangan (V), dan hambatan (R) dalam suatu rangkaian listrik, dirumuskan sebagai V = I × R. George Simon Ohm merumuskan hukum ini pada tahun 1827 setelah melakukan eksperimen sistematis. Hambatan (R) adalah sifat penghantar yang menentang aliran arus, diukur dalam ohm (Ω). Tegangan (V) adalah beda potensial yang mendorong aliran arus, diukur dalam volt (V). Arus (I) adalah jumlah muatan yang mengalir per satuan waktu, diukur dalam ampere (A). Hukum Ohm berlaku untuk penghantar ohmik seperti logam pada suhu tetap. Untuk komponen non-ohmik seperti dioda dan lampu pijar, hukum Ohm tidak berlaku secara linear karena hambatan berubah dengan suhu. Hukum Ohm menjadi dasar analisis rangkaian listrik sederhana."
+                  },
+                  {
+                    "name": "Rangkaian listrik",
+                    "explanation": "Rangkaian listrik adalah jalur tertutup yang memungkinkan arus listrik mengalir dari sumber tegangan melalui berbagai komponen. Rangkaian listrik terdiri dari sumber tegangan (baterai), penghantar (kabel), beban (lampu, resistor), dan saklar. Dua jenis rangkaian dasar: rangkaian seri dan rangkaian paralel. Dalam rangkaian seri, komponen disusun berurutan sehingga arus sama di setiap titik tetapi tegangan terbagi. Hambatan total seri adalah jumlah semua hambatan (RT = R1 + R2 + R3). Dalam rangkaian paralel, komponen disusun bercabang sehingga tegangan sama di setiap cabang tetapi arus terbagi. Hambatan total paralel dihitung dengan 1/RT = 1/R1 + 1/R2 + 1/R3. Rangkaian campuran menggabungkan seri dan paralel."
+                  }
+                ]
+              },
+              {
+                "title": "Energi",
+                "topics": [
+                  {
+                    "name": "Bentuk energi",
+                    "explanation": "Energi adalah kemampuan untuk melakukan usaha atau kerja. Bentuk-bentuk energi meliputi energi kinetik (energi gerak), energi potensial (energi karena posisi), energi panas (kalor), energi cahaya, energi kimia (dalam ikatan kimia), energi listrik, energi bunyi, energi nuklir, dan energi mekanik (gabungan kinetik dan potensial). Energi kinetik dihitung dengan Ek = 1/2 mv², di mana m massa dan v kecepatan. Energi potensial gravitasi dihitung dengan Ep = mgh, di mana m massa, g percepatan gravitasi, dan h ketinggian. Energi dapat diubah dari satu bentuk ke bentuk lain tetapi tidak dapat diciptakan atau dimusnahkan (Hukum Kekekalan Energi). Transformasi energi terjadi dalam berbagai proses alam dan teknologi seperti fotosintesis, pembangkit listrik, dan metabolisme tubuh."
+                  },
+                  {
+                    "name": "Hukum kekekalan energi",
+                    "explanation": "Hukum Kekekalan Energi menyatakan bahwa energi tidak dapat diciptakan atau dimusnahkan, tetapi dapat diubah dari satu bentuk ke bentuk lain. Dalam sistem tertutup, jumlah energi total selalu tetap. Contoh: pada ayunan, energi potensial berubah menjadi energi kinetik dan sebaliknya, tetapi energi mekanik total tetap. Dalam mesin, energi masuk (bahan bakar) diubah menjadi energi keluar (gerak, panas, bunyi) dengan efisiensi tertentu. Energi yang hilang biasanya berubah menjadi energi panas yang tidak berguna. Hukum ini menjadi dasar untuk menganalisis berbagai fenomena fisika seperti gerak benda, reaksi kimia, dan proses biologis. Penerapan hukum ini penting dalam teknik untuk merancang sistem yang efisien dan ramah energi."
+                  },
+                  {
+                    "name": "Sumber energi alternatif",
+                    "explanation": "Sumber energi alternatif adalah sumber energi yang dapat diperbaharui dan ramah lingkungan sebagai pengganti bahan bakar fosil. Jenis-jenis meliputi energi surya (solar cell, solar heater), energi angin (turbin angin), energi air (PLTA, pasang surut), energi panas bumi (geothermal), energi biomassa (biogas, bioethanol), dan energi nuklir (reaktor fusi/fisi). Energi surya menggunakan panel fotovoltaik untuk mengubah cahaya matahari menjadi listrik. Energi angin menggunakan turbin yang berputar karena angin untuk menghasilkan listrik. Keunggulan energi alternatif: terbarukan, ramah lingkungan, dan tersedia dalam jumlah besar. Tantangan meliputi biaya awal tinggi, ketergantungan cuaca, dan kebutuhan teknologi penyimpanan. Transisi ke energi alternatif penting untuk mitigasi perubahan iklim dan keberlanjutan energi global."
+                  }
+                ]
+              },
+              {
+                "title": "Sistem Reproduksi Manusia",
+                "topics": [
+                  {
+                    "name": "Organ reproduksi",
+                    "explanation": "Organ reproduksi manusia terdiri dari organ reproduksi pria dan wanita. Organ reproduksi pria meliputi testis (menghasilkan sperma dan testosterone), epididimis (tempat penyimpanan sperma), vas deferens (saluran sperma), kelenjar prostat dan vesikula seminalis (menghasilkan cairan sperma), dan penis. Organ reproduksi wanita meliputi ovarium (menghasilkan ovum dan hormon estrogen/progesteron), tuba falopi (tempat pembuahan), uterus (rahim/tempat perkembangan janin), serviks (leher rahim), dan vagina. Testis dan ovarium disebut gonad karena menghasilkan gamet dan hormon seks. Penis dan klitoris adalah organ kopulasi. Uterus adalah organ unik wanita yang dapat membesar secara signifikan selama kehamilan. Sistem reproduksi dikendalikan oleh sistem hormonal yang kompleks melibatkan hipotalamus, hipofisis, dan gonad."
+                  },
+                  {
+                    "name": "Proses fertilisasi",
+                    "explanation": "Proses fertilisasi adalah peleburan sperma dan ovum untuk membentuk zigot. Proses dimulai dengan ovulasi (pelepasan ovum dari ovarium) yang terjadi sekitar hari ke-14 siklus menstruasi. Sperma harus melalui vagina, serviks, uterus, dan tuba falopi untuk mencapai ovum. Hanya satu sperma yang berhasil membuahi ovum setelah melewati zona pelindung (zona pellucida). Setelah fertilisasi, zigot mengalami pembelahan mitosis (cleavage) menjadi blastosit, kemudian menempel di dinding uterus (implantasi). Hormon hCG (human chorionic gonadotropin) diproduksi setelah implantasi dan menjadi dasar tes kehamilan. Kegagalan fertilisasi dapat disebabkan oleh berbagai faktor seperti kualitas gamet, masalah hormonal, atau kelainan anatomi."
+                  },
+                  {
+                    "name": "Metode KB",
+                    "explanation": "Metode Kontrasepsi/Keluarga Berencana (KB) adalah cara untuk mencegah kehamilan. Metode alami meliputi metode kalender (menghindari hubungan saat subur), metode suhu basal (mendeteksi ovulasi), dan metode lendung leher rahim. Metode barrier meliputi kondom pria/wanita, diafragma, dan spermisida. Metode hormonal meliputi pil KB, suntikan, susuk, dan patch yang mengandung estrogen dan progesteron sintetis. Metode intrauterin meliputi IUD tembaga dan IUD hormonal. Metode permanen meliputi vasektomi (pria) dan tubektomi (wanita). Setiap metode memiliki efektivitas, kelebihan, kekurangan, dan efek samping yang berbeda. Pemilihan metode KB harus mempertimbangkan usia, kesehatan, frekuensi hubungan seksual, dan preferensi pasangan. Edukasi KB penting untuk kesehatan reproduksi dan perencanaan keluarga yang bertanggung jawab."
+                  }
+                ]
+              },
+              {
+                "title": "Pewarisan Sifat",
+                "topics": [
+                  {
+                    "name": "Hukum Mendel",
+                    "explanation": "Hukum Mendel adalah prinsip dasar pewarisan sifat yang ditemukan oleh Gregor Johann Mendel melalui eksperimen dengan tanaman kacang ercis. Hukum Segregasi (Hukum I Mendel) menyatakan bahwa pasangan alel akan berpisah secara bebas selama pembentukan gamet, sehingga setiap gamet hanya membawa satu alel dari setiap pasangan. Hukum Assortment Independen (Hukum II Mendel) menyatakan bahwa alel-alel dari gen-gen berbeda akan berpisah secara independen selama pembentukan gamet. Mendel menggunakan tanaman kacang ercis karena memiliki sifat yang mudah dibedakan, dapat menyerbuk sendiri, dan memiliki siklus hidup pendek. Konsep penting meliputi gen (unit hereditas), alel (bentuk berbeda gen), homozigot (pasangan alel sama), heterozigot (pasangan alel berbeda), dominan (sifat yang muncul), dan resesif (sifat yang tertutup). Hukum Mendel menjadi dasar genetika modern."
+                  },
+                  {
+                    "name": "Genotipe dan fenotipe",
+                    "explanation": "Genotipe adalah susunan genetik suatu organisme yang menentukan sifat-sifatnya, sedangkan fenotipe adalah sifat-sifat yang tampak secara fisik maupun fisiologis sebagai hasil interaksi genotipe dengan lingkungan. Genotipe tidak dapat diamati langsung tetapi dapat ditentukan melalui persilangan, sedangkan fenotipe dapat diamati langsung. Contoh: pada manusia, genotipe golongan darah AA menunjukkan alel A-A, tetapi fenotipe yang terlihat adalah golongan darah A. Lingkungan dapat mempengaruhi ekspresi fenotipe seperti tinggi badan yang dipengaruhi nutrisi meskipun genotipe tinggi. Konsep penting meliputi alel dominan (ditulis dengan huruf kapital), alel resesif (ditulis dengan huruf kecil), homozigot dominan (AA), homozigot resesif (aa), dan heterozigot (Aa). Pemahaman genotipe dan fenotipe penting dalam memprediksi hasil persilangan dan diagnosis penyakit genetik."
+                  },
+                  {
+                    "name": "Penyakit menurun",
+                    "explanation": "Penyakit menurun adalah kelainan kesehatan yang diwariskan dari orang tua kepada anak melalui gen. Penyakit menurun dapat bersifat autosomal dominan ( Huntington, polidaktili), autosomal resesif (albinisme, thalasemia, hemofilia), atau terkait kromosom seks (hemofilia, buta warna). Penyakit autosomal dominan muncul jika individu mewarisi satu alel dominan abnormal. Penyakit autosomal resesif muncul jika individu mewarisi dua alel resesif abnormal. Carrier adalah individu heterozigot yang membawa alel resesif tetapi tidak menunjukkan gejala. Diagnosis penyakit genetik melalui pedigree analysis (analisis silsilah keluarga), tes DNA, dan konseling genetik. Pencegahan melalui screening genetik sebelum pernikahan dan deteksi dini selama kehamilan. Pemahaman penyakit menurun penting untuk konseling genetik dan perencanaan keluarga yang sehat."
+                  }
+                ]
+              },
+              {
+                "title": "Evolusi",
+                "topics": [
+                  {
+                    "name": "Teori evolusi Darwin",
+                    "explanation": "Teori evolusi Charles Darwin menjelaskan bagaimana spesies mengalami perubahan dari waktu ke waktu melalui proses seleksi alam. Darwin mengembangkan teori ini setelah perjalanan selama 5 tahun di kapal HMS Beagle, terutama pengamatan di Kepulauan Galapagos. Konsep utama teori Darwin meliputi: 1) Variasi dalam populasi (individu dalam spesies memiliki perbedaan sifat), 2) Overproduction (produksi keturunan melebihi kapasitas lingkungan), 3) Struggle for existence (persaingan untuk kelangsungan hidup), 4) Survival of the fittest (individu dengan sifat menguntungkan lebih mungkin bertahan), dan 5) Inheritance (sifat menguntungkan diwariskan ke keturunan). Darwin menerbitkan 'On the Origin of Species' pada tahun 1859. Teori ini menjelaskan diversitas kehidupan dan hubungan kekerabatan antar spesies."
+                  },
+                  {
+                    "name": "Seleksi alam",
+                    "explanation": "Seleksi alam adalah mekanisme utama evolusi yang diusulkan oleh Charles Darwin. Seleksi alam terjadi ketika individu dengan sifat menguntungkan memiliki peluang lebih besar untuk bertahan hidup dan bereproduksi dibandingkan individu lain dalam populasi yang sama. Faktor-faktor seleksi alam meliputi ketersediaan makanan, predasi, penyakit, dan kondisi lingkungan. Contoh seleksi alam: kupu-kupu Biston betularia yang berwarna gelap lebih banyak setelah revolusi industri karena lebih sulit terlihat oleh predator di pohon yang terpolusi. Jenis seleksi alam meliputi seleksi arah (mendorong perubahan dalam satu arah), seleksi stabilisasi (memelihara sifat rata-rata), dan seleksi disruptif (menguntungkan ekstrem). Seleksi alam menjelaskan adaptasi organisme terhadap lingkungan dan spesiasi."
+                  },
+                  {
+                    "name": "Spesiasi",
+                    "explanation": "Spesiasi adalah proses pembentukan spesies baru dari spesies nenek moyang melalui evolusi. Spesiasi terjadi ketika populasi dalam spesies yang sama menjadi terisolasi secara reproduksi dan mengalami perubahan genetik yang berbeda selama periode waktu yang lama. Jenis isolasi reproduksi meliputi isolasi geografis (fisik seperti gunung, laut), isolasi ekologis (habitat berbeda), isolasi temporal (waktu reproduksi berbeda), isolasi behavioral (perilaku kawin berbeda), dan isolasi mekanik (struktur reproduksi tidak cocok). Spesiasi dapat bersifat allopatric (populasi terpisah secara geografis) atau sympatric (populasi tetap berdekatan tetapi terisolasi secara reproduksi). Bukti spesiasi meliputi fosil transisi, distribusi geografis spesies, dan perbandingan DNA. Spesiasi menjelaskan diversitas kehidupan di Bumi."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Rangkaian Listrik Seri dan Paralel",
+                "type": "video",
+                "duration": "18 menit"
+              },
+              {
+                "title": "Latihan Soal: Pewarisan Sifat",
+                "type": "exercise",
+                "questions": 24
+              },
+              {
+                "title": "Rangkuman: Hukum Kekekalan Energi",
+                "type": "summary",
+                "pages": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "indonesian-9",
+          "icon": "fas fa-book",
+          "name": "Bahasa Indonesia Kelas 9",
+          "description": "Teks eksplanasi, teks persuasi, teks cerita inspiratif, dan pidato tertulis.",
+          "detail": {
+            "title": "Bahasa Indonesia Kelas 9",
+            "overview": "Mata pelajaran Bahasa Indonesia kelas 9 menekankan pada kemampuan analisis teks dan penyusunan karya tulis ilmiah. Siswa akan belajar menyusun argumentasi yang kuat dan menyajikan ide secara sistematis.",
+            "chapters": [
+              {
+                "title": "Teks Eksplanasi",
+                "topics": [
+                  {
+                    "name": "Struktur teks eksplanasi",
+                    "explanation": "Struktur teks eksplanasi terdiri dari tiga bagian utama: pernyataan umum (general statement), deretan penjelas (explanation), dan interpretasi (optional). Pernyataan umum berisi pengenalan topik yang akan dijelaskan, memberikan gambaran umum tentang fenomena yang akan dibahas. Deretan penjelas berisi uraian langkah-langkah atau proses yang menjelaskan bagaimana atau mengapa suatu fenomena terjadi, disusun secara logis dan sistematis. Interpretasi (jika ada) berisi kesimpulan atau pandangan penulis tentang fenomena yang dijelaskan. Ciri-ciri teks eksplanasi meliputi penggunaan kata kerja material (mencair, menguap, berputar), kata hubung temporal (pertama, kemudian, selanjutnya), dan bahasa ilmiah yang objektif. Tujuan teks eksplanasi adalah memberikan penjelasan ilmiah tentang proses terjadinya suatu fenomena alam atau sosial."
+                  },
+                  {
+                    "name": "Kaidah kebahasaan",
+                    "explanation": "Kaidah kebahasaan teks eksplanasi mencakup penggunaan bahasa yang sesuai dengan karakteristik teks ilmiah. Aspek kebahasaan meliputi: 1) Pemilihan kata (diksi) yang tepat dan baku, menggunakan istilah ilmiah sesuai bidang pembahasan, 2) Struktur kalimat yang kompleks dengan anak kalimat untuk menjelaskan hubungan sebab-akibat atau proses, 3) Penggunaan kata kerja material untuk menggambarkan proses fisik (menguap, mencair, berputar) dan kata kerja relasional untuk menyatakan identitas atau keadaan, 4) Penggunaan kata hubung temporal (pertama, kemudian, selanjutnya) dan kausalitas (karena, akibatnya, sehingga) untuk menghubungkan ide, 5) Gaya bahasa yang objektif tanpa opini pribadi. Kaidah ini membuat teks eksplanasi mudah dipahami dan ilmiah."
+                  },
+                  {
+                    "name": "Penyajian fakta",
+                    "explanation": "Penyajian fakta dalam teks eksplanasi harus akurat, objektif, dan dapat dipertanggungjawabkan. Fakta disajikan secara sistematis mengikuti urutan logis seperti urutan waktu, urutan sebab-akibat, atau urutan proses. Teknik penyajian fakta meliputi penggunaan data statistik, hasil penelitian ilmiah, pernyataan ahli, dan observasi empiris. Fakta harus diverifikasi kebenarannya melalui sumber terpercaya seperti jurnal ilmiah, laporan resmi, atau publikasi akademik. Penyajian fakta dilengkapi dengan penjelasan yang menghubungkan satu fakta dengan fakta lain untuk membentuk alur penjelasan yang koheren. Penggunaan bahasa yang jelas, singkat, dan padat membuat penyajian fakta lebih efektif. Ilustrasi dan analogi dapat digunakan untuk memperjelas penyajian fakta yang kompleks."
+                  }
+                ]
+              },
+              {
+                "title": "Teks Persuasi",
+                "topics": [
+                  {
+                    "name": "Unsur persuasi",
+                    "explanation": "Unsur persuasi dalam teks persuasi meliputi ethos, pathos, dan logos yang merupakan dasar retorika Aristoteles. Ethos adalah unsur kredibilitas penulis yang mencakup keahlian, kejujuran, dan wibawa penulis di mata pembaca. Pathos adalah unsur emosional yang membangkitkan perasaan pembaca seperti simpati, empati, atau kekhawatiran. Logos adalah unsur logis yang menggunakan data, fakta, dan argumen rasional untuk meyakinkan pembaca. Ketiga unsur ini harus seimbang dalam teks persuasi yang efektif. Selain itu, unsur lain meliputi pernyataan pendapat yang jelas, argumen yang kuat dan relevan, bukti yang dapat dipertanggungjawabkan, dan penegasan kembali posisi penulis. Penggunaan retorika seperti pertanyaan retoris, ironi, dan paradoks juga memperkuat efek persuasif teks."
+                  },
+                  {
+                    "name": "Teknik argumentasi",
+                    "explanation": "Teknik argumentasi dalam teks persuasi meliputi berbagai strategi untuk menyusun dan menyampaikan argumen yang kuat dan meyakinkan. Teknik dasar meliputi: 1) Argumen deduktif (dari umum ke khusus), 2) Argumen induktif (dari khusus ke umum), 3) Argumen analogi (berdasarkan kesamaan situasi), 4) Argumen kausal (hubungan sebab-akibat). Teknik pengembangan argumen meliputi elaborasi (penjelasan detail), ilustrasi (contoh konkret), dan analogi (perbandingan situasi). Mengantisipasi counterargument (argumen lawan) dan memberikan rebuttal (pembantahan) menunjukkan kedalaman pemikiran. Penggunaan data statistik, kutipan ahli, studi kasus, dan testimonial memperkuat argumen. Struktur argumentasi yang logis dengan transisi yang jelas membuat teks persuasi lebih efektif."
+                  },
+                  {
+                    "name": "Retorika",
+                    "explanation": "Retorika adalah seni berbicara atau menulis yang efektif dan meyakinkan. Dalam teks persuasi, retorika digunakan untuk mempengaruhi audiens melalui bahasa yang tepat dan teknik persuasif. Jenis-jenis retorika meliputi: 1) Pertanyaan retoris yang tidak memerlukan jawaban tetapi membuat pembaca berpikir, 2) Ironi yang menggunakan kontras untuk menekankan maksud, 3) Paradoks yang menyajikan ide yang tampak bertentangan tetapi mengandung kebenaran, 4) Hiperbola yang menggunakan berlebihan untuk efek dramatis, 5) Antitesis yang membandingkan dua hal yang bertolak belakang. Gaya bahasa seperti metafora, simile, personifikasi, dan aliterasi memperkaya teks persuasi. Penggunaan retorika yang tepat meningkatkan daya tarik dan efektivitas teks persuasi dalam meyakinkan pembaca."
+                  }
+                ]
+              },
+              {
+                "title": "Teks Cerita Inspiratif",
+                "topics": [
+                  {
+                    "name": "Unsur cerita",
+                    "explanation": "Unsur cerita dalam teks cerita inspiratif meliputi tema, alur, tokoh, latar, sudut pandang, dan amanat. Tema adalah gagasan pokok atau pesan moral yang ingin disampaikan penulis. Alur adalah rangkaian peristiwa yang saling berkaitan dan membentuk cerita, terdiri dari orientasi, komplikasi, klimaks, resolusi, dan koda. Tokoh adalah karakter dalam cerita yang dapat berupa protagonis (tokoh utama), antagonis (tokoh penghambat), dan tokoh pembantu. Latar adalah tempat, waktu, dan suasana terjadinya peristiwa dalam cerita. Sudut pandang adalah sudut pengamatan penulis dalam menyajikan cerita, seperti sudut pandang orang pertama, kedua, atau ketiga. Amanat adalah pesan moral atau nilai luhur yang terkandung dalam cerita. Dalam cerita inspiratif, unsur-unsur ini disusun untuk menyampaikan pesan motivasi dan semangat kepada pembaca."
+                  },
+                  {
+                    "name": "Nilai-nilai luhur",
+                    "explanation": "Nilai-nilai luhur dalam teks cerita inspiratif mencakup nilai religius, nilai kemanusiaan, nilai sosial, nilai moral, dan nilai estetika. Nilai religius menekankan keimanan dan ketakwaan terhadap Tuhan Yang Maha Esa. Nilai kemanusiaan mencakup kasih sayang, empati, pengorbanan, dan penghargaan terhadap martabat manusia. Nilai sosial meliputi gotong royong, persatuan, toleransi, dan kepedulian terhadap sesama. Nilai moral mencakup kejujuran, tanggung jawab, disiplin, dan integritas. Nilai estetika mencakup penghargaan terhadap keindahan, seni, dan budaya. Cerita inspiratif menggunakan nilai-nilai luhur ini untuk membangun karakter positif pembaca dan mendorong mereka menjadi individu yang bermartabat dan bermanfaat bagi masyarakat."
+                  },
+                  {
+                    "name": "Bahasa naratif",
+                    "explanation": "Bahasa naratif dalam teks cerita inspiratif menggunakan berbagai teknik untuk menciptakan daya tarik dan menyampaikan pesan secara efektif. Teknik-teknik bahasa naratif meliputi: 1) Penggunaan diksi yang tepat dan bermakna mendalam, 2) Gaya bahasa seperti majas (metafora, simile, personifikasi) untuk menciptakan imaji yang kuat, 3) Struktur kalimat yang variatif untuk menjaga ritme cerita, 4) Dialog yang natural dan mencerminkan karakter tokoh, 5) Narasi yang menggabungkan deskripsi, aksi, dan introspeksi karakter. Bahasa naratif juga menggunakan unsur-unsur seperti suspense (ketegangan), cliffhanger (akhir yang menarik), dan emotional hook (daya tarik emosional) untuk menjaga minat pembaca. Penggunaan bahasa naratif yang baik membuat cerita inspiratif lebih hidup dan berdampak."
+                  }
+                ]
+              },
+              {
+                "title": "Pidato Tertulis",
+                "topics": [
+                  {
+                    "name": "Struktur pidato",
+                    "explanation": "Struktur pidato tertulis terdiri dari tiga bagian utama: pembuka, isi, dan penutup. Pembuka mencakup salam pembuka, ucapan terima kasih, identifikasi diri pembicara, dan pernyataan tujuan atau thesis pidato. Pembuka harus menarik perhatian audiens dan memberikan gambaran umum tentang topik yang akan dibahas. Isi pidato berisi argumen-argumen utama yang disusun secara logis dan sistematis, dilengkapi dengan data, fakta, contoh, dan ilustrasi yang relevan. Setiap argumen dikembangkan dalam paragraf terpisah dengan transisi yang jelas. Penutup berisi simpulan dari argumen-argumen yang telah disampaikan, penegasan kembali thesis, dan harapan atau ajakan kepada audiens. Penutup harus kuat dan meninggalkan kesan mendalam pada pendengar."
+                  },
+                  {
+                    "name": "Bahasa efektif",
+"explanation": "Bahasa efektif dalam pidato tertulis memiliki ciri-ciri yang membuat penyampaian pesan jelas, menarik, dan mudah dipahami audiens. Ciri-ciri bahasa efektif meliputi: 1) Kesatuan (setiap kalimat memiliki satu ide pokok), 2) Hubungan logis (kalimat-kalimat saling berkaitan membentuk alur yang koheren), 3) Kepadatan (menghindari pemborosan kata dan kalimat), 4) Kecermatan (menggunakan kata dan frasa yang tepat), 5) Variasi (menggunakan struktur kalimat yang beragam untuk menjaga minat pendengar). Bahasa efektif juga menggunakan diksi yang tepat, gaya bahasa yang sesuai, dan register bahasa yang sesuai dengan konteks dan audiens. Penggunaan bahasa efektif meningkatkan kredibilitas pembicara dan efektivitas penyampaian pesan."
+                  },
+                  {
+                    "name": "Retorika pidato",
+                    "explanation": "Retorika pidato mencakup teknik-teknik persuasif dan estetika yang digunakan untuk memperkuat efek pidato. Unsur dasar retorika meliputi ethos (kredibilitas pembicara), pathos (emosi pendengar), dan logos (logika argumen). Teknik retorika meliputi penggunaan majas seperti metafora, simile, personifikasi, dan hiperbola untuk menciptakan imaji yang kuat. Alat retorika lain meliputi repetisi (pengulangan untuk penekanan), antitesis (kontras untuk efek dramatis), paradoks (pernyataan yang tampak bertentangan), dan pertanyaan retoris (memicu refleksi pendengar). Retorika juga mencakup penggunaan pause (jeda), intonasi, dan penekanan kata untuk efek dramatis. Penggunaan retorika yang tepat membuat pidato lebih menarik, mudah diingat, dan berdampak bagi audiens."
+                  }
+                ]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Menyusun Argumentasi yang Kuat",
+                "type": "video",
+                "duration": "16 menit"
+              },
+              {
+                "title": "Latihan Soal: Struktur Teks Eksplanasi",
+                "type": "exercise",
+                "questions": 20
+              },
+              {
+                "title": "Rangkuman: Retorika Pidato",
+                "type": "summary",
+                "pages": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "social-9",
+          "icon": "fas fa-globe-asia",
+          "name": "IPS Kelas 9",
+          "description": "Perkembangan kolonialisme, pergerakan nasional, dan kemerdekaan Indonesia.",
+          "detail": {
+            "title": "Ilmu Pengetahuan Sosial Kelas 9",
+            "overview": "Mata pelajaran IPS kelas 9 mempelajari sejarah Indonesia dari masa kolonial hingga kemerdekaan. Siswa akan memahami perjuangan bangsa dan nilai-nilai yang melandasi kemerdekaan.",
+            "chapters": [
+              {
+                "title": "Perkembangan Kolonialisme",
+                "topics": ["Politik etis", "Gerakan nasional", "Tokoh-tokoh pergerakan"]
+              },
+              {
+                "title": "Pergerakan Nasional",
+                "topics": ["Organisasi pergerakan", "Strategi perjuangan", "Kongres pemuda"]
+              },
+              {
+                "title": "Kemerdekaan Indonesia",
+                "topics": ["Proklamasi kemerdekaan", "Tantangan awal kemerdekaan", "Pembentukan NKRI"]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Kongres Pemuda II",
+                "type": "video",
+                "duration": "20 menit"
+              },
+              {
+                "title": "Latihan Soal: Pergerakan Nasional",
+                "type": "exercise",
+                "questions": 25
+              },
+              {
+                "title": "Rangkuman: Proklamasi Kemerdekaan",
+                "type": "summary",
+                "pages": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "english-9",
+          "icon": "fas fa-language",
+          "name": "Bahasa Inggris Kelas 9",
+          "description": "Report text, descriptive text, procedure text, dan passive voice.",
+          "detail": {
+            "title": "Bahasa Inggris Kelas 9",
+            "overview": "Mata pelajaran Bahasa Inggris kelas 9 memperluas jenis teks yang dipelajari dan struktur grammar yang kompleks. Siswa akan belajar menyusun laporan, deskripsi, dan instruksi dalam bahasa Inggris.",
+            "chapters": [
+              {
+                "title": "Report Text",
+                "topics": ["Structure of report", "General classification", "Description"]
+              },
+              {
+                "title": "Descriptive Text",
+                "topics": ["Identifying details", "Sensory description", "Figurative language"]
+              },
+              {
+                "title": "Procedure Text",
+                "topics": ["Goal and materials", "Steps in procedure", "Imperative sentences"]
+              },
+              {
+                "title": "Passive Voice",
+                "topics": ["Active vs passive", "Forming passive voice", "When to use passive"]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Writing Procedure Text",
+                "type": "video",
+                "duration": "14 menit"
+              },
+              {
+                "title": "Latihan Soal: Passive Voice",
+                "type": "exercise",
+                "questions": 22
+              },
+              {
+                "title": "Rangkuman: Report Text Structure",
+                "type": "summary",
+                "pages": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "civics-9",
+          "icon": "fas fa-landmark",
+          "name": "PPKn Kelas 9",
+          "description": "Peran Indonesia dalam perdamaian dunia, ketahanan nasional, dan wawasan nusantara.",
+          "detail": {
+            "title": "Pendidikan Pancasila dan Kewarganegaraan Kelas 9",
+            "overview": "Mata pelajaran PPKn kelas 9 mempersiapkan siswa menjadi warga negara yang sadar akan perannya dalam konteks global. Siswa akan memahami konsep ketahanan nasional dan diplomasi internasional.",
+            "chapters": [
+              {
+                "title": "Peran Indonesia dalam Perdamaian Dunia",
+                "topics": ["Politik luar negeri", "Perdamaian internasional", "Peran dalam PBB"]
+              },
+              {
+                "title": "Ketahanan Nasional",
+                "topics": ["Dimensi ketahanan", "Ancaman nasional", "Upaya peningkatan ketahanan"]
+              },
+              {
+                "title": "Wawasan Nusantara",
+                "topics": ["Konsep wawasan nusantara", "Wilayah NKRI", "Pertahanan wilayah"]
+              }
+            ],
+            "resources": [
+              {
+                "title": "Video: Diplomasi Indonesia di ASEAN",
+                "type": "video",
+                "duration": "17 menit"
+              },
+              {
+                "title": "Latihan Soal: Ketahanan Nasional",
+                "type": "exercise",
+                "questions": 20
+              },
+              {
+                "title": "Rangkuman: Wawasan Nusantara",
+                "type": "summary",
+                "pages": 6
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

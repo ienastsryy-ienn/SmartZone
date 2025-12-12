@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartZone - Detail Materi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-graduation-cap"></i> SmartZone</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="index.html#materi">Materi</a></li>
+                    <li><a href="index.html#video">Video</a></li>
+                    <li><a href="index.html#latihan">Latihan</a></li>
+                    <li><a href="index.html#ai-tutor">AI Tutor</a></li>
+                    <li><a href="index.html#fitur">Fitur</a></li>
+                </ul>
+            </nav>
+            <div class="user-progress">
+                <div class="progress-info">
+                    <span class="points">Poin: <span id="total-points">0</span></span>
+                    <span class="level">Level: <span id="current-level">1</span></span>
+                </div>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn-login">Masuk</button>
+                <button class="btn-register">Daftar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Subject Detail Section -->
+    <section class="subject-detail">
+        <div class="container">
+            <div class="back-button">
+                <a href="index.html" class="btn-secondary"><i class="fas fa-arrow-left"></i> Kembali ke Materi</a>
+            </div>
+            
+            <div class="subject-header">
+                <div class="subject-icon-large">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <div class="subject-info">
+                    <h1 id="subject-title">Matematika Kelas 7</h1>
+                    <p id="subject-overview">Mata pelajaran matematika kelas 7 mencakup konsep dasar bilangan, operasi hitung, aljabar sederhana, dan pengenalan geometri. Materi ini menjadi fondasi penting untuk memahami matematika tingkat lanjut.</p>
+                    <div class="subject-progress-container">
+                        <div class="progress-label">Progres Belajar:</div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="subject-progress-fill" style="width: 0%"></div>
+                            </div>
+                            <div class="progress-text" id="subject-progress-text">0/0 bab</div>
+                        </div>
+                        <div class="points-earned">Poin: <span id="subject-points">0</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subject-content">
+                <div class="chapters-section">
+                    <h2><i class="fas fa-book-open"></i> Bab-bab Materi</h2>
+                    <div class="chapters-list" id="chapters-container">
+                        <!-- Chapters will be loaded dynamically -->
+                    </div>
+                </div>
+
+                <div class="resources-section">
+                    <h2><i class="fas fa-folder-open"></i> Sumber Belajar</h2>
+                    <div class="resources-list" id="resources-container">
+                        <!-- Resources will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-graduation-cap"></i> SmartZone</h3>
+                    <p>Platform belajar terbaik untuk siswa SMP dengan materi lengkap, video edukatif, dan AI Tutor cerdas.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Materi</h4>
+                    <ul>
+                        <li><a href="#">Matematika</a></li>
+                        <li><a href="#">IPA</a></li>
+                        <li><a href="#">Bahasa Indonesia</a></li>
+                        <li><a href="#">IPS</a></li>
+                        <li><a href="#">Bahasa Inggris</a></li>
+                        <li><a href="#">PPKn</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Fitur</h4>
+                    <ul>
+                        <li><a href="#">AI Tutor</a></li>
+                        <li><a href="#">Gamifikasi</a></li>
+                        <li><a href="#">Mode Offline</a></li>
+                        <li><a href="#">Latihan Soal</a></li>
+                        <li><a href="#">Rangkuman</a></li>
+                        <li><a href="#">Video Pembelajaran</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kontak</a></li>
+                        <li><a href="#">Bantuan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 SmartZone. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="subject.js"></script>
+    <script src="progress.js"></script>
+</body>
+</html>
