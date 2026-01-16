@@ -14,6 +14,21 @@
             "chapters": [
               {
                 "title": "Bilangan Bulat",
+                "summary": "Bab ini membahas konsep dasar bilangan bulat, operasi hitung penjumlahan, pengurangan, perkalian, pembagian, serta penerapannya dalam pemecahan masalah sehari-hari.",
+                "examples": [
+                  {
+                    "question": "Suhu di dalam kulkas adalah -3°C. Jika suhu diturunkan lagi 4°C, berapakah suhu kulkas sekarang?",
+                    "solution": "Suhu awal = -3°C. Diturunkan 4°C berarti dikurangi 4. Jadi, -3 - 4 = -7. Suhu sekarang adalah -7°C."
+                  },
+                  {
+                    "question": "Hitunglah hasil dari 5 + (-8) x 2.",
+                    "solution": "Kerjakan perkalian dahulu: (-8) x 2 = -16. Lalu 5 + (-16) = -11."
+                  },
+                  {
+                    "question": "Ani memiliki utang Rp 10.000, lalu ia meminjam lagi Rp 5.000. Berapa total utang Ani? (Gunakan bilangan negatif)",
+                    "solution": "Utang dilambangkan negatif. -10.000 + (-5.000) = -15.000. Jadi total utang Rp 15.000."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Operasi hitung bilangan bulat",
@@ -31,6 +46,21 @@
               },
               {
                 "title": "Bilangan Pecahan",
+                "summary": "Bab ini menguraikan jenis-jenis pecahan, operasi hitung pecahan (biasa, campuran, desimal), dan penggunaannya dalam situasi praktis.",
+                "examples": [
+                  {
+                    "question": "Ibu membeli 3/4 kg gula pasir. Kemudian ibu menggunakan 1/2 kg untuk membuat kue. Berapa sisa gula pasir ibu?",
+                    "solution": "3/4 - 1/2 = 3/4 - 2/4 = 1/4. Jadi, sisa gula pasir ibu adalah 1/4 kg."
+                  },
+                  {
+                    "question": "Ubahlah pecahan 3/5 menjadi bentuk desimal.",
+                    "solution": "3 dibagi 5 = 0,6."
+                  },
+                  {
+                    "question": "Berapakah 25% dari 200?",
+                    "solution": "25/100 x 200 = 50."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Jenis-jenis pecahan",
@@ -48,6 +78,21 @@
               },
               {
                 "title": "Aljabar Sederhana",
+                "summary": "Bab ini memperkenalkan konsep variabel, koefisien, dan konstanta, serta dasar-dasar operasi bentuk aljabar untuk menyederhanakan ekspresi matematika.",
+                "examples": [
+                  {
+                    "question": "Sederhanakan bentuk aljabar 3x + 5y - 2x + y.",
+                    "solution": "Kelompokkan suku sejenis: (3x - 2x) + (5y + y) = x + 6y."
+                  },
+                  {
+                    "question": "Jika x = 3 dan y = -2, berapakah nilai dari 2x + 3y?",
+                    "solution": "2(3) + 3(-2) = 6 - 6 = 0."
+                  },
+                  {
+                    "question": "Umur Budi 5 tahun lebih tua dari Andi. Jika umur Andi adalah a, nyatakan umur Budi dalam aljabar.",
+                    "solution": "Umur Budi = a + 5."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Pengenalan variabel",
@@ -65,6 +110,21 @@
               },
               {
                 "title": "Geometri Dasar",
+                "summary": "Bab ini mempelajari elemen dasar geometri seperti titik, garis, dan sudut, serta sifat-sifat bangun datar sederhana beserta perhitungan keliling dan luasnya.",
+                "examples": [
+                  {
+                    "question": "Sudut A dan sudut B saling berpelurus. Jika besar sudut A = 110°, berapakah besar sudut B?",
+                    "solution": "Dua sudut saling berpelurus jumlahnya 180°. Maka, sudut B = 180° - 110° = 70°."
+                  },
+                  {
+                    "question": "Hitunglah keliling persegi panjang dengan panjang 10 cm dan lebar 5 cm.",
+                    "solution": "K = 2 x (p + l) = 2 x (10 + 5) = 2 x 15 = 30 cm."
+                  },
+                  {
+                    "question": "Sebuah segitiga memiliki alas 8 cm dan tinggi 6 cm. Berapakah luasnya?",
+                    "solution": "L = 1/2 x a x t = 1/2 x 8 x 6 = 24 cm²."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Garis dan sudut",
@@ -82,6 +142,21 @@
               },
               {
                 "title": "Statistika",
+                "summary": "Bab ini menjelaskan cara pengumpulan, penyajian, dan interpretasi data menggunakan tabel dan diagram, serta pengenalan ukuran pemusatan data.",
+                "examples": [
+                  {
+                    "question": "Data nilai ulangan matematika siswa adalah 6, 7, 8, 6, 9, 8, 7, 6. Tentukan modus dari data tersebut.",
+                    "solution": "Urutan data: 6, 6, 6, 7, 7, 8, 8, 9. Nilai yang paling sering muncul adalah 6 (muncul 3 kali). Jadi, modusnya adalah 6."
+                  },
+                  {
+                    "question": "Hitunglah mean (rata-rata) dari data: 4, 5, 6, 5.",
+                    "solution": "Jumlah data = 4+5+6+5 = 20. Banyak data = 4. Mean = 20/4 = 5."
+                  },
+                  {
+                    "question": "Apa fungsi diagram batang?",
+                    "solution": "Untuk memvisualisasikan data kategori atau frekuensi agar mudah membandingkan nilai antar kategori."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Pengumpulan data",
@@ -128,6 +203,21 @@
             "chapters": [
               {
                 "title": "Pengukuran",
+                "summary": "Bab ini membahas besaran pokok dan turunan, penggunaan alat ukur yang tepat, serta pentingnya ketelitian dan satuan baku dalam pengukuran ilmiah.",
+                "examples": [
+                  {
+                    "question": "Konversikan 2,5 kilometer ke dalam meter.",
+                    "solution": "1 km = 1000 m. Maka, 2,5 km = 2,5 x 1000 = 2500 meter."
+                  },
+                  {
+                    "question": "Sebutkan 3 besaran pokok dalam sistem SI.",
+                    "solution": "Panjang (meter), Massa (kilogram), Waktu (sekon)."
+                  },
+                  {
+                    "question": "Alat ukur apa yang paling tepat untuk mengukur diameter dalam sebuah pipa kecil?",
+                    "solution": "Jangka sorong (karena memiliki rahang atas untuk mengukur diameter dalam)."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Besaran dan satuan",
@@ -145,6 +235,21 @@
               },
               {
                 "title": "Zat dan Karakteristiknya",
+                "summary": "Bab ini mengupas wujud zat (padat, cair, gas), perubahan fisika dan kimia, serta berbagai metode pemisahan campuran.",
+                "examples": [
+                  {
+                    "question": "Sebutkan perbedaan utama antara perubahan fisika dan perubahan kimia.",
+                    "solution": "Perubahan fisika tidak menghasilkan zat baru (contoh: es mencair), sedangkan perubahan kimia menghasilkan zat baru dengan sifat berbeda (contoh: besi berkarat)."
+                  },
+                  {
+                    "question": "Metode pemisahan apa yang cocok untuk memisahkan air dan pasir?",
+                    "solution": "Filtrasi (Penyaringan), karena ukuran partikel pasir lebih besar dari pori-pori kertas saring."
+                  },
+                  {
+                    "question": "Hitung massa jenis benda jika massanya 100g dan volumenya 20cm³.",
+                    "solution": "ρ = m / v = 100 / 20 = 5 g/cm³."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Wujud zat",
@@ -162,6 +267,21 @@
               },
               {
                 "title": "Makhluk Hidup",
+                "summary": "Bab ini menjelaskan ciri-ciri makhluk hidup, sistem klasifikasi lima kingdom, dan konsep sel sebagai unit terkecil kehidupan.",
+                "examples": [
+                  {
+                    "question": "Mengapa virus sering diperdebatkan apakah termasuk makhluk hidup atau bukan?",
+                    "solution": "Virus memiliki materi genetik (DNA/RNA) tetapi tidak memiliki struktur sel dan hanya dapat bereproduksi di dalam sel inang (parasit obligat), sehingga berada di perbatasan antara benda mati dan makhluk hidup."
+                  },
+                  {
+                    "question": "Apakah unit terkecil penyusun makhluk hidup?",
+                    "solution": "Sel."
+                  },
+                  {
+                    "question": "Tuliskan nama ilmiah padi dengan aturan Binomial Nomenclature yang benar.",
+                    "solution": "*Oryza sativa* (dicetak miring atau digarisbawahi, kata pertama kapital, kata kedua huruf kecil)."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Ciri-ciri makhluk hidup",
@@ -179,6 +299,21 @@
               },
               {
                 "title": "Ekosistem",
+                "summary": "Bab ini mempelajari interaksi antara komponen biotik dan abiotik, rantai makanan, serta pentingnya menjaga keseimbangan ekosistem.",
+                "examples": [
+                  {
+                    "question": "Dalam rantai makanan padi -> tikus -> ular -> elang, apa peran tikus?",
+                    "solution": "Padi adalah produsen. Tikus memakan produsen, sehingga tikus berperan sebagai konsumen tingkat I (konsumen primer)."
+                  },
+                  {
+                    "question": "Sebutkan contoh simbiosis mutualisme.",
+                    "solution": "Hubungan antara lebah dan bunga (lebah mendapat nektar, bunga dibantu penyerbukan)."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan komponen abiotik?",
+                    "solution": "Komponen tak hidup dalam ekosistem, seperti cahaya matahari, air, tanah, dan suhu."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Komponen ekosistem",
@@ -196,6 +331,21 @@
               },
               {
                 "title": "Gaya",
+                "summary": "Bab ini membahas konsep gaya, hukum Newton, dan pengaruh gaya terhadap gerak benda dalam kehidupan sehari-hari.",
+                "examples": [
+                  {
+                    "question": "Sebuah benda bermassa 5 kg didorong dengan gaya 10 N. Berapakah percepatan benda tersebut? (Abaikan gesekan)",
+                    "solution": "Menggunakan Hukum II Newton (F = m.a), maka a = F/m = 10 N / 5 kg = 2 m/s²."
+                  },
+                  {
+                    "question": "Sebutkan satu keuntungan gaya gesek dalam kehidupan sehari-hari.",
+                    "solution": "Membantu kita berjalan tanpa tergelincir, atau membantu pengereman kendaraan."
+                  },
+                  {
+                    "question": "Jika ada dua gaya searah masing-masing 10 N dan 15 N bekerja pada benda, berapa resultan gayanya?",
+                    "solution": "R = F1 + F2 = 10 N + 15 N = 25 N."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Konsep gaya",
@@ -242,6 +392,21 @@
             "chapters": [
               {
                 "title": "Membaca Teks",
+                "summary": "Bab ini fokus pada keterampilan membaca pemahaman berbagai jenis teks, mengenali ide pokok, dan menyimpulkan isi bacaan.",
+                "examples": [
+                  {
+                    "question": "Apa yang dimaksud dengan ide pokok dalam sebuah paragraf?",
+                    "solution": "Ide pokok adalah gagasan utama yang menjadi inti pembahasan dalam sebuah paragraf. Biasanya terletak di kalimat utama (awal, akhir, atau campuran)."
+                  },
+                  {
+                    "question": "Apa ciri utama teks naratif?",
+                    "solution": "Adanya alur cerita yang kronologis, tokoh, dan konflik."
+                  },
+                  {
+                    "question": "Jelaskan perbedaan makna tersurat dan tersirat.",
+                    "solution": "Tersurat adalah makna yang tertulis jelas dalam teks, sedangkan tersirat adalah makna tersembunyi yang harus disimpulkan pembaca."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Teks naratif",
@@ -259,6 +424,21 @@
               },
               {
                 "title": "Menulis Puisi",
+                "summary": "Bab ini mengajarkan unsur-unsur pembangun puisi, gaya bahasa, dan teknik mengekspresikan perasaan melalui karya sastra puisi.",
+                "examples": [
+                  {
+                    "question": "Jelaskan makna majas personifikasi beserta contohnya.",
+                    "solution": "Personifikasi adalah majas yang melekatkan sifat manusia pada benda mati. Contoh: 'Angin berbisik di telingaku'."
+                  },
+                  {
+                    "question": "Jika sebuah puisi memiliki pola rima a-a-b-b, apa artinya?",
+                    "solution": "Baris pertama berima dengan baris kedua, dan baris ketiga berima dengan baris keempat."
+                  },
+                  {
+                    "question": "Apa itu amanat dalam puisi?",
+                    "solution": "Pesan moral atau nasihat yang ingin disampaikan penyair kepada pembaca."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Unsur puisi",
@@ -276,6 +456,21 @@
               },
               {
                 "title": "Mendeskripsikan Objek",
+                "summary": "Bab ini melatih kemampuan mendeskripsikan objek secara rinci dan sensorik, menggunakan kata sifat dan struktur teks deskripsi yang efektif.",
+                "examples": [
+                  {
+                    "question": "Buatlah kalimat deskripsi yang melibatkan pancaindra penglihatan tentang sebuah pantai.",
+                    "solution": "Pasir putih membentang luas berkilauan tertimpa sinar matahari, sementara air laut berwarna biru gradasi toska tampak tenang di kejauhan."
+                  },
+                  {
+                    "question": "Manakah yang merupakan kata sifat dalam kalimat: 'Kucing itu memiliki bulu yang sangat lembut.'?",
+                    "solution": "Lembut."
+                  },
+                  {
+                    "question": "Sebutkan dua struktur utama teks deskripsi.",
+                    "solution": "Identifikasi dan Deskripsi Bagian."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Struktur teks deskripsi",
@@ -293,6 +488,21 @@
               },
               {
                 "title": "Berpidato",
+                "summary": "Bab ini membimbing siswa dalam menyusun naskah pidato persuasif dan mempraktikkan teknik penyampaian pidato yang percaya diri.",
+                "examples": [
+                  {
+                    "question": "Sebutkan struktur teks pidato persuasif.",
+                    "solution": "Struktur teks pidato terdiri dari: Pembukaan (salam, sapaan, ucapan syukur), Isi (gagasan utama, argumen, pesan), dan Penutup (kesimpulan, harapan, salam penutup)."
+                  },
+                  {
+                    "question": "Apa tujuan dari pidato persuasif?",
+                    "solution": "Untuk memengaruhi pendengar agar setuju dengan pendapat pembicara atau melakukan tindakan tertentu."
+                  },
+                  {
+                    "question": "Berikan contoh kalimat salam pembuka pidato yang santun.",
+                    "solution": "'Selamat pagi, Bapak/Ibu guru serta teman-teman semua yang saya hormati.'"
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Struktur pidato",
@@ -339,6 +549,21 @@
             "chapters": [
               {
                 "title": "Pengantar Geografi",
+                "summary": "Bab ini memperkenalkan konsep dasar geografi, pemahaman peta, dan pengaruh kondisi geografis terhadap aktivitas manusia.",
+                "examples": [
+                  {
+                    "question": "Apa fungsi legenda pada peta?",
+                    "solution": "Legenda berfungsi untuk menjelaskan arti simbol-simbol yang digunakan pada peta agar pembaca dapat memahami isi peta dengan benar."
+                  },
+                  {
+                    "question": "Jika skala peta 1:100.000 dan jarak di peta 5 cm, berapa jarak sebenarnya?",
+                    "solution": "Jarak sebenarnya = Jarak peta x Skala = 5 x 100.000 = 500.000 cm = 5 km."
+                  },
+                  {
+                    "question": "Berikan contoh sumber daya alam yang dapat diperbarui.",
+                    "solution": "Sinar matahari, angin, air, dan biomasa."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Konsep ruang",
@@ -356,6 +581,21 @@
               },
               {
                 "title": "Sejarah Kerajaan Hindu-Buddha",
+                "summary": "Bab ini menelusuri jejak sejarah kerajaan-kerajaan Hindu-Buddha di Nusantara dan peninggalan kebudayaannya yang masih lestari.",
+                "examples": [
+                  {
+                    "question": "Sebutkan bukti pengaruh budaya Hindu-Buddha yang masih ada di Indonesia hingga kini.",
+                    "solution": "Contoh bukti pengaruhnya adalah candi (Borobudur, Prambanan), bahasa (serapan Sanskerta), wayang kulit, dan tradisi upacara adat tertentu."
+                  },
+                  {
+                    "question": "Apa fungsi Prasasti Yupa bagi Kerajaan Kutai?",
+                    "solution": "Sebagai bukti tertulis keberadaan Kerajaan Kutai dan rekam jejak kedermawanan Raja Mulawarman."
+                  },
+                  {
+                    "question": "Siapakah patih yang terkenal dengan Sumpah Palapa di Kerajaan Majapahit?",
+                    "solution": "Gajah Mada."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Kerajaan Kutai",
@@ -373,6 +613,21 @@
               },
               {
                 "title": "Kondisi Sosial Masyarakat",
+                "summary": "Bab ini menganalisis interaksi sosial, dinamika masyarakat, dan keragaman sosial budaya di lingkungan sekitar.",
+                "examples": [
+                  {
+                    "question": "Jelaskan apa itu interaksi sosial disosiatif.",
+                    "solution": "Interaksi sosial disosiatif adalah bentuk interaksi yang mengarah pada perpecahan atau konflik, seperti persaingan (kompetisi), kontravensi, dan pertentangan (konflik)."
+                  },
+                  {
+                    "question": "Apakah agen sosialisasi pertama bagi seorang anak?",
+                    "solution": "Keluarga."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan status sosial?",
+                    "solution": "Posisi atau kedudukan seseorang dalam kelompok masyarakat."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Struktur sosial",
@@ -419,6 +674,21 @@
             "chapters": [
               {
                 "title": "Perkenalan Diri",
+                "summary": "Bab ini melatih kemampuan memperkenalkan diri (self-introduction) dan orang lain dalam bahasa Inggris dengan percaya diri.",
+                "examples": [
+                  {
+                    "question": "Complete the sentence: 'Hello, my name ___ Budi. I ___ a student.'",
+                    "solution": "Hello, my name **is** Budi. I **am** a student."
+                  },
+                  {
+                    "question": "If you want to ask someone's condition, what do you say?",
+                    "solution": "'How are you?' or 'How do you do?'"
+                  },
+                  {
+                    "question": "Introduce your friend, Sarah, to Budi.",
+                    "solution": "'Budi, this is Sarah. Sarah, this is Budi.'"
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Greetings",
@@ -436,6 +706,21 @@
               },
               {
                 "title": "Tata Bahasa Dasar",
+                "summary": "Bab ini membahas fondasi tata bahasa Inggris (grammar) meliputi struktur kalimat sederhana dan penggunaan to be.",
+                "examples": [
+                  {
+                    "question": "Change into negative form: 'They are happy.'",
+                    "solution": "They are **not** happy."
+                  },
+                  {
+                    "question": "What is the plural form of 'child'?",
+                    "solution": "Children."
+                  },
+                  {
+                    "question": "Replace the subject with a pronoun: 'Siti and I are reading.'",
+                    "solution": "**We** are reading."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Sentence structure",
@@ -453,6 +738,21 @@
               },
               {
                 "title": "Kosakata Sehari-hari",
+                "summary": "Bab ini memperkaya kosakata (vocabulary) tentang aktivitas sehari-hari, benda-benda di sekitar, dan ungkapan umum.",
+                "examples": [
+                  {
+                    "question": "Translate to English: 'Saya menyikat gigi setiap pagi.'",
+                    "solution": "I **brush my teeth** every morning."
+                  },
+                  {
+                    "question": "What do you call your father's brother?",
+                    "solution": "My Uncle."
+                  },
+                  {
+                    "question": "Mention 3 things you can find in a classroom.",
+                    "solution": "Desk, Chair, Whiteboard (or similar answer)."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Family members",
@@ -470,6 +770,21 @@
               },
               {
                 "title": "Simple Present Tense",
+                "summary": "Bab ini fokus pada penggunaan Simple Present Tense untuk menyatakan kebiasaan, fakta umum, dan kebenaran mutlak.",
+                "examples": [
+                  {
+                    "question": "Choose the correct verb: 'She (go/goes) to school by bus.'",
+                    "solution": "She **goes** to school by bus. (Karena subjeknya 'She', kata kerja ditambah -es)."
+                  },
+                  {
+                    "question": "Where is the correct place for 'always' in this sentence: 'I eat breakfast'?",
+                    "solution": "I **always** eat breakfast. (Before the main verb)."
+                  },
+                  {
+                    "question": "Make a question: 'You like pizza.'",
+                    "solution": "**Do** you like pizza?"
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Form and usage",
@@ -516,6 +831,21 @@
             "chapters": [
               {
                 "title": "Pengantar PPKn",
+                "summary": "Bab ini memberikan gambaran umum tentang Pendidikan Pancasila dan Kewarganegaraan serta pentingnya kesadaran berbangsa dan bernegara.",
+                "examples": [
+                  {
+                    "question": "Apa tujuan utama dari Pendidikan Pancasila dan Kewarganegaraan?",
+                    "solution": "Membentuk warga negara yang baik, cerdas, terampil, dan berkarakter sesuai dengan nilai-nilai Pancasila dan UUD 1945."
+                  },
+                  {
+                    "question": "Sebutkan satu kewajiban siswa di sekolah.",
+                    "solution": "Mematuhi tata tertib sekolah atau menghormati guru."
+                  },
+                  {
+                    "question": "Apa perbedaan antara hak dan kewajiban?",
+                    "solution": "Hak adalah sesuatu yang harus diterima, sedangkan kewajiban adalah sesuatu yang harus dilakukan."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Tujuan PPKn",
@@ -533,6 +863,21 @@
               },
               {
                 "title": "Norma dan Nilai Sosial",
+                "summary": "Bab ini menjelaskan berbagai norma yang berlaku dalam masyarakat dan pentingnya mematuhi nilai-nilai sosial untuk ketertiban bersama.",
+                "examples": [
+                  {
+                    "question": "Sebutkan 4 macam norma yang berlaku di masyarakat.",
+                    "solution": "Norma Agama, Norma Kesopanan, Norma Kesusilaan, dan Norma Hukum."
+                  },
+                  {
+                    "question": "Apa sanksi bagi pelanggar norma hukum?",
+                    "solution": "Sanksi tegas yang dipaksakan oleh negara (denda, penjara)."
+                  },
+                  {
+                    "question": "Norma kesopanan bersumber dari mana?",
+                    "solution": "Dari kebiasaan, adat istiadat, dan tata krama dalam pergaulan masyarakat setempat."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Jenis-jenis norma",
@@ -550,6 +895,21 @@
               },
               {
                 "title": "Pancasila",
+                "summary": "Bab ini mendalami sejarah perumusan Pancasila, makna setiap sila, dan penerapannya sebagai dasar negara dan pandangan hidup bangsa.",
+                "examples": [
+                  {
+                    "question": "Siapakah 3 tokoh yang mengusulkan rumusan dasar negara pada sidang BPUPKI?",
+                    "solution": "Mohammad Yamin, Soepomo, dan Ir. Soekarno."
+                  },
+                  {
+                    "question": "Apa lambang Sila Pertama Pancasila?",
+                    "solution": "Bintang."
+                  },
+                  {
+                    "question": "Kapan diperingati Hari Lahir Pancasila?",
+                    "solution": "Setiap tanggal 1 Juni."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Sejarah Pancasila",
@@ -567,6 +927,21 @@
               },
               {
                 "title": "Bhinneka Tunggal Ika",
+                "summary": "Bab ini membahas keberagaman suku, agama, ras, dan budaya di Indonesia sebagai kekuatan persatuan dalam bingkai Bhinneka Tunggal Ika.",
+                "examples": [
+                  {
+                    "question": "Apa arti semboyan 'Bhinneka Tunggal Ika'?",
+                    "solution": "Berbeda-beda tetapi tetap satu jua."
+                  },
+                  {
+                    "question": "Sebutkan satu faktor penyebab keberagaman di Indonesia.",
+                    "solution": "Letak strategis wilayah Indonesia atau kondisi negara kepulauan."
+                  },
+                  {
+                    "question": "Sikap apa yang harus dikembangkan untuk menjaga persatuan?",
+                    "solution": "Toleransi dan saling menghormati."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Makna semboyan",
@@ -618,6 +993,21 @@
             "chapters": [
               {
                 "title": "Pola Bilangan",
+                "summary": "Bab ini membahas berbagai jenis pola bilangan, barisan aritmetika, dan geometri, serta cara menentukan suku berikutnya dalam suatu barisan.",
+                "examples": [
+                  {
+                    "question": "Diketahui barisan aritmetika: 2, 5, 8, 11, ... Tentukan suku ke-10.",
+                    "solution": "a = 2, b = 3. Un = a + (n-1)b. U10 = 2 + (10-1)3 = 2 + 27 = 29."
+                  },
+                  {
+                    "question": "Tentukan rasio dari barisan geometri: 2, 6, 18, 54, ...",
+                    "solution": "r = U2 / U1 = 6 / 2 = 3."
+                  },
+                  {
+                    "question": "Barisan bilangan 1, 1, 2, 3, 5, 8, ... disebut barisan apa?",
+                    "solution": "Barisan Fibonacci, di mana setiap suku adalah jumlah dari dua suku sebelumnya."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Barisan aritmetika",
@@ -635,6 +1025,21 @@
               },
               {
                 "title": "Koordinat Kartesius",
+                "summary": "Bab ini menjelaskan sistem koordinat Kartesius untuk menentukan letak titik pada bidang, serta posisi relatif titik terhadap sumbu x dan y.",
+                "examples": [
+                  {
+                    "question": "Titik A berada pada koordinat (3, -2). Di kuadran berapakah titik A berada?",
+                    "solution": "Karena x positif dan y negatif, titik A berada di Kuadran IV."
+                  },
+                  {
+                    "question": "Hitung jarak antara titik A(1, 1) dan B(4, 5).",
+                    "solution": "Jarak = √((4-1)² + (5-1)²) = √(3² + 4²) = √25 = 5 satuan."
+                  },
+                  {
+                    "question": "Jika sebuah titik memiliki koordinat (0, 5), di manakah letak titik tersebut?",
+                    "solution": "Titik tersebut terletak tepat pada sumbu Y positif."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Sumbu koordinat",
@@ -652,6 +1057,21 @@
               },
               {
                 "title": "Relasi dan Fungsi",
+                "summary": "Bab ini memperkenalkan konsep relasi dan fungsi, cara menyajikannya, serta memahami nilai fungsi dan grafiknya.",
+                "examples": [
+                  {
+                    "question": "Diketahui fungsi f(x) = 2x + 3. Tentukan nilai f(5).",
+                    "solution": "Substitusi x = 5 ke dalam fungsi: f(5) = 2(5) + 3 = 10 + 3 = 13."
+                  },
+                  {
+                    "question": "Dalam relasi {(1,a), (2,b), (3,a)}, manakah yang disebut domain?",
+                    "solution": "Domain adalah daerah asal, yaitu {1, 2, 3}."
+                  },
+                  {
+                    "question": "Apakah relasi {(1,a), (1,b), (2,c)} merupakan fungsi?",
+                    "solution": "Bukan, karena anggota domain '1' dipasangkan dengan dua anggota kodomain yang berbeda (a dan b)."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Konsep relasi",
@@ -669,6 +1089,21 @@
               },
               {
                 "title": "Persamaan Linear Dua Variabel",
+                "summary": "Bab ini mengajarkan cara menyelesaikan sistem persamaan linear dua variabel menggunakan metode grafik, substitusi, dan eliminasi.",
+                "examples": [
+                  {
+                    "question": "Himpunan penyelesaian dari sistem persamaan x + y = 5 dan x - y = 1 adalah...",
+                    "solution": "Jumlahkan kedua persamaan: 2x = 6 => x = 3. Substitusi x=3 ke persamaan pertama: 3 + y = 5 => y = 2. Jadi, HP = {(3, 2)}."
+                  },
+                  {
+                    "question": "Gunakan metode substitusi untuk menyelesaikan: y = 2x dan x + y = 12.",
+                    "solution": "Substitusi y=2x ke persamaan kedua: x + 2x = 12 => 3x = 12 => x = 4. Maka y = 2(4) = 8."
+                  },
+                  {
+                    "question": "Harga 2 ayam dan 1 kambing adalah Rp 2.500.000 (Abaikan harga real). Jika harga 1 kambing sama dengan 3 ayam, berapa harga 1 ayam?",
+                    "solution": "Misal a=ayam, k=kambing. 2a + k = 2.500.000; k = 3a. Substitusi: 2a + 3a = 2.500.000 => 5a = 2.500.000 => a = 500.000."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Bentuk umum",
@@ -715,6 +1150,21 @@
             "chapters": [
               {
                 "title": "Sistem Gerak Manusia",
+                "summary": "Bab ini mengupas struktur dan fungsi tulang, sendi, dan otot sebagai sistem gerak, serta gangguan yang dapat terjadi.",
+                "examples": [
+                  {
+                    "question": "Sebutkan fungsi utama rangka bagi tubuh manusia.",
+                    "solution": "Fungsi rangka: memberi bentuk tubuh, menahan dan menegakkan tubuh, tempat melekatnya otot, melindungi organ vital, dan tempat pembentukan sel darah."
+                  },
+                  {
+                    "question": "Apa perbedaan otot polos dan otot lurik berdasarkan cara kerjanya?",
+                    "solution": "Otot polos bekerja secara tidak sadar (involunter), sedangkan otot lurik bekerja secara sadar (volunter)."
+                  },
+                  {
+                    "question": "Sendi yang memungkinkan gerakan ke segala arah (contoh: gelang bahu) disebut sendi apa?",
+                    "solution": "Sendi peluru."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Tulang dan sendi",
@@ -732,6 +1182,21 @@
               },
               {
                 "title": "Sistem Pencernaan",
+                "summary": "Bab ini menjelaskan organ-organ pencernaan, proses pencernaan mekanik dan kimiawi, serta penyakit yang menyerang sistem pencernaan.",
+                "examples": [
+                  {
+                    "question": "Enzim apa yang dihasilkan oleh lambung dan apa fungsinya?",
+                    "solution": "Lambung menghasilkan enzim pepsin yang berfungsi memecah protein menjadi pepton, dan asam klorida (HCl) yang membunuh kuman."
+                  },
+                  {
+                    "question": "Jelaskan perbedaan pencernaan mekanik dan kimiawi.",
+                    "solution": "Pencernaan mekanik mengubah bentuk fisik makanan (misal dikunyah gigi), sedangkan pencernaan kimiawi mengubah struktur molekul makanan dengan bantuan enzim."
+                  },
+                  {
+                    "question": "Apa fungsi utama usus halus terutama bagian ileum?",
+                    "solution": "Menyerap sari-sari makanan ke dalam aliran darah."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Organ pencernaan",
@@ -749,6 +1214,21 @@
               },
               {
                 "title": "Sistem Pernapasan",
+                "summary": "Bab ini mempelajari organ pernapasan, mekanisme pertukaran gas, dan gangguan kesehatan pada sistem pernapasan manusia.",
+                "examples": [
+                  {
+                    "question": "Apa yang terjadi pada diafragma saat proses inspirasi (menarik napas)?",
+                    "solution": "Diafragma berkontraksi dan mendatar, sehingga volume rongga dada membesar dan udara masuk ke paru-paru."
+                  },
+                  {
+                    "question": "Di bagian manakah pertukaran gas oksigen dan karbon dioksida terjadi?",
+                    "solution": "Di dalam alveolus."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan kapasitas vital paru-paru?",
+                    "solution": "Volume udara maksimal yang dapat dihembuskan setelah menarik napas sedalam-dalamnya."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Organ pernapasan",
@@ -766,6 +1246,21 @@
               },
               {
                 "title": "Sistem Reproduksi",
+                "summary": "Bab ini membahas organ reproduksi manusia, siklus menstruasi, fertilisasi, serta upaya pencegahan penyakit pada sistem reproduksi.",
+                "examples": [
+                  {
+                    "question": "Di organ manakah pembuahan (fertilisasi) biasanya terjadi?",
+                    "solution": "Fertilisasi biasanya terjadi di tuba falopi (saluran telur)."
+                  },
+                  {
+                    "question": "Organ manakah yang berfungsi menghasilkan sel sperma pada pria?",
+                    "solution": "Testis."
+                  },
+                  {
+                    "question": "Apa yang terjadi pada dinding rahim saat fase menstruasi?",
+                    "solution": "Dinding rahim (endometrium) luruh keluar bersama darah karena tidak terjadi pembuahan."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Reproduksi manusia",
@@ -812,6 +1307,21 @@
             "chapters": [
               {
                 "title": "Teks Eksposisi",
+                "summary": "Bab ini fokus pada struktur dan kaidah kebahasaan teks eksposisi untuk menyampaikan gagasan atau fakta secara logis.",
+                "examples": [
+                  {
+                    "question": "Apa tujuan utama dari teks eksposisi?",
+                    "solution": "Tujuan teks eksposisi adalah untuk menjelaskan atau memaparkan informasi, pengetahuan, atau gagasan agar pembaca mendapatkan wawasan tanpa bermaksud mempengaruhi secara emosional."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan tesis dalam struktur teks eksposisi?",
+                    "solution": "Tesis adalah bagian pembuka yang berisi pernyataan pendapat atau opini penulis mengenai topik yang dibahas."
+                  },
+                  {
+                    "question": "Manakah yang merupakan fakta: 'Matahari terbit dari timur' atau 'Pemandangan gunung itu indah'?",
+                    "solution": "'Matahari terbit dari timur' adalah fakta, sedangkan keindahannya adalah opini."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Struktur teks eksposisi",
@@ -829,6 +1339,21 @@
               },
               {
                 "title": "Menulis Teks Berita",
+                "summary": "Bab ini melatih kemampuan menulis berita yang akurat dengan unsur 5W+1H dan struktur piramida terbalik.",
+                "examples": [
+                  {
+                    "question": "Apa yang dimaksud dengan 'Lead' dalam berita?",
+                    "solution": "Lead atau teras berita adalah paragraf pertama yang memuat intisari atau pokok peristiwa berita, biasanya mengandung unsur 5W+1H paling penting."
+                  },
+                  {
+                    "question": "Unsur 'Why' dalam 5W+1H menanyakan tentang apa?",
+                    "solution": "Menanyakan alasan atau latar belakang mengapa suatu peristiwa terjadi."
+                  },
+                  {
+                    "question": "Apa fungsi headline (judul berita)?",
+                    "solution": "Untuk menarik minat pembaca dan memberikan gambaran singkat tentang isi berita."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Unsur berita",
@@ -846,6 +1371,21 @@
               },
               {
                 "title": "Puisi dan Drama",
+                "summary": "Bab ini mengembangkan apresiasi sastra melalui analisis unsur-unsur puisi dan pementasan drama.",
+                "examples": [
+                  {
+                    "question": "Apa perbedaan rima dan ritme dalam puisi?",
+                    "solution": "Rima adalah persamaan bunyi pada akhir baris puisi, sedangkan ritme adalah irama atau alunan bunyi yang teratur dan berulang dalam pembacaan puisi."
+                  },
+                  {
+                    "question": "Apa fungsi dialog dalam naskah drama?",
+                    "solution": "Untuk menggambarkan karakter tokoh, menggerakkan alur cerita, dan menyampaikan konflik."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan tema dalam sebuah puisi?",
+                    "solution": "Gagasan pokok atau ide dasar yang menjiwai keseluruhan isi puisi."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Unsur intrinsik puisi",
@@ -892,6 +1432,21 @@
             "chapters": [
               {
                 "title": "Kerajaan Islam di Indonesia",
+                "summary": "Bab ini menelusuri sejarah masuknya Islam ke Nusantara dan perkembangan kerajaan-kerajaan Islam seperti Samudra Pasai dan Demak.",
+                "examples": [
+                  {
+                    "question": "Sebutkan salah satu bukti peninggalan sejarah Kerajaan Demak yang masih ada hingga sekarang.",
+                    "solution": "Masjid Agung Demak yang terkenal dengan arsitektur atap tumpang."
+                  },
+                  {
+                    "question": "Kerajaan Samudra Pasai dikenal sebagai kerajaan Islam pertama di Indonesia. Di manakah letaknya?",
+                    "solution": "Di pesisir utara Sumatera (sekarang wilayah Aceh)."
+                  },
+                  {
+                    "question": "Apa peran utama Wali Songo dalam sejarah Islam di Jawa?",
+                    "solution": "Mereka adalah tokoh ulama yang menyebarkan agama Islam di tanah Jawa, terutama melalui pendekatan budaya dan pendidikan."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Kerajaan Samudra Pasai",
@@ -909,6 +1464,21 @@
               },
               {
                 "title": "Perdagangan Internasional",
+                "summary": "Bab ini menganalisis faktor pendorong, penghambat, dan dampak perdagangan internasional bagi perekonomian negara.",
+                "examples": [
+                  {
+                    "question": "Apa yang dimaksud dengan proteksionisme dalam perdagangan internasional?",
+                    "solution": "Proteksionisme adalah kebijakan pemerintah untuk membatasi impor barang dari luar negeri guna melindungi industri dalam negeri, misalnya melalui tarif atau kuota."
+                  },
+                  {
+                    "question": "Jelaskan perbedaan ekspor dan impor.",
+                    "solution": "Ekspor adalah kegiatan menjual barang ke luar negeri, sedangkan impor adalah membeli barang dari luar negeri."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan keunggulan komparatif?",
+                    "solution": "Kemampuan suatu negara untuk memproduksi barang dengan biaya peluang (opportunity cost) yang lebih rendah dibandingkan negara lain."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Rute perdagangan",
@@ -926,6 +1496,21 @@
               },
               {
                 "title": "Kolonialisme dan Imperialisme",
+                "summary": "Bab ini membahas kedatangan bangsa Barat ke Indonesia, masa kolonial Hindia Belanda, dan dampaknya terhadap rakyat.",
+                "examples": [
+                  {
+                    "question": "Apa tujuan utama kedatangan bangsa Barat (Portugis, Spanyol, Belanda) ke Nusantara pada awalnya?",
+                    "solution": "Tujuan utamanya adalah 3G: Gold (mencari kekayaan/rempah-rempah), Glory (mencari kejayaan/kekuasaan), dan Gospel (menyebarkan agama)."
+                  },
+                  {
+                    "question": "Apa tujuan VOC menerapkan hak monopoli perdagangan?",
+                    "solution": "Untuk menguasai harga rempah-rempah dan mendapatkan keuntungan maksimal."
+                  },
+                  {
+                    "question": "Apa dampak negatif Tanam Paksa (Cultuurstelsel) bagi rakyat Indonesia?",
+                    "solution": "Rakyat menderita kelaparan dan kemiskinan karena lahan pertanian digunakan untuk tanaman ekspor dan waktu habis untuk bekerja bagi pemerintah kolonial."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Kedatangan VOC",
@@ -972,6 +1557,21 @@
             "chapters": [
               {
                 "title": "Simple Past Tense",
+                "summary": "Bab ini mengajarkan penggunaan Simple Past Tense untuk menceritakan kejadian yang telah berlalu.",
+                "examples": [
+                  {
+                    "question": "Change to Simple Past: 'She goes to the market.'",
+                    "solution": "She **went** to the market."
+                  },
+                  {
+                    "question": "Complete the question: '___ you watch TV last night?'",
+                    "solution": "**Did** you watch TV last night?"
+                  },
+                  {
+                    "question": "Which word indicates past tense: 'Tomorrow', 'Now', or 'Yesterday'?",
+                    "solution": "Yesterday."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Regular and irregular verbs",
@@ -989,6 +1589,21 @@
               },
               {
                 "title": "Future Tense",
+                "summary": "Bab ini membahas penggunaan 'will' dan 'going to' untuk menyatakan rencana dan prediksi di masa depan.",
+                "examples": [
+                  {
+                    "question": "Complete with 'will' or 'going to': 'Look at those clouds! It ___ rain.'",
+                    "solution": "It **is going to** rain. (Prediksi berdasarkan bukti visual)."
+                  },
+                  {
+                    "question": "Which is used for a promise: 'I am going to help you' or 'I will help you'?",
+                    "solution": "'I **will** help you' is commonly used for promises."
+                  },
+                  {
+                    "question": "Mention one time signal for future tense.",
+                    "solution": "Tomorrow, next week, tonight, soon."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Will vs going to",
@@ -1006,6 +1621,21 @@
               },
               {
                 "title": "Adjective",
+                "summary": "Bab ini mendalami penggunaan kata sifat (adjective), termasuk perbandingan (comparative/superlative) untuk mendeskripsikan benda.",
+                "examples": [
+                  {
+                    "question": "Write the comparative form of 'expensive'.",
+                    "solution": "**More expensive** (karena memiliki lebih dari 2 suku kata)."
+                  },
+                  {
+                    "question": "What is the comparative form of 'good'?",
+                    "solution": "**Better**."
+                  },
+                  {
+                    "question": "What is the superlative form of 'happy'?",
+                    "solution": "**Happiest**."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Types of adjectives",
@@ -1023,6 +1653,21 @@
               },
               {
                 "title": "Narrative Text",
+                "summary": "Bab ini fokus pada struktur naratif untuk menceritakan kisah imajinatif atau legenda dengan tujuan menghibur.",
+                "examples": [
+                  {
+                    "question": "What is the function of the 'Complication' in narrative text?",
+                    "solution": "Complication tells the rising action or the problems that the participants face in the story."
+                  },
+                  {
+                    "question": "What information is usually found in the 'Orientation'?",
+                    "solution": "It introduces the characters, the time, and the place of the story."
+                  },
+                  {
+                    "question": "What is the moral value of a story?",
+                    "solution": "The lesson that the reader can learn from the story."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Structure of narrative",
@@ -1069,6 +1714,21 @@
             "chapters": [
               {
                 "title": "UUD 1945",
+                "summary": "Bab ini mempelajari sejarah, kedudukan, dan fungsi UUD 1945 sebagai konstitusi negara Republik Indonesia.",
+                "examples": [
+                  {
+                    "question": "Kapan UUD 1945 disahkan sebagai konstitusi negara?",
+                    "solution": "18 Agustus 1945, pada sidang PPKI."
+                  },
+                  {
+                    "question": "Berapa kali UUD 1945 telah diamandemen setelah era Reformasi?",
+                    "solution": "Empat kali (1999, 2000, 2001, 2002)."
+                  },
+                  {
+                    "question": "Apa fungsi UUD 1945 sebagai hukum dasar tertulis?",
+                    "solution": "Sebagai pedoman penyelenggaraan negara dan sumber dari segala sumber hukum di Indonesia."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Sejarah UUD 1945",
@@ -1086,6 +1746,21 @@
               },
               {
                 "title": "Sistem Pemerintahan RI",
+                "summary": "Bab ini menjelaskan lembaga-lembaga negara dan mekanisme pemerintahan di Indonesia sesuai UUD 1945.",
+                "examples": [
+                  {
+                    "question": "Sebutkan lembaga legislatif di Indonesia.",
+                    "solution": "MPR (Majelis Permusyawaratan Rakyat), DPR (Dewan Perwakilan Rakyat), dan DPD (Dewan Perwakilan Daerah)."
+                  },
+                  {
+                    "question": "Dalam sistem presidensial, presiden berkedudukan sebagai apa?",
+                    "solution": "Sebagai kepala negara sekaligus kepala pemerintahan."
+                  },
+                  {
+                    "question": "Lembaga mana yang memegang kekuasaan yudikatif tertinggi di Indonesia?",
+                    "solution": "Mahkamah Agung (MA) dan Mahkamah Konstitusi (MK)."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Presiden dan wakil presiden",
@@ -1103,6 +1778,21 @@
               },
               {
                 "title": "Hak dan Kewajiban Warga Negara",
+                "summary": "Bab ini menguraikan hak dan kewajiban warga negara yang diatur dalam konstitusi untuk menciptakan keseimbangan berbangsa.",
+                "examples": [
+                  {
+                    "question": "Sebutkan satu contoh kewajiban warga negara yang tercantum dalam UUD 1945.",
+                    "solution": "Wajib ikut serta dalam upaya pembelaan negara (Pasal 27 ayat 3)."
+                  },
+                  {
+                    "question": "Apa hak dasar yang paling utama?",
+                    "solution": "Hak untuk hidup (Pasal 28A)."
+                  },
+                  {
+                    "question": "Menurut Pasal 31 UUD 1945, setiap warga negara berhak mendapatkan apa?",
+                    "solution": "Pendidikan."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Hak asasi manusia",
@@ -1154,6 +1844,21 @@
             "chapters": [
               {
                 "title": "Kesebangunan",
+                "summary": "Bab ini membahas syarat-syarat dua bangun datar dikatakan sebangun atau kongruen dan penerapannya dalam pemecahan masalah.",
+                "examples": [
+                  {
+                    "question": "Dua segitiga sebangun memiliki perbandingan sisi 2:3. Jika tinggi segitiga kecil 10 cm, berapakah tinggi segitiga besar?",
+                    "solution": "t_besar = (3/2) * 10 cm = 1.5 * 10 cm = 15 cm."
+                  },
+                  {
+                    "question": "Apa perbedaan utama antara sebangun dan kongruen?",
+                    "solution": "Sebangun memiliki bentuk sama tapi ukuran berbeda, sedangkan kongruen memiliki bentuk dan ukuran yang persis sama."
+                  },
+                  {
+                    "question": "Sebuah tongkat 2m memiliki bayangan 3m. Pada saat yang sama, pohon memiliki bayangan 15m. Berapa tinggi pohon?",
+                    "solution": "Menggunakan perbandingan: t_pohon/t_tongkat = bayangan_pohon/bayangan_tongkat. t_pohon/2 = 15/3. t_pohon = 5 * 2 = 10 meter."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Bangun sebangun",
@@ -1171,6 +1876,21 @@
               },
               {
                 "title": "Trigonometri Dasar",
+                "summary": "Bab ini memperkenalkan perbandingan trigonometri (sin, cos, tan) pada segitiga siku-siku dan sudut-sudut istimewa.",
+                "examples": [
+                  {
+                    "question": "Pada segitiga siku-siku ABC (siku-siku di B), jika AB = 3 cm dan BC = 4 cm, berapakah nilai sin A?",
+                    "solution": "AC = √(3² + 4²) = √25 = 5. Sin A = sisi depan / miring = BC/AC = 4/5."
+                  },
+                  {
+                    "question": "Definisi cosinus suatu sudut pada segitiga siku-siku adalah perbandingan antara...",
+                    "solution": "Sisi samping sudut dengan sisi miring (hipotenusa)."
+                  },
+                  {
+                    "question": "Berapakah nilai dari tan 45°?",
+                    "solution": "1."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Perbandingan trigonometri",
@@ -1188,6 +1908,21 @@
               },
               {
                 "title": "Statistika Lanjutan",
+                "summary": "Bab ini memperdalam analisis data, termasuk ukuran pemusatan (mean, median, modus) dan penyebaran data.",
+                "examples": [
+                  {
+                    "question": "Data: 5, 7, 3, 5, 8, 5, 9. Tentukan modus data tersebut.",
+                    "solution": "Modus adalah nilai yang paling sering muncul. Angka 5 muncul 3 kali. Jadi, modus = 5."
+                  },
+                  {
+                    "question": "Hitung mean (rata-rata) dari data: 4, 6, 8, 10.",
+                    "solution": "Mean = (4+6+8+10) / 4 = 28 / 4 = 7."
+                  },
+                  {
+                    "question": "Median dari data terurut: 2, 4, 6, 8, 10 adalah...",
+                    "solution": "Nilai tengahnya adalah 6."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Diagram batang dan lingkaran",
@@ -1205,6 +1940,21 @@
               },
               {
                 "title": "Peluang",
+                "summary": "Bab ini menjelaskan konsep peluang teoretis dan empiris, serta menghitung peluang kejadian majemuk.",
+                "examples": [
+                  {
+                    "question": "Sebuah dadu dilempar sekali. Berapa peluang muncul mata dadu prima?",
+                    "solution": "Ruang sampel = {1,2,3,4,5,6}. Prima = {2,3,5} (3 angka). Peluang = 3/6 = 1/2."
+                  },
+                  {
+                    "question": "Tentukan ruang sampel dari pelemparan satu koin logam.",
+                    "solution": "S = {Angka, Gambar}."
+                  },
+                  {
+                    "question": "Jika peluang turun hujan adalah 0.2, berapa frekuensi harapan hujan dalam 100 hari?",
+                    "solution": "Fh = P(A) x N = 0.2 x 100 = 20 hari."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Ruang sampel",
@@ -1251,6 +2001,21 @@
             "chapters": [
               {
                 "title": "Listrik",
+                "summary": "Bab ini mempelajari konsep listrik dinamis, hukum Ohm, hukum Kirchhoff, dan energi serta daya listrik.",
+                "examples": [
+                  {
+                    "question": "Jika tegangan V = 12 Volt dan hambatan R = 4 Ohm, berapakah arus I yang mengalir?",
+                    "solution": "Hukum Ohm: I = V / R = 12 / 4 = 3 Ampere."
+                  },
+                  {
+                    "question": "Dua hambatan masing-masing 3 Ohm dan 6 Ohm disusun seri. Berapa hambatan penggantinya?",
+                    "solution": "Rs = R1 + R2 = 3 + 6 = 9 Ohm."
+                  },
+                  {
+                    "question": "Apa karakteristik tegangan pada rangkaian paralel?",
+                    "solution": "Tegangan pada setiap cabang rangkaian paralel adalah sama besar."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Arus listrik",
@@ -1268,6 +2033,21 @@
               },
               {
                 "title": "Energi",
+                "summary": "Bab ini membahas berbagai bentuk energi, sumber energi terbarukan dan tak terbarukan, serta transformasinya.",
+                "examples": [
+                  {
+                    "question": "Energi apa yang tersimpan dalam air yang berada di bendungan setinggi 20 meter?",
+                    "solution": "Energi Potensial Gravitasi."
+                  },
+                  {
+                    "question": "Sebutkan dua faktor yang mempengaruhi besar energi kinetik.",
+                    "solution": "Massa (m) dan kecepatan (v) benda."
+                  },
+                  {
+                    "question": "Bunyi Hukum Kekekalan Energi adalah...",
+                    "solution": "Energi tidak dapat diciptakan atau dimusnahkan, tetapi hanya dapat diubah dari satu bentuk ke bentuk lainnya."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Bentuk energi",
@@ -1285,6 +2065,21 @@
               },
               {
                 "title": "Sistem Reproduksi Manusia",
+                "summary": "Bab ini mendetailkan proses gametogenesis, fertilisasi, kehamilan, dan persalinan pada manusia.",
+                "examples": [
+                  {
+                    "question": "Hormon apakah yang berperan penting dalam penebalan dinding rahim (endometrium)?",
+                    "solution": "Progesteron."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan ovulasi?",
+                    "solution": "Proses pelepasan sel telur (ovum) yang telah matang dari ovarium menuju tuba falopi."
+                  },
+                  {
+                    "question": "Organ reproduksi pria yang berfungsi sebagai saluran sperma dari epididimis adalah...",
+                    "solution": "Vas deferens."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Organ reproduksi",
@@ -1302,6 +2097,21 @@
               },
               {
                 "title": "Pewarisan Sifat",
+                "summary": "Bab ini menjelaskan mekanisme pewarisan sifat dari induk ke keturunan berdasarkan hukum Mendel dan genetika modern.",
+                "examples": [
+                  {
+                    "question": "Jika bunga merah (MM) disilangkan dengan bunga putih (mm), dan merah dominan, apa genotipe F1?",
+                    "solution": "F1 = Mm (Heterozigot Merah)."
+                  },
+                  {
+                    "question": "Apa perbedaan genotipe homozigot dan heterozigot?",
+                    "solution": "Homozigot memiliki pasangan alel yang sama (misal AA atau aa), sedangkan heterozigot memiliki pasangan alel berbeda (Aa)."
+                  },
+                  {
+                    "question": "Kromosom seks untuk laki-laki adalah...",
+                    "solution": "XY."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Hukum Mendel",
@@ -1319,6 +2129,21 @@
               },
               {
                 "title": "Evolusi",
+                "summary": "Bab ini menguraikan teori-teori asal usul kehidupan dan mekanisme evolusi makhluk hidup.",
+                "examples": [
+                  {
+                    "question": "Siapakah ilmuwan yang mengemukakan teori evolusi melalui seleksi alam?",
+                    "solution": "Charles Darwin, dalam bukunya 'On the Origin of Species'."
+                  },
+                  {
+                    "question": "Berikan contoh bukti seleksi alam yang terjadi pada ngengat Biston betularia.",
+                    "solution": "Setelah revolusi industri, ngengat berwarna gelap lebih banyak bertahan hidup daripada ngengat berwarna cerah karena lebih sulit terlihat predator di batang pohon yang menghitam oleh jelaga."
+                  },
+                  {
+                    "question": "Struktur organ tubuh yang memiliki asal usul sama tetapi fungsi berbeda (misal: sirip paus dan tangan manusia) disebut...",
+                    "solution": "Homologi."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Teori evolusi Darwin",
@@ -1365,6 +2190,21 @@
             "chapters": [
               {
                 "title": "Teks Eksplanasi",
+                "summary": "Bab ini mengajarkan struktur dan ciri bahasa teks eksplanasi yang menjelaskan proses terjadinya fenomena alam atau sosial.",
+                "examples": [
+                  {
+                    "question": "Bagian manakah yang berisi penjelasan proses sebab-akibat dalam teks eksplanasi?",
+                    "solution": "Deretan Penjelas (Explanation Sequence)."
+                  },
+                  {
+                    "question": "Apa isi dari bagian 'Pernyataan Umum'?",
+                    "solution": "Gambaran umum atau pengenalan tentang fenomena alam/sosial yang akan dibahas."
+                  },
+                  {
+                    "question": "Sebutkan contoh konjungsi kausalitas.",
+                    "solution": "Sebab, karena, oleh karena itu, sehingga."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Struktur teks eksplanasi",
@@ -1382,6 +2222,21 @@
               },
               {
                 "title": "Teks Persuasi",
+                "summary": "Bab ini fokus pada teks persuasi yang bertujuan memengaruhi pembaca dengan argumen dan fakta yang kuat.",
+                "examples": [
+                  {
+                    "question": "Apa ciri utama kalimat persuasif?",
+                    "solution": "Mengandung ajakan, bujukan, atau himbauan (misalnya: ayo, mari, hendaknya)."
+                  },
+                  {
+                    "question": "Apa perbedaan fakta dan pendapat dalam teks persuasi?",
+                    "solution": "Fakta adalah data yang kebenarannya dapat dibuktikan, sedangkan pendapat adalah argumen penulis untuk meyakinkan pembaca."
+                  },
+                  {
+                    "question": "Apa fungsi bagian 'Simpulan/Saran' dalam teks persuasi?",
+                    "solution": "Menegaskan kembali inti ajakan dan mendorong pembaca untuk melakukan sesuatu."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Unsur persuasi",
@@ -1399,6 +2254,21 @@
               },
               {
                 "title": "Teks Cerita Inspiratif",
+                "summary": "Bab ini menelaah teks cerita inspiratif yang menggugah semangat dan memberikan pesan moral kepada pembaca.",
+                "examples": [
+                  {
+                    "question": "Apa tujuan utama dari teks cerita inspiratif?",
+                    "solution": "Memberikan inspirasi, motivasi, dan keteladanan kepada pembaca melalui kisah nyata atau fiksi."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan Koda dalam struktur cerita?",
+                    "solution": "Bagian penutup cerita yang berisi kesimpulan dan pesan moral (amanat)."
+                  },
+                  {
+                    "question": "Bagian cerita yang menunjukkan puncak masalah disebut...",
+                    "solution": "Klimaks."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Unsur cerita",
@@ -1416,6 +2286,21 @@
               },
               {
                 "title": "Pidato Tertulis",
+                "summary": "Bab ini membimbing cara menyusun naskah pidato yang sistematis, logis, dan menarik untuk disampaikan.",
+                "examples": [
+                  {
+                    "question": "Sebutkan tiga bagian utama struktur pidato.",
+                    "solution": "Pembuka, Isi, dan Penutup."
+                  },
+                  {
+                    "question": "Contoh kalimat salam pembuka dalam pidato adalah...",
+                    "solution": "'Assalamu'alaikum warahmatullahi wabarakatuh', 'Selamat pagi', atau 'Salam sejahtera bagi kita semua'."
+                  },
+                  {
+                    "question": "Apa tujuan pidato persuasif?",
+                    "solution": "Untuk mengajak atau memengaruhi pendengar agar setuju dengan pendapat pembicara dan melakukan tindakan tertentu."
+                  }
+                ],
                 "topics": [
                   {
                     "name": "Struktur pidato",
@@ -1423,7 +2308,7 @@
                   },
                   {
                     "name": "Bahasa efektif",
-"explanation": "Bahasa efektif dalam pidato tertulis memiliki ciri-ciri yang membuat penyampaian pesan jelas, menarik, dan mudah dipahami audiens. Ciri-ciri bahasa efektif meliputi: 1) Kesatuan (setiap kalimat memiliki satu ide pokok), 2) Hubungan logis (kalimat-kalimat saling berkaitan membentuk alur yang koheren), 3) Kepadatan (menghindari pemborosan kata dan kalimat), 4) Kecermatan (menggunakan kata dan frasa yang tepat), 5) Variasi (menggunakan struktur kalimat yang beragam untuk menjaga minat pendengar). Bahasa efektif juga menggunakan diksi yang tepat, gaya bahasa yang sesuai, dan register bahasa yang sesuai dengan konteks dan audiens. Penggunaan bahasa efektif meningkatkan kredibilitas pembicara dan efektivitas penyampaian pesan."
+                    "explanation": "Bahasa efektif dalam pidato tertulis memiliki ciri-ciri yang membuat penyampaian pesan jelas, menarik, dan mudah dipahami audiens. Ciri-ciri bahasa efektif meliputi: 1) Kesatuan (setiap kalimat memiliki satu ide pokok), 2) Hubungan logis (kalimat-kalimat saling berkaitan membentuk alur yang koheren), 3) Kepadatan (menghindari pemborosan kata dan kalimat), 4) Kecermatan (menggunakan kata dan frasa yang tepat), 5) Variasi (menggunakan struktur kalimat yang beragam untuk menjaga minat pendengar). Bahasa efektif juga menggunakan diksi yang tepat, gaya bahasa yang sesuai, dan register bahasa yang sesuai dengan konteks dan audiens. Penggunaan bahasa efektif meningkatkan kredibilitas pembicara dan efektivitas penyampaian pesan."
                   },
                   {
                     "name": "Retorika pidato",
@@ -1462,15 +2347,99 @@
             "chapters": [
               {
                 "title": "Perkembangan Kolonialisme",
-                "topics": ["Politik etis", "Gerakan nasional", "Tokoh-tokoh pergerakan"]
+                "summary": "Bab ini membahas dampak kolonialisme Belanda di Indonesia, mulai dari kebijakan Politik Etis yang melahirkan kaum terpelajar hingga munculnya kesadaran kebangsaan yang memicu lahirnya pergerakan nasional.",
+                "examples": [
+                  {
+                    "question": "Siapakah tokoh Belanda yang mencetuskan Politik Etis?",
+                    "solution": "Conrad Theodore van Deventer."
+                  },
+                  {
+                    "question": "Apa dampak positif program Edukasi dalam Politik Etis bagi Indonesia?",
+                    "solution": "Lahirnya golongan terpelajar (priyayi baru) yang kemudian memelopori pergerakan nasional."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan sistem Tanam Paksa (Cultuurstelsel)?",
+                    "solution": "Sistem yang mewajibkan rakyat menanam tanaman ekspor yang laku di pasar Eropa dan menyerahkan hasilnya kepada pemerintah kolonial."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Politik Etis",
+                    "explanation": "Politik Etis atau Politik Balas Budi adalah kebijakan baru pemerintah kolonial Belanda pada awal abad ke-20 yang bertujuan meningkatkan kesejahteraan rakyat jajahan. Kebijakan ini dicetuskan oleh C. Th. van Deventer dengan tiga program utama: Irigasi (pengairan), Migrasi (perpindahan penduduk), dan Edukasi (pendidikan). Meskipun pelaksanaannya banyak menyimpang (seperti irigasi untuk perkebunan Belanda dan migrasi untuk tenaga kerja murah), program edukasi berhasil melahirkan golongan priyayi baru atau kaum terpelajar yang kemudian menjadi pelopor pergerakan nasional Indonesia."
+                  },
+                  {
+                    "name": "Gerakan nasional",
+                    "explanation": "Gerakan nasional adalah periode perlawanan terhadap penjajahan yang tidak lagi bersifat kedaerahan (fisik/senjata), melainkan menggunakan organisasi modern dan diplomasi politik. Faktor pendorongnya meliputi penderitaan rakyat akibat penjajahan, kenangan kejayaan masa lampau (Sriwijaya/Majapahit), lahirnya kaum terpelajar, serta pengaruh luar negeri seperti kemenangan Jepang atas Rusia (1905). Masa pergerakan dibagi menjadi masa pembentukan (Budi Utomo), masa radikal (PKI, PNI), dan masa moderat (Parindra, GAPI)."
+                  },
+                  {
+                    "name": "Tokoh-tokoh pergerakan",
+                    "explanation": "Tokoh-tokoh pergerakan nasional adalah para pemimpin yang berjuang melalui organisasi untuk mencapai kemerdekaan. Dr. Sutomo mendirikan Budi Utomo (1908) sebagai organisasi modern pertama. H.O.S. Tjokroaminoto memimpin Sarekat Islam yang berbasis massa rakyat. Tiga Serangkai (Douwes Dekker, Cipto Mangunkusumo, Suwardi Suryaningrat) mendirikan Indische Partij. Soekarno, Hatta, dan Sjahrir adalah tokoh-tokoh PNI dan PNI Baru yang berjuang secara radikal menuntut kemerdekaan ('Indonesia Merdeka'). R.A. Kartini dan Dewi Sartika memperjuangkan emansipasi wanita melalui pendidikan."
+                  }
+                ]
               },
               {
                 "title": "Pergerakan Nasional",
-                "topics": ["Organisasi pergerakan", "Strategi perjuangan", "Kongres pemuda"]
+                "summary": "Bab ini menguraikan dinamika organisasi pergerakan nasional, strategi perjuangan kooperatif dan non-kooperatif, serta momen bersejarah Kongres Pemuda yang melahirkan Sumpah Pemuda.",
+                "examples": [
+                  {
+                    "question": "Kapan Sumpah Pemuda diikrarkan?",
+                    "solution": "28 Oktober 1928, pada Kongres Pemuda II."
+                  },
+                  {
+                    "question": "Kapan organisasi Budi Utomo didirikan yang diperingati sebagai Hari Kebangkitan Nasional?",
+                    "solution": "20 Mei 1908."
+                  },
+                  {
+                    "question": "Apa yang dimaksud dengan strategi perjuangan kooperatif?",
+                    "solution": "Perjuangan dengan cara bekerja sama dengan pemerintah kolonial, misalnya melalui Volksraad."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Organisasi pergerakan",
+                    "explanation": "Organisasi pergerakan nasional bermunculan dengan ideologi dan strategi yang beragam. Budi Utomo (1908) bersifat sosial-budaya priyayi Jawa. Sarekat Islam (1912) berbasis ekonomi dan agama dengan basis massa luas. Indische Partij (1912) bersifat politik radikal menuntut kemerdekaan. Partai Nasional Indonesia (1927) bersifat nasionalis radikal. Organisasi pemuda (Jong Java, Jong Sumatranen Bond), organisasi wanita, dan organisasi keagamaan (Muhammadiyah, Nahdlatul Ulama) juga berperan penting dalam membangun kesadaran nasional di berbagai lapisan masyarakat."
+                  },
+                  {
+                    "name": "Strategi perjuangan",
+                    "explanation": "Strategi perjuangan pergerakan nasional terbagi menjadi dua: kooperatif (bekerja sama) dan non-kooperatif (menolak bekerja sama) dengan pemerintah kolonial. Organisasi non-kooperatif (radikal) seperti PNI, PKI, dan PI menolak duduk dalam dewan rakyat (Volksraad) dan menuntut kemerdekaan langsung. Organisasi kooperatif (moderat) seperti Budi Utomo, Parindra, dan Gerindo bersedia duduk di Volksraad untuk memperjuangkan nasib rakyat melalui parlemen, meskipun tetap mencita-citakan otonomi atau kemerdekaan. Perubahan strategi sering dipengaruhi oleh sikap represif pemerintah kolonial."
+                  },
+                  {
+                    "name": "Kongres Pemuda",
+                    "explanation": "Kongres Pemuda adalah puncak persatuan gerakan pemuda Indonesia. Kongres Pemuda I (1926) berhasil menyatukan persepsi antar organisasi pemuda. Kongres Pemuda II (27-28 Oktober 1928) menghasilkan keputusan monumental 'Sumpah Pemuda', di mana para pemuda mengikrarkan bertumpah darah satu (Tanah Indonesia), berbangsa satu (Bangsa Indonesia), dan menjunjung bahasa persatuan (Bahasa Indonesia). Pada kongres ini juga lagu 'Indonesia Raya' karya W.R. Supratman diperdengarkan pertama kali, dan bendera Merah Putih dikibarkan, menandai tonggak persatuan nasional yang kokoh."
+                  }
+                ]
               },
               {
                 "title": "Kemerdekaan Indonesia",
-                "topics": ["Proklamasi kemerdekaan", "Tantangan awal kemerdekaan", "Pembentukan NKRI"]
+                "summary": "Bab ini menjelaskan detik-detik proklamasi kemerdekaan, tantangan berat mempertahankan kedaulatan di masa awal, dan proses pembentukan Negara Kesatuan Republik Indonesia.",
+                "examples": [
+                  {
+                    "question": "Siapakah yang mengetik naskah proklamasi kemerdekaan?",
+                    "solution": "Sayuti Melik."
+                  },
+                  {
+                    "question": "Apa tujuan para pemuda membawa Soekarno-Hatta ke Rengasdengklok?",
+                    "solution": "Untuk mendesak agar segera memproklamasikan kemerdekaan dan menjauhkan mereka dari pengaruh Jepang."
+                  },
+                  {
+                    "question": "Apa hasil sidang pertama PPKI pada 18 Agustus 1945?",
+                    "solution": "Mengesahkan UUD 1945, memilih Ir. Soekarno sebagai Presiden dan Drs. Moh. Hatta sebagai Wakil Presiden."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Proklamasi kemerdekaan",
+                    "explanation": "Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945 didahului oleh peristiwa Rengasdengklok (pengamanan Soekarno-Hatta oleh golongan muda) menyusul kekalahan Jepang dari Sekutu. Naskah proklamasi dirumuskan di rumah Laksamana Maeda oleh Soekarno, Hatta, dan Ahmad Subardjo. Teks proklamasi dibacakan oleh Soekarno didampingi Hatta di Jalan Pegangsaan Timur No. 56 Jakarta. Peristiwa ini menandai lahirnya negara Indonesia merdeka yang berdaulat, bebas dari penjajahan, dan menjadi titik puncak perjuangan bangsa Indonesia."
+                  },
+                  {
+                    "name": "Tantangan awal kemerdekaan",
+                    "explanation": "Setelah proklamasi, Indonesia menghadapi tantangan berat berupa kedatangan kembali Belanda (NICA) yang membonceng tentara Sekutu, hiperinflasi ekonomi, dan ketidakstabilan politik. Terjadi pertempuran fisik di berbagai daerah (Surabaya 10 November, Ambarawa, Bandung Lautan Api) untuk mempertahankan kemerdekaan ('Revolusi Fisik'). Di sisi diplomasi, Indonesia berjuang mendapatkan pengakuan internasional melalui perundingan Linggarjati, Renville, Roem-Royen, hingga Konferensi Meja Bundar (KMB) 1949."
+                  },
+                  {
+                    "name": "Pembentukan NKRI",
+                    "explanation": "Pembentukan struktur negara dimulai pada 18 Agustus 1945 oleh PPKI yang mengesahkan UUD 1945, memilih Presiden dan Wakil Presiden, dan membentuk KNIP. Bentuk negara sempat berubah menjadi Republik Indonesia Serikat (RIS) hasil KMB 1949, namun tidak bertahan lama karena desakan rakyat untuk kembali ke negara kesatuan. Pada 17 Agustus 1950, RIS dibubarkan dan Indonesia kembali menjadi Negara Kesatuan Republik Indonesia (NKRI) dengan UUDS 1950, menyatukan kembali seluruh wilayah nusantara dalam satu pemerintahan pusat."
+                  }
+                ]
               }
             ],
             "resources": [
@@ -1503,19 +2472,131 @@
             "chapters": [
               {
                 "title": "Report Text",
-                "topics": ["Structure of report", "General classification", "Description"]
+                "summary": "Bab ini membahas struktur dan ciri kebahasaan Report Text yang bertujuan memberikan informasi faktual tentang suatu objek secara umum, ilmiah, dan objektif.",
+                "examples": [
+                  {
+                    "question": "What is the purpose of a Report Text?",
+                    "solution": "To present information about something in general (e.g., mammals, planets) based on research or systematic observation."
+                  },
+                  {
+                    "question": "What is 'General Classification'?",
+                    "solution": "The introductory part of a report text that states the classification of general aspects of the thing being discussed."
+                  },
+                  {
+                    "question": "What tense is mostly used in Report Text?",
+                    "solution": "Simple Present Tense, because it states general truths."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Structure of report",
+                    "explanation": "Structure of report text consists of two main parts: General Classification and Description. General Classification introduces the topic of the report, such as 'Whales are mammals'. Description provides details about the subject, such as its physical appearance, habitat, behavior, breeding, and other characteristics. Unlike descriptive text which focuses on a specific subject (e.g., 'My Cat'), report text focuses on a general class of things (e.g., 'Cats'). Ideally, report text should be written in a formal and objective tone."
+                  },
+                  {
+                    "name": "General classification",
+                    "explanation": "General classification is the opening part of a report text. It states the classification of general aspect of thing: animal, public place, plant, etc. which will be discussed in general. For example, if the report is about 'Elephant', the general classification might state: 'Elephants are the largest land mammals on Earth.' This section sets the context for the reader and defines the scope of the report."
+                  },
+                  {
+                    "name": "Description in report",
+                    "explanation": "The Description section in a report text elaborates on the classification. It describes the parts, qualities, habits, or behaviors of the subject in detail. For animals, it might cover anatomy, diet, and habitat. For phenomena, it might cover causes and effects. The language used is typically Simple Present Tense to indicate general truths. Passive voice is also frequently used to maintain objectivity. Technical terms related to the subject are often included to provide scientific accuracy."
+                  }
+                ]
               },
               {
                 "title": "Descriptive Text",
-                "topics": ["Identifying details", "Sensory description", "Figurative language"]
+                "summary": "Bab ini mendalami Descriptive Text yang fokus pada penggambaran detail orang, tempat, atau benda tertentu secara spesifik menggunakan bahasa sensorik.",
+                "examples": [
+                  {
+                    "question": "What is the generic structure of a Descriptive Text?",
+                    "solution": "Identification (introduction of what is being described) and Description (details of features, characteristics)."
+                  },
+                  {
+                    "question": "Descriptive text focuses on specific participants. Give an example.",
+                    "solution": "'My Cat', NOT 'Cats' in generally; 'Borobudur Temple', NOT 'Temples'."
+                  },
+                  {
+                    "question": "What type of words are frequently used in descriptive text?",
+                    "solution": "Adjectives (kata sifat) to describe the object."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Identifying details",
+                    "explanation": "Identifying details in descriptive text serves to introduce the specific object being described. This is called 'Identification'. It answers the question 'What is it?' or 'Who is it?'. For example, 'I have a favorite cat named Fluffy.' Detailed identification helps the reader visualize the specific subject, distinguishing it from others of the same class. It sets the stage for the detailed description that follows."
+                  },
+                  {
+                    "name": "Sensory description",
+                    "explanation": "Sensory description appeals to the five senses: sight, sound, smell, taste, and touch. Good descriptive writing uses sensory details to create a vivid picture in the reader's mind. For example, instead of saying 'The food was good', one might write 'The soup was creamy and rich, with a hint of spicy ginger.' Sight is usually the most used sense (colors, shapes, sizes), but including others like texture ('rough bark') or sound ('rustling leaves') makes the description immersive."
+                  },
+                  {
+                    "name": "Figurative language",
+                    "explanation": "Figurative language makes descriptions more interesting and creative. Similes compare two things using 'like' or 'as' (e.g., 'Her smile was as bright as the sun'). Metaphors compare directly without 'like' or 'as' (e.g., 'Time is a thief'). Personification gives human qualities to non-human things (e.g., 'The wind whispered through the trees'). Using figurative language helps convey emotions and impressions effectively, making the descriptive text more engaging."
+                  }
+                ]
               },
               {
                 "title": "Procedure Text",
-                "topics": ["Goal and materials", "Steps in procedure", "Imperative sentences"]
+                "summary": "Bab ini menjelaskan Procedure Text yang berisi panduan langkah demi langkah untuk melakukan atau membuat sesuatu, menggunakan kalimat perintah (imperative).",
+                "examples": [
+                  {
+                    "question": "Give an example of an imperative sentence often found in recipes.",
+                    "solution": "**Stir** the mixture thoroughly. (Starts with a verb command)."
+                  },
+                  {
+                    "question": "Mention temporal conjunctions used in procedure text.",
+                    "solution": "First, second, then, next, after that, finally."
+                  },
+                  {
+                    "question": "What is the purpose of the 'Materials/Ingredients' section?",
+                    "solution": "To list everything needed to complete the procedure so the reader can prepare beforehand."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Goal and materials",
+                    "explanation": "A Procedure Text starts with a Goal (or Title), stating what is to be achieved (e.g., 'How to Make Fried Rice'). This is followed by a list of Materials or Ingredients needed to complete the task. Listing materials ensures that the reader has everything prepared before starting the process. Sometimes, tools or equipment are also listed separately. Clear specification of quantities (e.g., '2 cups', '1 tablespoon') is crucial for success."
+                  },
+                  {
+                    "name": "Steps in procedure",
+                    "explanation": "The Steps section lists the actions to be taken in chronological order. Connectives or temporal conjunctions are used to sequence the steps: 'First', 'Second', 'Then', 'Next', 'After that', 'Finally'. Each step should be clear, concise, and easy to follow. The steps guide the reader from the beginning to the end of the process. Logical ordering is essential to avoid confusion."
+                  },
+                  {
+                    "name": "Imperative sentences",
+                    "explanation": "Procedure texts rely heavily on Imperative Sentences (commands). Imperative sentences start with a verb (action word) and usually omit the subject 'you'. Examples: 'Cut the onions', 'Boil the water', 'Press the button'. Negative imperatives use 'Do not' (e.g., 'Do not open the oven'). The use of action verbs (V1) makes the instructions direct and actionable. Adverbs (e.g., 'slowly', 'carefully') may be added to describe how the action should be performed."
+                  }
+                ]
               },
               {
                 "title": "Passive Voice",
-                "topics": ["Active vs passive", "Forming passive voice", "When to use passive"]
+                "summary": "Bab ini mengajarkan Passive Voice, konstruksi kalimat di mana subjek menerima aksi, yang penting untuk penulisan akademik dan formal.",
+                "examples": [
+                  {
+                    "question": "Change to Passive: 'The teacher explains the lesson.'",
+                    "solution": "The lesson **is explained** by the teacher."
+                  },
+                  {
+                    "question": "What is the general formula for Passive Voice?",
+                    "solution": "Subject + to be + Verb 3 (Past Participle)."
+                  },
+                  {
+                    "question": "When do we use 'by' in a passive sentence?",
+                    "solution": "When we want to mention the agent (the doer of the action), although it is optional."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Active vs passive",
+                    "explanation": "In Active Voice, the subject performs the action (Subject + Verb + Object). Example: 'The chef cooks the food.' In Passive Voice, the subject receives the action (Object + be + V3 + by Subject). Example: 'The food is cooked by the chef.' The focus shifts from the 'doer' (agent) to the 'receiver' or the action itself. Understanding this difference is key to mastering English sentence structure variations."
+                  },
+                  {
+                    "name": "Forming passive voice",
+                    "explanation": "Passive Voice is formed using the pattern: Subject + to be + Past Participle (V3). The form of 'to be' changes according to the tense: Simple Present (is/am/are + V3), Simple Past (was/were + V3), Future (will be + V3), Continuous (is/are being + V3), Perfect (has/have been + V3). The 'by phrase' (agent) is optional and used only if it's important to know who performed the action. Irregular verbs must be memorized to form the correct Past Participle."
+                  },
+                  {
+                    "name": "When to use passive",
+                    "explanation": "Passive Voice is used when: 1) The actor is unknown (e.g., 'My wallet was stolen'), 2) The actor is irrelevant or obvious (e.g., 'Rice is grown in Indonesia' - by farmers), 3) The action or object is more important than the actor (e.g., 'A new bridge was built'), 4) In formal or scientific writing to sound objective (e.g., 'The mixture was heated'). Overusing passive voice can make writing dull, so it should be used judiciously."
+                  }
+                ]
               }
             ],
             "resources": [
@@ -1548,15 +2629,99 @@
             "chapters": [
               {
                 "title": "Peran Indonesia dalam Perdamaian Dunia",
-                "topics": ["Politik luar negeri", "Perdamaian internasional", "Peran dalam PBB"]
+                "summary": "Bab ini membahas peran aktif Indonesia dalam kancah internasional melalui politik luar negeri bebas aktif, keanggotaan PBB, dan organisasi regional.",
+                "examples": [
+                  {
+                    "question": "Apa landasan politik luar negeri Indonesia?",
+                    "solution": "Bebas Aktif. Bebas artinya tidak memihak blok manapun, Aktif artinya turut serta dalam perdamaian dunia."
+                  },
+                  {
+                    "question": "Pasukan Indonesia yang dikirim untuk misi perdamaian PBB disebut...",
+                    "solution": "Kontingen Garuda (KONGA)."
+                  },
+                  {
+                    "question": "Apa peran Indonesia dalam pembentukan ASEAN?",
+                    "solution": "Indonesia adalah salah satu dari lima negara pendiri ASEAN."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Politik luar negeri",
+                    "explanation": "Landasan politik luar negeri Indonesia adalah 'Bebas Aktif'. 'Bebas' berarti tidak memihak blok kekuatan manapun (seperti Blok Barat atau Blok Timur pada masa Perang Dingin), sedangkan 'Aktif' berarti turut serta dalam menjaga ketertiban dunia dan penghapusan penjajahan. Landasan idealnya adalah Pancasila, dan landasan konstitusionalnya adalah UUD 1945 alinea ke-4 ('...ikut melaksanakan ketertiban dunia...'). Implementasinya mencakup hubungan bilateral maupun multilateral yang saling menguntungkan."
+                  },
+                  {
+                    "name": "Perdamaian internasional",
+                    "explanation": "Indonesia berkontribusi nyata dalam perdamaian internasional melalui berbagai inisiatif. Indonesia adalah salah satu pelopor Konferensi Asia Afrika (KAA) 1955 yang melahirkan Dasa Sila Bandung dan Gerakan Non-Blok (GNB) 1961 untuk meredakan ketegangan dunia. Di tingkat regional, Indonesia adalah pendiri ASEAN (1967) untuk menjaga stabilitas Asia Tenggara. Indonesia juga aktif menjadi mediator konflik negara lain, seperti di Kamboja dan Filipina Selatan."
+                  },
+                  {
+                    "name": "Peran dalam PBB",
+                    "explanation": "Sebagai anggota Perserikatan Bangsa-Bangsa (PBB), Indonesia aktif mengirimkan Pasukan Pemelihara Perdamaian (Kontingen Garuda) ke berbagai wilayah konflik di dunia seperti Timur Tengah, Afrika, dan Eropa. Indonesia juga beberapa kali terpilih sebagai anggota tidak tetap Dewan Keamanan PBB dan Dewan HAM PBB. Keaktifan ini menunjukkan komitmen Indonesia dalam mewujudkan perdamaian abadi dan keadilan sosial di tingkat global."
+                  }
+                ]
               },
               {
                 "title": "Ketahanan Nasional",
-                "topics": ["Dimensi ketahanan", "Ancaman nasional", "Upaya peningkatan ketahanan"]
+                "summary": "Bab ini mengupas konsep Ketahanan Nasional sebagai kondisi dinamis bangsa dalam menghadapi ancaman, tantangan, hambatan, dan gangguan (ATHG).",
+                "examples": [
+                  {
+                    "question": "Apa yang dimaksud dengan ATHG dalam ketahanan nasional?",
+                    "solution": "Ancaman, Tantangan, Hambatan, dan Gangguan."
+                  },
+                  {
+                    "question": "Sebutkan komponen Pancagatra dalam Ketahanan Nasional.",
+                    "solution": "Ideologi, Politik, Ekonomi, Sosial Budaya, Pertahanan Keamanan (Ipoleksosbudhankam)."
+                  },
+                  {
+                    "question": "Apa kewajiban warga negara terkait ketahanan nasional?",
+                    "solution": "Ikut serta dalam upaya Bela Negara."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Dimensi ketahanan",
+                    "explanation": "Ketahanan Nasional mencakup berbagai aspek kehidupan yang dikenal dengan Astagatra (Tiga Gatra Alamiah dan Lima Gatra Sosial). Lima dimensi sosial (Pancagatra) meliputi: 1) Ideologi (Pancasila), 2) Politik (Demokrasi), 3) Ekonomi (Kemandirian), 4) Sosial Budaya (Kepribadian bangsa), dan 5) Pertahanan Keamanan (Sishankamrata). Integrasi yang kuat antar dimensi ini (Ipoleksosbudhankam) menciptakan ketahanan nasional yang tangguh."
+                  },
+                  {
+                    "name": "Ancaman nasional",
+                    "explanation": "Ancaman terhadap negara dibedakan menjadi ancaman militer dan non-militer. Ancaman militer menggunakan kekuatan bersenjata (agresi, spionase, sabotase, aksi teror, pemberontakan bersenjata). Ancaman non-militer bersifat abstrak namun berbahaya, seperti ancaman ideologi (radikalisme), politik (intervensi asing), ekonomi (kesenjangan), dan sosial budaya (westernisasi, lunturnya nilai luhur). Di era globalisasi, ancaman non-militer (cyber war, proxy war) cenderung lebih dominan dan sulit dideteksi."
+                  },
+                  {
+                    "name": "Upaya peningkatan ketahanan",
+                    "explanation": "Upaya meningkatkan ketahanan nasional melibatkan peran serta seluruh warga negara (Bela Negara). Secara fisik, bela negara dilakukan oleh TNI/Polri sebagai komponen utama. Secara non-fisik, bela negara dilakukan melalui pendidikan kewarganegaraan, pengabdian profesi, melestarikan budaya, mencintai produk dalam negeri, dan menjaga persatuan. Kesadaran bela negara adalah sikap dan perilaku warga negara yang dijiwai kecintaan kepada NKRI berdasarkan Pancasila dan UUD 1945."
+                  }
+                ]
               },
               {
                 "title": "Wawasan Nusantara",
-                "topics": ["Konsep wawasan nusantara", "Wilayah NKRI", "Pertahanan wilayah"]
+                "summary": "Bab ini menjelaskan Wawasan Nusantara sebagai cara pandang bangsa Indonesia tentang diri dan lingkungannya yang serba nusantara dalam satu kesatuan ideologi, politik, ekonomi, sosial budaya, dan pertahanan keamanan.",
+                "examples": [
+                  {
+                    "question": "Apa tujuan utama Wawasan Nusantara?",
+                    "solution": "Mewujudkan persatuan dan kesatuan segenap aspek kehidupan nasional (politik, ekonomi, sosial budaya, pertahanan)."
+                  },
+                  {
+                    "question": "Apa dampak Deklarasi Djuanda bagi wilayah laut Indonesia?",
+                    "solution": "Laut antar pulau tidak lagi dianggap sebagai pemisah, melainkan penghubung, sehingga wilayah Indonesia menjadi satu kesatuan utuh."
+                  },
+                  {
+                    "question": "Konsep negara kepulauan yang diakui PBB dalam UNCLOS 1982 disebut...",
+                    "solution": "Archipelagic State."
+                  }
+                ],
+                "topics": [
+                  {
+                    "name": "Konsep wawasan nusantara",
+                    "explanation": "Wawasan Nusantara adalah cara pandang dan sikap bangsa Indonesia mengenai diri dan bentuk geografisnya berdasarkan Pancasila dan UUD 1945. Tujuannya adalah mewujudkan persatuan dan kesatuan segenap aspek kehidupan nasional. Asas wawasan nusantara meliputi kepentingan yang sama, keadilan, kejujuran, solidaritas, kerjasama, dan kesetiaan terhadap kesepakatan nasional. Konsep ini mengajarkan bahwa meskipun Indonesia terdiri dari ribuan pulau dan ragam budaya, semuanya adalah satu kesatuan utuh."
+                  },
+                  {
+                    "name": "Wilayah NKRI",
+                    "explanation": "Wilayah Indonesia dideklarasikan melalui Deklarasi Djuanda (13 Desember 1957) yang menyatakan bahwa laut antar pulau bukan pemisah, melainkan pemersatu. Konsep ini diakui dunia melalui UNCLOS 1982 (Archipelagic State Principle). Wilayah NKRI meliputi wilayah darat, laut (Perairan Pedalaman, Laut Teritorial, Zona Tambahan, ZEE), dan udara di atasnya. Batas wilayah negara ditentukan berdasarkan perjanjian internasional dengan negara tetangga. Kedaulatan atas wilayah ini mutlak dan harus dijaga keutuhannya."
+                  },
+                  {
+                    "name": "Pertahanan wilayah",
+                    "explanation": "Sistem pertahanan Indonesia adalah Sistem Pertahanan dan Keamanan Rakyat Semesta (Sishankamrata). Ciri-cirinya: 1) Kerakyatan (orientasi untuk rakyat), 2) Kesemestaan (mendayagunakan seluruh sumber daya nasional), 3) Kewilayahan (pertahanan menyebar di seluruh wilayah). TNI sebagai komponen utama, didukung oleh komponen cadangan (warga negara terlatih) dan komponen pendukung (sumber daya alam/buatan). Menjaga pertahanan wilayah bukan hanya tugas tentara, tetapi tanggung jawab seluruh elemen bangsa sesuai profesi dan kemampuannya."
+                  }
+                ]
               }
             ],
             "resources": [

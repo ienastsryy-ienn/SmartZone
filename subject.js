@@ -23,7 +23,7 @@ function displaySubjectDetails(id) {
     // Find the subject in the curriculum data
     let subject = null;
     let grade = null;
-    
+
     for (const gradeKey in curriculumData.grades) {
         const gradeData = curriculumData.grades[gradeKey];
         const foundSubject = gradeData.subjects.find(sub => sub.id === id);
@@ -33,7 +33,7 @@ function displaySubjectDetails(id) {
             break;
         }
     }
-    
+
     if (!subject) {
         document.querySelector('.subject-detail').innerHTML = `
             <div class="container">
@@ -43,18 +43,18 @@ function displaySubjectDetails(id) {
         `;
         return;
     }
-    
+
     // Update subject header
     document.getElementById('subject-title').textContent = subject.detail.title;
     document.getElementById('subject-overview').textContent = subject.detail.overview;
     document.querySelector('.subject-icon-large i').className = subject.icon;
-    
+
     // Render chapters
     renderChapters(subject.detail.chapters, subject.id);
-    
+
     // Render resources
     renderResources(subject.detail.resources);
-    
+
     // Update progress display
     updateSubjectProgress(subject.id, subject.detail.chapters.length);
 }
@@ -63,7 +63,7 @@ function displaySubjectDetails(id) {
 function renderChapters(chapters, subjectId) {
     const chaptersContainer = document.getElementById('chapters-container');
     let chaptersHTML = '';
-    
+
     chapters.forEach((chapter, index) => {
         chaptersHTML += `
             <div class="chapter-card">
@@ -73,9 +73,11 @@ function renderChapters(chapters, subjectId) {
                 </div>
                 <div class="chapter-topics">
                     <ul>
-                        ${Array.isArray(chapter.topics) ? chapter.topics.map(topic => 
-                          `<li><i class="fas fa-circle"></i> ${typeof topic === 'string' ? topic : topic.name}</li>`
-                        ).join('') : ''}
+                        ${Array.isArray(chapter.topics) ? chapter.topics.map(topic => {
+            const topicName = typeof topic === 'string' ? topic : topic.name;
+            const slug = topicName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+            return `<li><a href="chapter.html?subject=${subjectId}&chapter=${index}#${slug}" class="topic-link" style="text-decoration: none; color: var(--text-color); display: block; padding: 2px 0;"><i class="fas fa-circle" style="font-size: 0.4rem; vertical-align: middle; margin-right: 8px; color: var(--primary-color);"></i> ${topicName}</a></li>`
+        }).join('') : ''}
                     </ul>
                 </div>
                 <div class="chapter-actions">
@@ -86,18 +88,18 @@ function renderChapters(chapters, subjectId) {
             </div>
         `;
     });
-    
+
     chaptersContainer.innerHTML = chaptersHTML;
-    
+
     // Add event listeners for chapter completion
     document.querySelectorAll('.complete-chapter-btn').forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             const subjectId = this.getAttribute('data-subject-id');
             const chapterIndex = parseInt(this.getAttribute('data-chapter-index'));
-            
+
             if (subjectId !== null && !isNaN(chapterIndex)) {
                 window.ProgressTracker.completeChapter(subjectId, chapterIndex);
-                
+
                 // Visual feedback
                 this.textContent = '✓ Selesai';
                 this.classList.add('completed');
@@ -110,19 +112,19 @@ function renderChapters(chapters, subjectId) {
 // Function to update subject progress display
 function updateSubjectProgress(subjectId, totalChapters) {
     const progress = window.ProgressTracker.getSubjectProgress(subjectId, totalChapters);
-    
+
     const progressFill = document.getElementById('subject-progress-fill');
     const progressText = document.getElementById('subject-progress-text');
     const pointsElement = document.getElementById('subject-points');
-    
+
     if (progressFill) {
         progressFill.style.width = `${progress.percentage}%`;
     }
-    
+
     if (progressText) {
         progressText.textContent = `${progress.completed}/${progress.total} bab`;
     }
-    
+
     if (pointsElement) {
         pointsElement.textContent = progress.points;
     }
@@ -132,11 +134,11 @@ function updateSubjectProgress(subjectId, totalChapters) {
 function renderResources(resources) {
     const resourcesContainer = document.getElementById('resources-container');
     let resourcesHTML = '';
-    
+
     resources.forEach(resource => {
         let resourceIcon = '';
         let resourceInfo = '';
-        
+
         switch (resource.type) {
             case 'video':
                 resourceIcon = 'fas fa-video';
@@ -153,7 +155,7 @@ function renderResources(resources) {
             default:
                 resourceIcon = 'fas fa-folder';
         }
-        
+
         resourcesHTML += `
             <div class="resource-card">
                 <div class="resource-icon">
@@ -169,6 +171,6 @@ function renderResources(resources) {
             </div>
         `;
     });
-    
+
     resourcesContainer.innerHTML = resourcesHTML;
 }

@@ -34,7 +34,7 @@ function displayChapterDetails(subjectId, chapterIndex) {
     // Find the subject and chapter in the curriculum data
     let subject = null;
     let chapter = null;
-    
+
     for (const gradeKey in curriculumData.grades) {
         const gradeData = curriculumData.grades[gradeKey];
         const foundSubject = gradeData.subjects.find(sub => sub.id === subjectId);
@@ -44,7 +44,7 @@ function displayChapterDetails(subjectId, chapterIndex) {
             break;
         }
     }
-    
+
     if (!subject || !chapter) {
         document.querySelector('.chapter-detail').innerHTML = `
             <div class="container">
@@ -54,25 +54,25 @@ function displayChapterDetails(subjectId, chapterIndex) {
         `;
         return;
     }
-    
+
     // Update back button link
     const backLink = document.getElementById('back-to-subject');
     backLink.href = `subject.html?id=${subjectId}`;
-    
+
     // Update chapter header
     document.getElementById('chapter-title').textContent = chapter.title;
     document.getElementById('chapter-description').textContent = `Bab ${chapterIndex + 1} dari mata pelajaran ${subject.detail.title}`;
-    
+
     // Generate learning material content
     generateLearningMaterial(chapter, subjectId, chapterIndex);
-    
+
     // Update chapter description with more context
     const subjectTitle = subject ? subject.detail.title : 'Mata Pelajaran';
     document.getElementById('chapter-description').textContent = `Bab ${chapterIndex + 1} dari mata pelajaran ${subjectTitle}`;
-    
+
     // Render related resources
     renderChapterResources(subject.detail.resources, chapter.title);
-    
+
     // Set up chapter completion button
     setupCompletionButton(subjectId, chapterIndex);
 }
@@ -80,7 +80,7 @@ function displayChapterDetails(subjectId, chapterIndex) {
 // Function to generate learning material content
 function generateLearningMaterial(chapter, subjectId, chapterIndex) {
     const materialContent = document.getElementById('material-content');
-    
+
     // In a real implementation, this would fetch detailed content from a database or API
     // For now, we'll generate sample content based on the topics
     let contentHTML = `
@@ -92,46 +92,49 @@ function generateLearningMaterial(chapter, subjectId, chapterIndex) {
             <h3>Topik Pembahasan:</h3>
             <ul>
     `;
-    
+
     chapter.topics.forEach((topic, index) => {
         // Handle both string and object formats
         const topicName = typeof topic === 'string' ? topic : topic.name;
-        const explanation = typeof topic === 'string' ? 
-            `Penjelasan mendetail tentang ${topicName.toLowerCase()} akan ditampilkan di sini. Materi ini mencakup definisi, contoh penerapan, dan latihan untuk memperkuat pemahaman Anda.` : 
+        const slug = topicName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        const explanation = typeof topic === 'string' ?
+            `Penjelasan mendetail tentang ${topicName.toLowerCase()} akan ditampilkan di sini. Materi ini mencakup definisi, contoh penerapan, dan latihan untuk memperkuat pemahaman Anda.` :
             topic.explanation;
-            
+
         contentHTML += `
-                <li>
+                <li id="${slug}" class="topic-item" style="scroll-margin-top: 100px;">
                     <strong>Topik ${index + 1}: ${topicName}</strong>
                     <p>${explanation}</p>
                 </li>
         `;
     });
-    
+
     contentHTML += `
             </ul>
         </div>
         
         <div class="chapter-summary">
             <h3>Ringkasan</h3>
-            <p>Setelah mempelajari bab ini, Anda diharapkan dapat memahami konsep dasar ${chapter.title.toLowerCase()} dan mampu menerapkannya dalam situasi nyata. Lanjutkan ke bab berikutnya untuk memperluas pengetahuan Anda.</p>
+            <p>${chapter.summary || `Setelah mempelajari bab ini, Anda diharapkan dapat memahami konsep dasar ${chapter.title.toLowerCase()} dan mampu menerapkannya dalam situasi nyata. Lanjutkan ke bab berikutnya untuk memperluas pengetahuan Anda.`}</p>
         </div>
         
         <div class="chapter-examples">
             <h3>Contoh Soal dan Pembahasan</h3>
-            <div class="example-problem">
-                <p><strong>Contoh 1:</strong> Berikut adalah contoh penerapan konsep ${chapter.title.toLowerCase()} dalam bentuk soal dan pembahasan yang mudah dipahami.</p>
-                <div class="solution">
-                    <p><strong>Penyelesaian:</strong> Langkah-langkah penyelesaian akan dijelaskan secara rinci untuk membantu Anda memahami proses berpikir yang digunakan.</p>
+            ${chapter.examples && chapter.examples.length > 0 ? chapter.examples.map((example, index) => `
+                <div class="example-problem">
+                    <p><strong>Contoh ${index + 1}:</strong> ${example.question}</p>
+                    <div class="solution">
+                        <p><strong>Penyelesaian:</strong> ${example.solution}</p>
+                    </div>
                 </div>
-            </div>
-            
-            <div class="example-problem">
-                <p><strong>Contoh 2:</strong> Soal tambahan untuk memperkuat pemahaman konsep ${chapter.title.toLowerCase()} dengan pendekatan yang berbeda.</p>
-                <div class="solution">
-                    <p><strong>Penyelesaian:</strong> Pendekatan alternatif untuk menyelesaikan masalah yang sama, menunjukkan fleksibilitas dalam berpikir matematis.</p>
+            `).join('') : `
+                <div class="example-problem">
+                    <p><strong>Belum ada contoh soal.</strong></p>
+                    <div class="solution">
+                        <p>Contoh soal untuk bab ini sedang disiapkan.</p>
+                    </div>
                 </div>
-            </div>
+            `}
         </div>
         
         <div class="practice-exercises">
@@ -145,7 +148,7 @@ function generateLearningMaterial(chapter, subjectId, chapterIndex) {
             <p>Jawaban dan pembahasan tersedia di bagian latihan soal pada halaman utama mata pelajaran.</p>
         </div>
     `;
-    
+
     materialContent.innerHTML = contentHTML;
 }
 
@@ -153,21 +156,21 @@ function generateLearningMaterial(chapter, subjectId, chapterIndex) {
 function renderChapterResources(resources, chapterTitle) {
     const resourcesContainer = document.getElementById('chapter-resources');
     let resourcesHTML = '';
-    
+
     // Filter resources related to this chapter (in a real app, this would be more sophisticated)
-    const chapterResources = resources.filter(resource => 
+    const chapterResources = resources.filter(resource =>
         resource.title.toLowerCase().includes(chapterTitle.toLowerCase()) ||
         resource.title.toLowerCase().includes('bab') ||
         resource.title.toLowerCase().includes('chapter')
     );
-    
+
     // If no specific resources found, show all resources
     const displayResources = chapterResources.length > 0 ? chapterResources : resources.slice(0, 3);
-    
+
     displayResources.forEach(resource => {
         let resourceIcon = '';
         let resourceInfo = '';
-        
+
         switch (resource.type) {
             case 'video':
                 resourceIcon = 'fas fa-video';
@@ -184,7 +187,7 @@ function renderChapterResources(resources, chapterTitle) {
             default:
                 resourceIcon = 'fas fa-folder';
         }
-        
+
         resourcesHTML += `
             <div class="resource-card">
                 <div class="resource-icon">
@@ -200,30 +203,30 @@ function renderChapterResources(resources, chapterTitle) {
             </div>
         `;
     });
-    
+
     resourcesContainer.innerHTML = resourcesHTML;
 }
 
 // Function to set up chapter completion button
 function setupCompletionButton(subjectId, chapterIndex) {
     const completeBtn = document.getElementById('complete-chapter-btn');
-    
+
     // Check if chapter is already completed
     const userProgress = JSON.parse(localStorage.getItem('smartzoneProgress')) || { subjects: {} };
-    const isCompleted = userProgress.subjects[subjectId] && 
-                      userProgress.subjects[subjectId].completedChapters && 
-                      userProgress.subjects[subjectId].completedChapters.includes(chapterIndex);
-    
+    const isCompleted = userProgress.subjects[subjectId] &&
+        userProgress.subjects[subjectId].completedChapters &&
+        userProgress.subjects[subjectId].completedChapters.includes(chapterIndex);
+
     if (isCompleted) {
         completeBtn.textContent = '✓ Bab Selesai';
         completeBtn.classList.add('completed');
         completeBtn.disabled = true;
     } else {
-        completeBtn.addEventListener('click', function() {
+        completeBtn.addEventListener('click', function () {
             // Mark chapter as completed
             if (window.ProgressTracker) {
                 window.ProgressTracker.completeChapter(subjectId, chapterIndex);
-                
+
                 // Update button appearance
                 this.textContent = '✓ Bab Selesai';
                 this.classList.add('completed');
